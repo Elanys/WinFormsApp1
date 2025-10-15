@@ -1,0 +1,3 @@
+﻿Module DATOS_CONFIG_ELECTRONICA
+
+End Module
