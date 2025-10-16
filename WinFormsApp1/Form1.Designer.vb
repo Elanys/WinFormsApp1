@@ -22,26 +22,26 @@ Partial Class Form1
     'No lo modifique con el editor de código.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
-        btnH = New Button()
+        btnH1 = New Button()
         Button2 = New Button()
-        btnLi = New Button()
-        btnBe = New Button()
+        btnLi3 = New Button()
+        btnBe4 = New Button()
         Button5 = New Button()
         Button6 = New Button()
         Button7 = New Button()
         Button8 = New Button()
         Button9 = New Button()
         Button10 = New Button()
-        btnNa = New Button()
-        btmMg = New Button()
+        btnNa11 = New Button()
+        btmMg12 = New Button()
         Button13 = New Button()
         Button14 = New Button()
         Button15 = New Button()
         Button16 = New Button()
         Button17 = New Button()
         Button18 = New Button()
-        btnK = New Button()
-        btnCa = New Button()
+        btnK19 = New Button()
+        btnCa20 = New Button()
         Button21 = New Button()
         Button22 = New Button()
         Button23 = New Button()
@@ -58,8 +58,8 @@ Partial Class Form1
         Button34 = New Button()
         Button35 = New Button()
         Button36 = New Button()
-        btnRb = New Button()
-        btnSr = New Button()
+        btnRb37 = New Button()
+        btnSr38 = New Button()
         Button39 = New Button()
         Button40 = New Button()
         Button41 = New Button()
@@ -76,8 +76,8 @@ Partial Class Form1
         Button52 = New Button()
         Button53 = New Button()
         Button54 = New Button()
-        btnCs = New Button()
-        btnBa = New Button()
+        btnCs55 = New Button()
+        btnBa56 = New Button()
         Button58 = New Button()
         Button59 = New Button()
         Button60 = New Button()
@@ -107,8 +107,8 @@ Partial Class Form1
         Button84 = New Button()
         Button85 = New Button()
         Button86 = New Button()
-        BtnFr = New Button()
-        btnRa = New Button()
+        BtnFr87 = New Button()
+        btnRa88 = New Button()
         Button90 = New Button()
         Button91 = New Button()
         Button92 = New Button()
@@ -187,21 +187,23 @@ Partial Class Form1
         Button37 = New Button()
         Panel1 = New Panel()
         btnAbrirForm2 = New Button()
+        Label1 = New Label()
+        Label28 = New Label()
         GroupBox1.SuspendLayout()
         SuspendLayout()
         ' 
-        ' btnH
+        ' btnH1
         ' 
-        btnH.BackColor = Color.DarkOrange
-        btnH.Cursor = Cursors.Hand
-        btnH.Font = New Font("Lucida Sans Unicode", 9F, FontStyle.Bold)
-        btnH.ForeColor = SystemColors.ActiveCaptionText
-        btnH.Location = New Point(63, 145)
-        btnH.Name = "btnH"
-        btnH.Size = New Size(53, 46)
-        btnH.TabIndex = 0
-        btnH.Text = "H"
-        btnH.UseVisualStyleBackColor = False
+        btnH1.BackColor = Color.DarkOrange
+        btnH1.Cursor = Cursors.Hand
+        btnH1.Font = New Font("Lucida Sans Unicode", 9F, FontStyle.Bold)
+        btnH1.ForeColor = SystemColors.ActiveCaptionText
+        btnH1.Location = New Point(63, 145)
+        btnH1.Name = "btnH1"
+        btnH1.Size = New Size(53, 46)
+        btnH1.TabIndex = 0
+        btnH1.Text = "H"
+        btnH1.UseVisualStyleBackColor = False
         ' 
         ' Button2
         ' 
@@ -216,30 +218,30 @@ Partial Class Form1
         Button2.Text = "He"
         Button2.UseVisualStyleBackColor = False
         ' 
-        ' btnLi
+        ' btnLi3
         ' 
-        btnLi.BackColor = Color.MediumBlue
-        btnLi.Cursor = Cursors.Hand
-        btnLi.Font = New Font("Lucida Sans Unicode", 9F, FontStyle.Bold)
-        btnLi.ForeColor = SystemColors.Control
-        btnLi.Location = New Point(63, 197)
-        btnLi.Name = "btnLi"
-        btnLi.Size = New Size(53, 46)
-        btnLi.TabIndex = 2
-        btnLi.Text = "Li"
-        btnLi.UseVisualStyleBackColor = False
+        btnLi3.BackColor = Color.MediumBlue
+        btnLi3.Cursor = Cursors.Hand
+        btnLi3.Font = New Font("Lucida Sans Unicode", 9F, FontStyle.Bold)
+        btnLi3.ForeColor = SystemColors.Control
+        btnLi3.Location = New Point(63, 197)
+        btnLi3.Name = "btnLi3"
+        btnLi3.Size = New Size(53, 46)
+        btnLi3.TabIndex = 2
+        btnLi3.Text = "Li"
+        btnLi3.UseVisualStyleBackColor = False
         ' 
-        ' btnBe
+        ' btnBe4
         ' 
-        btnBe.BackColor = Color.Khaki
-        btnBe.Cursor = Cursors.Hand
-        btnBe.Font = New Font("Lucida Sans Unicode", 9F, FontStyle.Bold)
-        btnBe.Location = New Point(122, 197)
-        btnBe.Name = "btnBe"
-        btnBe.Size = New Size(53, 46)
-        btnBe.TabIndex = 3
-        btnBe.Text = "Be"
-        btnBe.UseVisualStyleBackColor = False
+        btnBe4.BackColor = Color.Khaki
+        btnBe4.Cursor = Cursors.Hand
+        btnBe4.Font = New Font("Lucida Sans Unicode", 9F, FontStyle.Bold)
+        btnBe4.Location = New Point(122, 197)
+        btnBe4.Name = "btnBe4"
+        btnBe4.Size = New Size(53, 46)
+        btnBe4.TabIndex = 3
+        btnBe4.Text = "Be"
+        btnBe4.UseVisualStyleBackColor = False
         ' 
         ' Button5
         ' 
@@ -319,30 +321,30 @@ Partial Class Form1
         Button10.Text = "Ne"
         Button10.UseVisualStyleBackColor = False
         ' 
-        ' btnNa
+        ' btnNa11
         ' 
-        btnNa.BackColor = Color.MediumBlue
-        btnNa.Cursor = Cursors.Hand
-        btnNa.Font = New Font("Lucida Sans Unicode", 9F, FontStyle.Bold)
-        btnNa.ForeColor = SystemColors.Control
-        btnNa.Location = New Point(63, 249)
-        btnNa.Name = "btnNa"
-        btnNa.Size = New Size(53, 46)
-        btnNa.TabIndex = 10
-        btnNa.Text = "Na"
-        btnNa.UseVisualStyleBackColor = False
+        btnNa11.BackColor = Color.MediumBlue
+        btnNa11.Cursor = Cursors.Hand
+        btnNa11.Font = New Font("Lucida Sans Unicode", 9F, FontStyle.Bold)
+        btnNa11.ForeColor = SystemColors.Control
+        btnNa11.Location = New Point(63, 249)
+        btnNa11.Name = "btnNa11"
+        btnNa11.Size = New Size(53, 46)
+        btnNa11.TabIndex = 10
+        btnNa11.Text = "Na"
+        btnNa11.UseVisualStyleBackColor = False
         ' 
-        ' btmMg
+        ' btmMg12
         ' 
-        btmMg.BackColor = Color.Khaki
-        btmMg.Cursor = Cursors.Hand
-        btmMg.Font = New Font("Lucida Sans Unicode", 9F, FontStyle.Bold)
-        btmMg.Location = New Point(122, 249)
-        btmMg.Name = "btmMg"
-        btmMg.Size = New Size(53, 46)
-        btmMg.TabIndex = 16
-        btmMg.Text = "Mg"
-        btmMg.UseVisualStyleBackColor = False
+        btmMg12.BackColor = Color.Khaki
+        btmMg12.Cursor = Cursors.Hand
+        btmMg12.Font = New Font("Lucida Sans Unicode", 9F, FontStyle.Bold)
+        btmMg12.Location = New Point(122, 249)
+        btmMg12.Name = "btmMg12"
+        btmMg12.Size = New Size(53, 46)
+        btmMg12.TabIndex = 16
+        btmMg12.Text = "Mg"
+        btmMg12.UseVisualStyleBackColor = False
         ' 
         ' Button13
         ' 
@@ -422,30 +424,30 @@ Partial Class Form1
         Button18.Text = "Ar"
         Button18.UseVisualStyleBackColor = False
         ' 
-        ' btnK
+        ' btnK19
         ' 
-        btnK.BackColor = Color.MediumBlue
-        btnK.Cursor = Cursors.Hand
-        btnK.Font = New Font("Lucida Sans Unicode", 9F, FontStyle.Bold)
-        btnK.ForeColor = SystemColors.Control
-        btnK.Location = New Point(63, 301)
-        btnK.Name = "btnK"
-        btnK.Size = New Size(53, 46)
-        btnK.TabIndex = 18
-        btnK.Text = "K"
-        btnK.UseVisualStyleBackColor = False
+        btnK19.BackColor = Color.MediumBlue
+        btnK19.Cursor = Cursors.Hand
+        btnK19.Font = New Font("Lucida Sans Unicode", 9F, FontStyle.Bold)
+        btnK19.ForeColor = SystemColors.Control
+        btnK19.Location = New Point(63, 301)
+        btnK19.Name = "btnK19"
+        btnK19.Size = New Size(53, 46)
+        btnK19.TabIndex = 18
+        btnK19.Text = "K"
+        btnK19.UseVisualStyleBackColor = False
         ' 
-        ' btnCa
+        ' btnCa20
         ' 
-        btnCa.BackColor = Color.Khaki
-        btnCa.Cursor = Cursors.Hand
-        btnCa.Font = New Font("Lucida Sans Unicode", 9F, FontStyle.Bold)
-        btnCa.Location = New Point(122, 301)
-        btnCa.Name = "btnCa"
-        btnCa.Size = New Size(53, 46)
-        btnCa.TabIndex = 24
-        btnCa.Text = "Ca"
-        btnCa.UseVisualStyleBackColor = False
+        btnCa20.BackColor = Color.Khaki
+        btnCa20.Cursor = Cursors.Hand
+        btnCa20.Font = New Font("Lucida Sans Unicode", 9F, FontStyle.Bold)
+        btnCa20.Location = New Point(122, 301)
+        btnCa20.Name = "btnCa20"
+        btnCa20.Size = New Size(53, 46)
+        btnCa20.TabIndex = 24
+        btnCa20.Text = "Ca"
+        btnCa20.UseVisualStyleBackColor = False
         ' 
         ' Button21
         ' 
@@ -655,30 +657,30 @@ Partial Class Form1
         Button36.Text = "Kr"
         Button36.UseVisualStyleBackColor = False
         ' 
-        ' btnRb
+        ' btnRb37
         ' 
-        btnRb.BackColor = Color.MediumBlue
-        btnRb.Cursor = Cursors.Hand
-        btnRb.Font = New Font("Lucida Sans Unicode", 9F, FontStyle.Bold)
-        btnRb.ForeColor = SystemColors.Control
-        btnRb.Location = New Point(63, 353)
-        btnRb.Name = "btnRb"
-        btnRb.Size = New Size(53, 46)
-        btnRb.TabIndex = 41
-        btnRb.Text = "Rb"
-        btnRb.UseVisualStyleBackColor = False
+        btnRb37.BackColor = Color.MediumBlue
+        btnRb37.Cursor = Cursors.Hand
+        btnRb37.Font = New Font("Lucida Sans Unicode", 9F, FontStyle.Bold)
+        btnRb37.ForeColor = SystemColors.Control
+        btnRb37.Location = New Point(63, 353)
+        btnRb37.Name = "btnRb37"
+        btnRb37.Size = New Size(53, 46)
+        btnRb37.TabIndex = 41
+        btnRb37.Text = "Rb"
+        btnRb37.UseVisualStyleBackColor = False
         ' 
-        ' btnSr
+        ' btnSr38
         ' 
-        btnSr.BackColor = Color.Khaki
-        btnSr.Cursor = Cursors.Hand
-        btnSr.Font = New Font("Lucida Sans Unicode", 9F, FontStyle.Bold)
-        btnSr.Location = New Point(122, 353)
-        btnSr.Name = "btnSr"
-        btnSr.Size = New Size(53, 46)
-        btnSr.TabIndex = 40
-        btnSr.Text = "Sr"
-        btnSr.UseVisualStyleBackColor = False
+        btnSr38.BackColor = Color.Khaki
+        btnSr38.Cursor = Cursors.Hand
+        btnSr38.Font = New Font("Lucida Sans Unicode", 9F, FontStyle.Bold)
+        btnSr38.Location = New Point(122, 353)
+        btnSr38.Name = "btnSr38"
+        btnSr38.Size = New Size(53, 46)
+        btnSr38.TabIndex = 40
+        btnSr38.Text = "Sr"
+        btnSr38.UseVisualStyleBackColor = False
         ' 
         ' Button39
         ' 
@@ -888,30 +890,30 @@ Partial Class Form1
         Button54.Text = "Xe"
         Button54.UseVisualStyleBackColor = False
         ' 
-        ' btnCs
+        ' btnCs55
         ' 
-        btnCs.BackColor = Color.MediumBlue
-        btnCs.Cursor = Cursors.Hand
-        btnCs.Font = New Font("Lucida Sans Unicode", 9F, FontStyle.Bold)
-        btnCs.ForeColor = SystemColors.Control
-        btnCs.Location = New Point(63, 405)
-        btnCs.Name = "btnCs"
-        btnCs.Size = New Size(53, 46)
-        btnCs.TabIndex = 47
-        btnCs.Text = "Cs"
-        btnCs.UseVisualStyleBackColor = False
+        btnCs55.BackColor = Color.MediumBlue
+        btnCs55.Cursor = Cursors.Hand
+        btnCs55.Font = New Font("Lucida Sans Unicode", 9F, FontStyle.Bold)
+        btnCs55.ForeColor = SystemColors.Control
+        btnCs55.Location = New Point(63, 405)
+        btnCs55.Name = "btnCs55"
+        btnCs55.Size = New Size(53, 46)
+        btnCs55.TabIndex = 47
+        btnCs55.Text = "Cs"
+        btnCs55.UseVisualStyleBackColor = False
         ' 
-        ' btnBa
+        ' btnBa56
         ' 
-        btnBa.BackColor = Color.Khaki
-        btnBa.Cursor = Cursors.Hand
-        btnBa.Font = New Font("Lucida Sans Unicode", 9F, FontStyle.Bold)
-        btnBa.Location = New Point(122, 405)
-        btnBa.Name = "btnBa"
-        btnBa.Size = New Size(53, 46)
-        btnBa.TabIndex = 46
-        btnBa.Text = "Ba"
-        btnBa.UseVisualStyleBackColor = False
+        btnBa56.BackColor = Color.Khaki
+        btnBa56.Cursor = Cursors.Hand
+        btnBa56.Font = New Font("Lucida Sans Unicode", 9F, FontStyle.Bold)
+        btnBa56.Location = New Point(122, 405)
+        btnBa56.Name = "btnBa56"
+        btnBa56.Size = New Size(53, 46)
+        btnBa56.TabIndex = 46
+        btnBa56.Text = "Ba"
+        btnBa56.UseVisualStyleBackColor = False
         ' 
         ' Button58
         ' 
@@ -1276,30 +1278,30 @@ Partial Class Form1
         Button86.Text = "Rn"
         Button86.UseVisualStyleBackColor = False
         ' 
-        ' BtnFr
+        ' BtnFr87
         ' 
-        BtnFr.BackColor = Color.MediumBlue
-        BtnFr.Cursor = Cursors.Hand
-        BtnFr.Font = New Font("Lucida Sans Unicode", 9F, FontStyle.Bold)
-        BtnFr.ForeColor = SystemColors.Control
-        BtnFr.Location = New Point(63, 457)
-        BtnFr.Name = "BtnFr"
-        BtnFr.Size = New Size(53, 46)
-        BtnFr.TabIndex = 87
-        BtnFr.Text = "Fr"
-        BtnFr.UseVisualStyleBackColor = False
+        BtnFr87.BackColor = Color.MediumBlue
+        BtnFr87.Cursor = Cursors.Hand
+        BtnFr87.Font = New Font("Lucida Sans Unicode", 9F, FontStyle.Bold)
+        BtnFr87.ForeColor = SystemColors.Control
+        BtnFr87.Location = New Point(63, 457)
+        BtnFr87.Name = "BtnFr87"
+        BtnFr87.Size = New Size(53, 46)
+        BtnFr87.TabIndex = 87
+        BtnFr87.Text = "Fr"
+        BtnFr87.UseVisualStyleBackColor = False
         ' 
-        ' btnRa
+        ' btnRa88
         ' 
-        btnRa.BackColor = Color.Khaki
-        btnRa.Cursor = Cursors.Hand
-        btnRa.Font = New Font("Lucida Sans Unicode", 9F, FontStyle.Bold)
-        btnRa.Location = New Point(122, 458)
-        btnRa.Name = "btnRa"
-        btnRa.Size = New Size(53, 46)
-        btnRa.TabIndex = 86
-        btnRa.Text = "Ra"
-        btnRa.UseVisualStyleBackColor = False
+        btnRa88.BackColor = Color.Khaki
+        btnRa88.Cursor = Cursors.Hand
+        btnRa88.Font = New Font("Lucida Sans Unicode", 9F, FontStyle.Bold)
+        btnRa88.Location = New Point(122, 458)
+        btnRa88.Name = "btnRa88"
+        btnRa88.Size = New Size(53, 46)
+        btnRa88.TabIndex = 86
+        btnRa88.Text = "Ra"
+        btnRa88.UseVisualStyleBackColor = False
         ' 
         ' Button90
         ' 
@@ -1757,77 +1759,77 @@ Partial Class Form1
         ' Label9
         ' 
         Label9.AutoSize = True
-        Label9.Font = New Font("Lucida Sans Unicode", 9F, FontStyle.Bold)
-        Label9.ForeColor = Color.Red
+        Label9.Font = New Font("Lucida Sans Unicode", 10F, FontStyle.Bold)
+        Label9.ForeColor = Color.OliveDrab
         Label9.Location = New Point(145, 175)
         Label9.Name = "Label9"
-        Label9.Size = New Size(16, 16)
+        Label9.Size = New Size(18, 17)
         Label9.TabIndex = 133
         Label9.Text = "2"
         ' 
         ' Label10
         ' 
         Label10.AutoSize = True
-        Label10.Font = New Font("Lucida Sans Unicode", 9F, FontStyle.Bold)
-        Label10.ForeColor = Color.Red
+        Label10.Font = New Font("Lucida Sans Unicode", 10F, FontStyle.Bold)
+        Label10.ForeColor = Color.OliveDrab
         Label10.Location = New Point(204, 279)
         Label10.Name = "Label10"
-        Label10.Size = New Size(16, 16)
+        Label10.Size = New Size(18, 17)
         Label10.TabIndex = 134
         Label10.Text = "3"
         ' 
         ' Label11
         ' 
         Label11.AutoSize = True
-        Label11.Font = New Font("Lucida Sans Unicode", 9F, FontStyle.Bold)
-        Label11.ForeColor = Color.Red
+        Label11.Font = New Font("Lucida Sans Unicode", 10F, FontStyle.Bold)
+        Label11.ForeColor = Color.OliveDrab
         Label11.Location = New Point(262, 279)
         Label11.Name = "Label11"
-        Label11.Size = New Size(16, 16)
+        Label11.Size = New Size(18, 17)
         Label11.TabIndex = 135
         Label11.Text = "4"
         ' 
         ' Label12
         ' 
         Label12.AutoSize = True
-        Label12.Font = New Font("Lucida Sans Unicode", 9F, FontStyle.Bold)
-        Label12.ForeColor = Color.Red
+        Label12.Font = New Font("Lucida Sans Unicode", 10F, FontStyle.Bold)
+        Label12.ForeColor = Color.OliveDrab
         Label12.Location = New Point(317, 279)
         Label12.Name = "Label12"
-        Label12.Size = New Size(16, 16)
+        Label12.Size = New Size(18, 17)
         Label12.TabIndex = 136
         Label12.Text = "5"
         ' 
         ' Label13
         ' 
         Label13.AutoSize = True
-        Label13.Font = New Font("Lucida Sans Unicode", 9F, FontStyle.Bold)
-        Label13.ForeColor = Color.Red
+        Label13.Font = New Font("Lucida Sans Unicode", 10F, FontStyle.Bold)
+        Label13.ForeColor = Color.OliveDrab
         Label13.Location = New Point(376, 279)
         Label13.Name = "Label13"
-        Label13.Size = New Size(16, 16)
+        Label13.Size = New Size(18, 17)
         Label13.TabIndex = 137
         Label13.Text = "6"
         ' 
         ' Label14
         ' 
         Label14.AutoSize = True
-        Label14.Font = New Font("Lucida Sans Unicode", 9F, FontStyle.Bold)
-        Label14.ForeColor = Color.Red
+        Label14.Font = New Font("Lucida Sans Unicode", 10F, FontStyle.Bold)
+        Label14.ForeColor = Color.OliveDrab
         Label14.Location = New Point(435, 279)
         Label14.Name = "Label14"
-        Label14.Size = New Size(16, 16)
+        Label14.Size = New Size(18, 17)
         Label14.TabIndex = 138
         Label14.Text = "7"
         ' 
         ' Label15
         ' 
         Label15.AutoSize = True
-        Label15.Font = New Font("Lucida Sans Unicode", 9F, FontStyle.Bold)
-        Label15.ForeColor = Color.Red
+        Label15.Font = New Font("Lucida Sans Unicode", 10F, FontStyle.Bold)
+        Label15.ForeColor = Color.OliveDrab
         Label15.Location = New Point(496, 279)
         Label15.Name = "Label15"
-        Label15.Size = New Size(16, 16)
+        Label15.Size = New Size(18, 17)
         Label15.TabIndex = 139
         Label15.Text = "8"
         ' 
@@ -1859,110 +1861,110 @@ Partial Class Form1
         ' Label16
         ' 
         Label16.AutoSize = True
-        Label16.Font = New Font("Lucida Sans Unicode", 9F, FontStyle.Bold)
-        Label16.ForeColor = Color.Red
+        Label16.Font = New Font("Lucida Sans Unicode", 10F, FontStyle.Bold)
+        Label16.ForeColor = Color.OliveDrab
         Label16.Location = New Point(667, 279)
         Label16.Name = "Label16"
-        Label16.Size = New Size(25, 16)
+        Label16.Size = New Size(28, 17)
         Label16.TabIndex = 144
         Label16.Text = "11"
         ' 
         ' Label17
         ' 
         Label17.AutoSize = True
-        Label17.Font = New Font("Lucida Sans Unicode", 9F, FontStyle.Bold)
-        Label17.ForeColor = Color.Red
+        Label17.Font = New Font("Lucida Sans Unicode", 10F, FontStyle.Bold)
+        Label17.ForeColor = Color.OliveDrab
         Label17.Location = New Point(608, 279)
         Label17.Name = "Label17"
-        Label17.Size = New Size(25, 16)
+        Label17.Size = New Size(28, 17)
         Label17.TabIndex = 143
         Label17.Text = "10"
         ' 
         ' Label18
         ' 
         Label18.AutoSize = True
-        Label18.Font = New Font("Lucida Sans Unicode", 9F, FontStyle.Bold)
-        Label18.ForeColor = Color.Red
+        Label18.Font = New Font("Lucida Sans Unicode", 10F, FontStyle.Bold)
+        Label18.ForeColor = Color.OliveDrab
         Label18.Location = New Point(555, 279)
         Label18.Name = "Label18"
-        Label18.Size = New Size(16, 16)
+        Label18.Size = New Size(18, 17)
         Label18.TabIndex = 142
         Label18.Text = "9"
         ' 
         ' Label19
         ' 
         Label19.AutoSize = True
-        Label19.Font = New Font("Lucida Sans Unicode", 9F, FontStyle.Bold)
-        Label19.ForeColor = Color.Red
+        Label19.Font = New Font("Lucida Sans Unicode", 10F, FontStyle.Bold)
+        Label19.ForeColor = Color.OliveDrab
         Label19.Location = New Point(902, 175)
         Label19.Name = "Label19"
-        Label19.Size = New Size(25, 16)
+        Label19.Size = New Size(28, 17)
         Label19.TabIndex = 147
         Label19.Text = "15"
         ' 
         ' Label20
         ' 
         Label20.AutoSize = True
-        Label20.Font = New Font("Lucida Sans Unicode", 9F, FontStyle.Bold)
-        Label20.ForeColor = Color.Red
+        Label20.Font = New Font("Lucida Sans Unicode", 10F, FontStyle.Bold)
+        Label20.ForeColor = Color.OliveDrab
         Label20.Location = New Point(845, 175)
         Label20.Name = "Label20"
-        Label20.Size = New Size(25, 16)
+        Label20.Size = New Size(28, 17)
         Label20.TabIndex = 146
         Label20.Text = "14"
         ' 
         ' Label21
         ' 
         Label21.AutoSize = True
-        Label21.Font = New Font("Lucida Sans Unicode", 9F, FontStyle.Bold)
-        Label21.ForeColor = Color.Red
+        Label21.Font = New Font("Lucida Sans Unicode", 10F, FontStyle.Bold)
+        Label21.ForeColor = Color.OliveDrab
         Label21.Location = New Point(787, 175)
         Label21.Name = "Label21"
-        Label21.Size = New Size(25, 16)
+        Label21.Size = New Size(28, 17)
         Label21.TabIndex = 145
         Label21.Text = "13"
         ' 
         ' Label22
         ' 
         Label22.AutoSize = True
-        Label22.Font = New Font("Lucida Sans Unicode", 9F, FontStyle.Bold)
-        Label22.ForeColor = Color.Red
+        Label22.Font = New Font("Lucida Sans Unicode", 10F, FontStyle.Bold)
+        Label22.ForeColor = Color.OliveDrab
         Label22.Location = New Point(1020, 175)
         Label22.Name = "Label22"
-        Label22.Size = New Size(25, 16)
+        Label22.Size = New Size(28, 17)
         Label22.TabIndex = 149
         Label22.Text = "17"
         ' 
         ' Label23
         ' 
         Label23.AutoSize = True
-        Label23.Font = New Font("Lucida Sans Unicode", 9F, FontStyle.Bold)
-        Label23.ForeColor = Color.Red
+        Label23.Font = New Font("Lucida Sans Unicode", 10F, FontStyle.Bold)
+        Label23.ForeColor = Color.OliveDrab
         Label23.Location = New Point(962, 175)
         Label23.Name = "Label23"
-        Label23.Size = New Size(25, 16)
+        Label23.Size = New Size(28, 17)
         Label23.TabIndex = 148
         Label23.Text = "16"
         ' 
         ' Label24
         ' 
         Label24.AutoSize = True
-        Label24.Font = New Font("Lucida Sans Unicode", 9F, FontStyle.Bold)
-        Label24.ForeColor = Color.Red
+        Label24.Font = New Font("Lucida Sans Unicode", 10F, FontStyle.Bold)
+        Label24.ForeColor = Color.OliveDrab
         Label24.Location = New Point(730, 279)
         Label24.Name = "Label24"
-        Label24.Size = New Size(25, 16)
+        Label24.Size = New Size(28, 17)
         Label24.TabIndex = 151
         Label24.Text = "12"
         ' 
         ' Label25
         ' 
         Label25.AutoSize = True
-        Label25.Font = New Font("Lucida Sans Unicode", 9F, FontStyle.Bold)
-        Label25.ForeColor = Color.Red
+        Label25.Font = New Font("Lucida Sans Unicode", 10F, FontStyle.Bold)
+        Label25.ForeColor = Color.OliveDrab
         Label25.Location = New Point(1082, 126)
         Label25.Name = "Label25"
-        Label25.Size = New Size(25, 16)
+        Label25.Size = New Size(28, 17)
         Label25.TabIndex = 150
         Label25.Text = "18"
         ' 
@@ -2046,7 +2048,7 @@ Partial Class Form1
         GroupBox1.Controls.Add(lblA)
         GroupBox1.Controls.Add(lblConfig)
         GroupBox1.Controls.Add(lblNombre)
-        GroupBox1.Location = New Point(1234, 46)
+        GroupBox1.Location = New Point(1125, 32)
         GroupBox1.Name = "GroupBox1"
         GroupBox1.Size = New Size(266, 249)
         GroupBox1.TabIndex = 156
@@ -2232,11 +2234,35 @@ Partial Class Form1
         btnAbrirForm2.Text = "Cuánticos"
         btnAbrirForm2.UseVisualStyleBackColor = False
         ' 
+        ' Label1
+        ' 
+        Label1.AutoSize = True
+        Label1.Font = New Font("Lucida Sans Unicode", 10F, FontStyle.Bold)
+        Label1.ForeColor = Color.OliveDrab
+        Label1.Location = New Point(82, 126)
+        Label1.Name = "Label1"
+        Label1.Size = New Size(18, 17)
+        Label1.TabIndex = 168
+        Label1.Text = "1"
+        ' 
+        ' Label28
+        ' 
+        Label28.AutoSize = True
+        Label28.Font = New Font("Lucida Sans Unicode", 9F, FontStyle.Bold)
+        Label28.ForeColor = Color.Red
+        Label28.Location = New Point(44, 160)
+        Label28.Name = "Label28"
+        Label28.Size = New Size(16, 16)
+        Label28.TabIndex = 169
+        Label28.Text = "1"
+        ' 
         ' Form1
         ' 
         AutoScaleDimensions = New SizeF(7F, 15F)
         AutoScaleMode = AutoScaleMode.Font
-        ClientSize = New Size(1304, 749)
+        ClientSize = New Size(1370, 620)
+        Controls.Add(Label28)
+        Controls.Add(Label1)
         Controls.Add(btnAbrirForm2)
         Controls.Add(Panel1)
         Controls.Add(Button37)
@@ -2306,8 +2332,8 @@ Partial Class Form1
         Controls.Add(Button91)
         Controls.Add(Button92)
         Controls.Add(Button90)
-        Controls.Add(BtnFr)
-        Controls.Add(btnRa)
+        Controls.Add(BtnFr87)
+        Controls.Add(btnRa88)
         Controls.Add(Button82)
         Controls.Add(Button83)
         Controls.Add(Button84)
@@ -2345,14 +2371,14 @@ Partial Class Form1
         Controls.Add(Button52)
         Controls.Add(Button53)
         Controls.Add(Button54)
-        Controls.Add(btnCs)
-        Controls.Add(btnBa)
+        Controls.Add(btnCs55)
+        Controls.Add(btnBa56)
         Controls.Add(Button33)
         Controls.Add(Button34)
         Controls.Add(Button35)
         Controls.Add(Button36)
-        Controls.Add(btnRb)
-        Controls.Add(btnSr)
+        Controls.Add(btnRb37)
+        Controls.Add(btnSr38)
         Controls.Add(Button39)
         Controls.Add(Button40)
         Controls.Add(Button41)
@@ -2368,31 +2394,31 @@ Partial Class Form1
         Controls.Add(Button28)
         Controls.Add(Button29)
         Controls.Add(Button30)
-        Controls.Add(btnCa)
+        Controls.Add(btnCa20)
         Controls.Add(Button21)
         Controls.Add(Button22)
         Controls.Add(Button23)
         Controls.Add(Button24)
         Controls.Add(Button25)
-        Controls.Add(btnK)
+        Controls.Add(btnK19)
         Controls.Add(Button18)
-        Controls.Add(btmMg)
+        Controls.Add(btmMg12)
         Controls.Add(Button13)
         Controls.Add(Button14)
         Controls.Add(Button15)
         Controls.Add(Button16)
         Controls.Add(Button17)
-        Controls.Add(btnNa)
+        Controls.Add(btnNa11)
         Controls.Add(Button10)
         Controls.Add(Button9)
         Controls.Add(Button8)
         Controls.Add(Button7)
         Controls.Add(Button6)
         Controls.Add(Button5)
-        Controls.Add(btnBe)
-        Controls.Add(btnLi)
+        Controls.Add(btnBe4)
+        Controls.Add(btnLi3)
         Controls.Add(Button2)
-        Controls.Add(btnH)
+        Controls.Add(btnH1)
         Name = "Form1"
         Text = "x"
         GroupBox1.ResumeLayout(False)
@@ -2401,26 +2427,26 @@ Partial Class Form1
         PerformLayout()
     End Sub
 
-    Friend WithEvents btnH As Button
+    Friend WithEvents btnH1 As Button
     Friend WithEvents Button2 As Button
-    Friend WithEvents btnLi As Button
-    Friend WithEvents btnBe As Button
+    Friend WithEvents btnLi3 As Button
+    Friend WithEvents btnBe4 As Button
     Friend WithEvents Button5 As Button
     Friend WithEvents Button6 As Button
     Friend WithEvents Button7 As Button
     Friend WithEvents Button8 As Button
     Friend WithEvents Button9 As Button
     Friend WithEvents Button10 As Button
-    Friend WithEvents btnNa As Button
-    Friend WithEvents btmMg As Button
+    Friend WithEvents btnNa11 As Button
+    Friend WithEvents btmMg12 As Button
     Friend WithEvents Button13 As Button
     Friend WithEvents Button14 As Button
     Friend WithEvents Button15 As Button
     Friend WithEvents Button16 As Button
     Friend WithEvents Button17 As Button
     Friend WithEvents Button18 As Button
-    Friend WithEvents btnK As Button
-    Friend WithEvents btnCa As Button
+    Friend WithEvents btnK19 As Button
+    Friend WithEvents btnCa20 As Button
     Friend WithEvents Button21 As Button
     Friend WithEvents Button22 As Button
     Friend WithEvents Button23 As Button
@@ -2437,8 +2463,8 @@ Partial Class Form1
     Friend WithEvents Button34 As Button
     Friend WithEvents Button35 As Button
     Friend WithEvents Button36 As Button
-    Friend WithEvents btnRb As Button
-    Friend WithEvents btnSr As Button
+    Friend WithEvents btnRb37 As Button
+    Friend WithEvents btnSr38 As Button
     Friend WithEvents Button39 As Button
     Friend WithEvents Button40 As Button
     Friend WithEvents Button41 As Button
@@ -2455,8 +2481,8 @@ Partial Class Form1
     Friend WithEvents Button52 As Button
     Friend WithEvents Button53 As Button
     Friend WithEvents Button54 As Button
-    Friend WithEvents btnCs As Button
-    Friend WithEvents btnBa As Button
+    Friend WithEvents btnCs55 As Button
+    Friend WithEvents btnBa56 As Button
     Friend WithEvents Button58 As Button
     Friend WithEvents Button59 As Button
     Friend WithEvents Button60 As Button
@@ -2486,8 +2512,8 @@ Partial Class Form1
     Friend WithEvents Button84 As Button
     Friend WithEvents Button85 As Button
     Friend WithEvents Button86 As Button
-    Friend WithEvents BtnFr As Button
-    Friend WithEvents btnRa As Button
+    Friend WithEvents BtnFr87 As Button
+    Friend WithEvents btnRa88 As Button
     Friend WithEvents Button90 As Button
     Friend WithEvents Button91 As Button
     Friend WithEvents Button92 As Button
@@ -2566,4 +2592,6 @@ Partial Class Form1
     Friend WithEvents Button37 As Button
     Friend WithEvents Panel1 As Panel
     Friend WithEvents btnAbrirForm2 As Button
+    Friend WithEvents Label1 As Label
+    Friend WithEvents Label28 As Label
 End Class
