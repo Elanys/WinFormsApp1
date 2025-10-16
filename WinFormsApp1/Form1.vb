@@ -46,4 +46,22 @@
         End If
     End Sub
 
+    Private Sub Button71_Click(sender As Object, e As EventArgs) Handles Button71.Click
+
+    End Sub
+
+    Private Sub Button5_Click(sender As Object, e As EventArgs) Handles Button5.Click
+
+    End Sub
+
+    Private Sub Button3_Click(sender As Object, e As EventArgs) Handles btnLantánidos.Click
+
+    End Sub
+
+    Private Sub btnAbrirForm2_Click(sender As Object, e As EventArgs) Handles btnAbrirForm2.Click
+        Dim f2 As New Form2()
+        f2.Show()
+        Me.Hide()
+
+    End Sub
 End Class

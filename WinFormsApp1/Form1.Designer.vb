@@ -22,26 +22,26 @@ Partial Class Form1
     'No lo modifique con el editor de código.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
-        elemento_tabla1 = New Button()
+        btnH = New Button()
         Button2 = New Button()
-        Button3 = New Button()
-        Button4 = New Button()
+        btnLi = New Button()
+        btnBe = New Button()
         Button5 = New Button()
         Button6 = New Button()
         Button7 = New Button()
         Button8 = New Button()
         Button9 = New Button()
         Button10 = New Button()
-        Button11 = New Button()
-        Button12 = New Button()
+        btnNa = New Button()
+        btmMg = New Button()
         Button13 = New Button()
         Button14 = New Button()
         Button15 = New Button()
         Button16 = New Button()
         Button17 = New Button()
         Button18 = New Button()
-        Button19 = New Button()
-        Button20 = New Button()
+        btnK = New Button()
+        btnCa = New Button()
         Button21 = New Button()
         Button22 = New Button()
         Button23 = New Button()
@@ -58,8 +58,8 @@ Partial Class Form1
         Button34 = New Button()
         Button35 = New Button()
         Button36 = New Button()
-        Button37 = New Button()
-        Button38 = New Button()
+        btnRb = New Button()
+        btnSr = New Button()
         Button39 = New Button()
         Button40 = New Button()
         Button41 = New Button()
@@ -76,8 +76,8 @@ Partial Class Form1
         Button52 = New Button()
         Button53 = New Button()
         Button54 = New Button()
-        Button55 = New Button()
-        Button56 = New Button()
+        btnCs = New Button()
+        btnBa = New Button()
         Button58 = New Button()
         Button59 = New Button()
         Button60 = New Button()
@@ -107,8 +107,8 @@ Partial Class Form1
         Button84 = New Button()
         Button85 = New Button()
         Button86 = New Button()
-        Button87 = New Button()
-        Button88 = New Button()
+        BtnFr = New Button()
+        btnRa = New Button()
         Button90 = New Button()
         Button91 = New Button()
         Button92 = New Button()
@@ -176,21 +176,32 @@ Partial Class Form1
         lblDensidad = New Label()
         lblPuntoE = New Label()
         lblPuntoF = New Label()
+        btnAlcalinos = New Button()
+        btnAlcalinoterrenos = New Button()
+        btnLantánidos = New Button()
+        btnActínidos = New Button()
+        Button11 = New Button()
+        Button12 = New Button()
+        Button19 = New Button()
+        Button20 = New Button()
+        Button37 = New Button()
+        Panel1 = New Panel()
+        btnAbrirForm2 = New Button()
         GroupBox1.SuspendLayout()
         SuspendLayout()
         ' 
-        ' elemento_tabla1
+        ' btnH
         ' 
-        elemento_tabla1.BackColor = Color.DarkOrange
-        elemento_tabla1.Cursor = Cursors.Hand
-        elemento_tabla1.Font = New Font("Lucida Sans Unicode", 9F, FontStyle.Bold)
-        elemento_tabla1.ForeColor = SystemColors.ActiveCaptionText
-        elemento_tabla1.Location = New Point(63, 145)
-        elemento_tabla1.Name = "elemento_tabla1"
-        elemento_tabla1.Size = New Size(53, 46)
-        elemento_tabla1.TabIndex = 0
-        elemento_tabla1.Text = "H"
-        elemento_tabla1.UseVisualStyleBackColor = False
+        btnH.BackColor = Color.DarkOrange
+        btnH.Cursor = Cursors.Hand
+        btnH.Font = New Font("Lucida Sans Unicode", 9F, FontStyle.Bold)
+        btnH.ForeColor = SystemColors.ActiveCaptionText
+        btnH.Location = New Point(63, 145)
+        btnH.Name = "btnH"
+        btnH.Size = New Size(53, 46)
+        btnH.TabIndex = 0
+        btnH.Text = "H"
+        btnH.UseVisualStyleBackColor = False
         ' 
         ' Button2
         ' 
@@ -205,30 +216,30 @@ Partial Class Form1
         Button2.Text = "He"
         Button2.UseVisualStyleBackColor = False
         ' 
-        ' Button3
+        ' btnLi
         ' 
-        Button3.BackColor = Color.Navy
-        Button3.Cursor = Cursors.Hand
-        Button3.Font = New Font("Lucida Sans Unicode", 9F, FontStyle.Bold)
-        Button3.ForeColor = SystemColors.Control
-        Button3.Location = New Point(63, 197)
-        Button3.Name = "Button3"
-        Button3.Size = New Size(53, 46)
-        Button3.TabIndex = 2
-        Button3.Text = "Li"
-        Button3.UseVisualStyleBackColor = False
+        btnLi.BackColor = Color.MediumBlue
+        btnLi.Cursor = Cursors.Hand
+        btnLi.Font = New Font("Lucida Sans Unicode", 9F, FontStyle.Bold)
+        btnLi.ForeColor = SystemColors.Control
+        btnLi.Location = New Point(63, 197)
+        btnLi.Name = "btnLi"
+        btnLi.Size = New Size(53, 46)
+        btnLi.TabIndex = 2
+        btnLi.Text = "Li"
+        btnLi.UseVisualStyleBackColor = False
         ' 
-        ' Button4
+        ' btnBe
         ' 
-        Button4.BackColor = Color.Khaki
-        Button4.Cursor = Cursors.Hand
-        Button4.Font = New Font("Lucida Sans Unicode", 9F, FontStyle.Bold)
-        Button4.Location = New Point(122, 197)
-        Button4.Name = "Button4"
-        Button4.Size = New Size(53, 46)
-        Button4.TabIndex = 3
-        Button4.Text = "Be"
-        Button4.UseVisualStyleBackColor = False
+        btnBe.BackColor = Color.Khaki
+        btnBe.Cursor = Cursors.Hand
+        btnBe.Font = New Font("Lucida Sans Unicode", 9F, FontStyle.Bold)
+        btnBe.Location = New Point(122, 197)
+        btnBe.Name = "btnBe"
+        btnBe.Size = New Size(53, 46)
+        btnBe.TabIndex = 3
+        btnBe.Text = "Be"
+        btnBe.UseVisualStyleBackColor = False
         ' 
         ' Button5
         ' 
@@ -308,30 +319,30 @@ Partial Class Form1
         Button10.Text = "Ne"
         Button10.UseVisualStyleBackColor = False
         ' 
-        ' Button11
+        ' btnNa
         ' 
-        Button11.BackColor = Color.Navy
-        Button11.Cursor = Cursors.Hand
-        Button11.Font = New Font("Lucida Sans Unicode", 9F, FontStyle.Bold)
-        Button11.ForeColor = SystemColors.Control
-        Button11.Location = New Point(63, 249)
-        Button11.Name = "Button11"
-        Button11.Size = New Size(53, 46)
-        Button11.TabIndex = 10
-        Button11.Text = "Na"
-        Button11.UseVisualStyleBackColor = False
+        btnNa.BackColor = Color.MediumBlue
+        btnNa.Cursor = Cursors.Hand
+        btnNa.Font = New Font("Lucida Sans Unicode", 9F, FontStyle.Bold)
+        btnNa.ForeColor = SystemColors.Control
+        btnNa.Location = New Point(63, 249)
+        btnNa.Name = "btnNa"
+        btnNa.Size = New Size(53, 46)
+        btnNa.TabIndex = 10
+        btnNa.Text = "Na"
+        btnNa.UseVisualStyleBackColor = False
         ' 
-        ' Button12
+        ' btmMg
         ' 
-        Button12.BackColor = Color.Khaki
-        Button12.Cursor = Cursors.Hand
-        Button12.Font = New Font("Lucida Sans Unicode", 9F, FontStyle.Bold)
-        Button12.Location = New Point(122, 249)
-        Button12.Name = "Button12"
-        Button12.Size = New Size(53, 46)
-        Button12.TabIndex = 16
-        Button12.Text = "Mg"
-        Button12.UseVisualStyleBackColor = False
+        btmMg.BackColor = Color.Khaki
+        btmMg.Cursor = Cursors.Hand
+        btmMg.Font = New Font("Lucida Sans Unicode", 9F, FontStyle.Bold)
+        btmMg.Location = New Point(122, 249)
+        btmMg.Name = "btmMg"
+        btmMg.Size = New Size(53, 46)
+        btmMg.TabIndex = 16
+        btmMg.Text = "Mg"
+        btmMg.UseVisualStyleBackColor = False
         ' 
         ' Button13
         ' 
@@ -411,30 +422,30 @@ Partial Class Form1
         Button18.Text = "Ar"
         Button18.UseVisualStyleBackColor = False
         ' 
-        ' Button19
+        ' btnK
         ' 
-        Button19.BackColor = Color.Navy
-        Button19.Cursor = Cursors.Hand
-        Button19.Font = New Font("Lucida Sans Unicode", 9F, FontStyle.Bold)
-        Button19.ForeColor = SystemColors.Control
-        Button19.Location = New Point(63, 301)
-        Button19.Name = "Button19"
-        Button19.Size = New Size(53, 46)
-        Button19.TabIndex = 18
-        Button19.Text = "K"
-        Button19.UseVisualStyleBackColor = False
+        btnK.BackColor = Color.MediumBlue
+        btnK.Cursor = Cursors.Hand
+        btnK.Font = New Font("Lucida Sans Unicode", 9F, FontStyle.Bold)
+        btnK.ForeColor = SystemColors.Control
+        btnK.Location = New Point(63, 301)
+        btnK.Name = "btnK"
+        btnK.Size = New Size(53, 46)
+        btnK.TabIndex = 18
+        btnK.Text = "K"
+        btnK.UseVisualStyleBackColor = False
         ' 
-        ' Button20
+        ' btnCa
         ' 
-        Button20.BackColor = Color.Khaki
-        Button20.Cursor = Cursors.Hand
-        Button20.Font = New Font("Lucida Sans Unicode", 9F, FontStyle.Bold)
-        Button20.Location = New Point(122, 301)
-        Button20.Name = "Button20"
-        Button20.Size = New Size(53, 46)
-        Button20.TabIndex = 24
-        Button20.Text = "Ca"
-        Button20.UseVisualStyleBackColor = False
+        btnCa.BackColor = Color.Khaki
+        btnCa.Cursor = Cursors.Hand
+        btnCa.Font = New Font("Lucida Sans Unicode", 9F, FontStyle.Bold)
+        btnCa.Location = New Point(122, 301)
+        btnCa.Name = "btnCa"
+        btnCa.Size = New Size(53, 46)
+        btnCa.TabIndex = 24
+        btnCa.Text = "Ca"
+        btnCa.UseVisualStyleBackColor = False
         ' 
         ' Button21
         ' 
@@ -644,30 +655,30 @@ Partial Class Form1
         Button36.Text = "Kr"
         Button36.UseVisualStyleBackColor = False
         ' 
-        ' Button37
+        ' btnRb
         ' 
-        Button37.BackColor = Color.Navy
-        Button37.Cursor = Cursors.Hand
-        Button37.Font = New Font("Lucida Sans Unicode", 9F, FontStyle.Bold)
-        Button37.ForeColor = SystemColors.Control
-        Button37.Location = New Point(63, 353)
-        Button37.Name = "Button37"
-        Button37.Size = New Size(53, 46)
-        Button37.TabIndex = 41
-        Button37.Text = "Rb"
-        Button37.UseVisualStyleBackColor = False
+        btnRb.BackColor = Color.MediumBlue
+        btnRb.Cursor = Cursors.Hand
+        btnRb.Font = New Font("Lucida Sans Unicode", 9F, FontStyle.Bold)
+        btnRb.ForeColor = SystemColors.Control
+        btnRb.Location = New Point(63, 353)
+        btnRb.Name = "btnRb"
+        btnRb.Size = New Size(53, 46)
+        btnRb.TabIndex = 41
+        btnRb.Text = "Rb"
+        btnRb.UseVisualStyleBackColor = False
         ' 
-        ' Button38
+        ' btnSr
         ' 
-        Button38.BackColor = Color.Khaki
-        Button38.Cursor = Cursors.Hand
-        Button38.Font = New Font("Lucida Sans Unicode", 9F, FontStyle.Bold)
-        Button38.Location = New Point(122, 353)
-        Button38.Name = "Button38"
-        Button38.Size = New Size(53, 46)
-        Button38.TabIndex = 40
-        Button38.Text = "Sr"
-        Button38.UseVisualStyleBackColor = False
+        btnSr.BackColor = Color.Khaki
+        btnSr.Cursor = Cursors.Hand
+        btnSr.Font = New Font("Lucida Sans Unicode", 9F, FontStyle.Bold)
+        btnSr.Location = New Point(122, 353)
+        btnSr.Name = "btnSr"
+        btnSr.Size = New Size(53, 46)
+        btnSr.TabIndex = 40
+        btnSr.Text = "Sr"
+        btnSr.UseVisualStyleBackColor = False
         ' 
         ' Button39
         ' 
@@ -877,30 +888,30 @@ Partial Class Form1
         Button54.Text = "Xe"
         Button54.UseVisualStyleBackColor = False
         ' 
-        ' Button55
+        ' btnCs
         ' 
-        Button55.BackColor = Color.Navy
-        Button55.Cursor = Cursors.Hand
-        Button55.Font = New Font("Lucida Sans Unicode", 9F, FontStyle.Bold)
-        Button55.ForeColor = SystemColors.Control
-        Button55.Location = New Point(63, 405)
-        Button55.Name = "Button55"
-        Button55.Size = New Size(53, 46)
-        Button55.TabIndex = 47
-        Button55.Text = "Cs"
-        Button55.UseVisualStyleBackColor = False
+        btnCs.BackColor = Color.MediumBlue
+        btnCs.Cursor = Cursors.Hand
+        btnCs.Font = New Font("Lucida Sans Unicode", 9F, FontStyle.Bold)
+        btnCs.ForeColor = SystemColors.Control
+        btnCs.Location = New Point(63, 405)
+        btnCs.Name = "btnCs"
+        btnCs.Size = New Size(53, 46)
+        btnCs.TabIndex = 47
+        btnCs.Text = "Cs"
+        btnCs.UseVisualStyleBackColor = False
         ' 
-        ' Button56
+        ' btnBa
         ' 
-        Button56.BackColor = Color.Khaki
-        Button56.Cursor = Cursors.Hand
-        Button56.Font = New Font("Lucida Sans Unicode", 9F, FontStyle.Bold)
-        Button56.Location = New Point(122, 405)
-        Button56.Name = "Button56"
-        Button56.Size = New Size(53, 46)
-        Button56.TabIndex = 46
-        Button56.Text = "Ba"
-        Button56.UseVisualStyleBackColor = False
+        btnBa.BackColor = Color.Khaki
+        btnBa.Cursor = Cursors.Hand
+        btnBa.Font = New Font("Lucida Sans Unicode", 9F, FontStyle.Bold)
+        btnBa.Location = New Point(122, 405)
+        btnBa.Name = "btnBa"
+        btnBa.Size = New Size(53, 46)
+        btnBa.TabIndex = 46
+        btnBa.Text = "Ba"
+        btnBa.UseVisualStyleBackColor = False
         ' 
         ' Button58
         ' 
@@ -1265,30 +1276,30 @@ Partial Class Form1
         Button86.Text = "Rn"
         Button86.UseVisualStyleBackColor = False
         ' 
-        ' Button87
+        ' BtnFr
         ' 
-        Button87.BackColor = Color.Navy
-        Button87.Cursor = Cursors.Hand
-        Button87.Font = New Font("Lucida Sans Unicode", 9F, FontStyle.Bold)
-        Button87.ForeColor = SystemColors.Control
-        Button87.Location = New Point(63, 457)
-        Button87.Name = "Button87"
-        Button87.Size = New Size(53, 46)
-        Button87.TabIndex = 87
-        Button87.Text = "Fr"
-        Button87.UseVisualStyleBackColor = False
+        BtnFr.BackColor = Color.MediumBlue
+        BtnFr.Cursor = Cursors.Hand
+        BtnFr.Font = New Font("Lucida Sans Unicode", 9F, FontStyle.Bold)
+        BtnFr.ForeColor = SystemColors.Control
+        BtnFr.Location = New Point(63, 457)
+        BtnFr.Name = "BtnFr"
+        BtnFr.Size = New Size(53, 46)
+        BtnFr.TabIndex = 87
+        BtnFr.Text = "Fr"
+        BtnFr.UseVisualStyleBackColor = False
         ' 
-        ' Button88
+        ' btnRa
         ' 
-        Button88.BackColor = Color.Khaki
-        Button88.Cursor = Cursors.Hand
-        Button88.Font = New Font("Lucida Sans Unicode", 9F, FontStyle.Bold)
-        Button88.Location = New Point(122, 458)
-        Button88.Name = "Button88"
-        Button88.Size = New Size(53, 46)
-        Button88.TabIndex = 86
-        Button88.Text = "Ra"
-        Button88.UseVisualStyleBackColor = False
+        btnRa.BackColor = Color.Khaki
+        btnRa.Cursor = Cursors.Hand
+        btnRa.Font = New Font("Lucida Sans Unicode", 9F, FontStyle.Bold)
+        btnRa.Location = New Point(122, 458)
+        btnRa.Name = "btnRa"
+        btnRa.Size = New Size(53, 46)
+        btnRa.TabIndex = 86
+        btnRa.Text = "Ra"
+        btnRa.UseVisualStyleBackColor = False
         ' 
         ' Button90
         ' 
@@ -2074,11 +2085,169 @@ Partial Class Form1
         lblPuntoF.TabIndex = 157
         lblPuntoF.Text = "lblPuntoF"
         ' 
+        ' btnAlcalinos
+        ' 
+        btnAlcalinos.BackColor = Color.MediumBlue
+        btnAlcalinos.Cursor = Cursors.Hand
+        btnAlcalinos.FlatStyle = FlatStyle.Flat
+        btnAlcalinos.Font = New Font("Lucida Sans Unicode", 8.25F, FontStyle.Bold)
+        btnAlcalinos.ForeColor = SystemColors.ActiveCaptionText
+        btnAlcalinos.Location = New Point(361, 126)
+        btnAlcalinos.Name = "btnAlcalinos"
+        btnAlcalinos.Size = New Size(18, 135)
+        btnAlcalinos.TabIndex = 157
+        btnAlcalinos.Text = "Alcalinos"
+        btnAlcalinos.UseVisualStyleBackColor = False
+        ' 
+        ' btnAlcalinoterrenos
+        ' 
+        btnAlcalinoterrenos.BackColor = Color.Khaki
+        btnAlcalinoterrenos.Cursor = Cursors.Hand
+        btnAlcalinoterrenos.FlatStyle = FlatStyle.Flat
+        btnAlcalinoterrenos.Font = New Font("Lucida Sans Unicode", 3.75F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
+        btnAlcalinoterrenos.ForeColor = Color.Black
+        btnAlcalinoterrenos.Location = New Point(385, 126)
+        btnAlcalinoterrenos.Name = "btnAlcalinoterrenos"
+        btnAlcalinoterrenos.Size = New Size(18, 135)
+        btnAlcalinoterrenos.TabIndex = 158
+        btnAlcalinoterrenos.Text = "Alcalinoterrenos"
+        btnAlcalinoterrenos.UseVisualStyleBackColor = False
+        ' 
+        ' btnLantánidos
+        ' 
+        btnLantánidos.BackColor = Color.DarkSeaGreen
+        btnLantánidos.Cursor = Cursors.Hand
+        btnLantánidos.FlatStyle = FlatStyle.Flat
+        btnLantánidos.Font = New Font("Lucida Sans Unicode", 6F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
+        btnLantánidos.ForeColor = SystemColors.ControlText
+        btnLantánidos.Location = New Point(409, 126)
+        btnLantánidos.Name = "btnLantánidos"
+        btnLantánidos.Size = New Size(76, 67)
+        btnLantánidos.TabIndex = 159
+        btnLantánidos.Text = "Lantánidos"
+        btnLantánidos.UseVisualStyleBackColor = False
+        ' 
+        ' btnActínidos
+        ' 
+        btnActínidos.BackColor = Color.MediumSeaGreen
+        btnActínidos.Cursor = Cursors.Hand
+        btnActínidos.FlatStyle = FlatStyle.Flat
+        btnActínidos.Font = New Font("Lucida Sans Unicode", 6.75F, FontStyle.Bold)
+        btnActínidos.ForeColor = SystemColors.ActiveCaptionText
+        btnActínidos.Location = New Point(409, 196)
+        btnActínidos.Name = "btnActínidos"
+        btnActínidos.Size = New Size(76, 65)
+        btnActínidos.TabIndex = 160
+        btnActínidos.Text = "Actínidos"
+        btnActínidos.UseVisualStyleBackColor = False
+        ' 
+        ' Button11
+        ' 
+        Button11.BackColor = Color.RoyalBlue
+        Button11.Cursor = Cursors.Hand
+        Button11.FlatStyle = FlatStyle.Flat
+        Button11.Font = New Font("Lucida Sans Unicode", 9.75F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
+        Button11.ForeColor = SystemColors.ActiveCaptionText
+        Button11.Location = New Point(491, 126)
+        Button11.Name = "Button11"
+        Button11.Size = New Size(38, 135)
+        Button11.TabIndex = 161
+        Button11.Text = "Alcalinos"
+        Button11.UseVisualStyleBackColor = False
+        ' 
+        ' Button12
+        ' 
+        Button12.BackColor = Color.Orchid
+        Button12.Cursor = Cursors.Hand
+        Button12.FlatStyle = FlatStyle.Flat
+        Button12.Font = New Font("Lucida Sans Unicode", 9.75F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
+        Button12.ForeColor = SystemColors.ActiveCaptionText
+        Button12.Location = New Point(531, 126)
+        Button12.Name = "Button12"
+        Button12.Size = New Size(40, 135)
+        Button12.TabIndex = 162
+        Button12.Text = "Alcalinos"
+        Button12.UseVisualStyleBackColor = False
+        ' 
+        ' Button19
+        ' 
+        Button19.BackColor = Color.Tomato
+        Button19.Cursor = Cursors.Hand
+        Button19.FlatStyle = FlatStyle.Flat
+        Button19.Font = New Font("Lucida Sans Unicode", 9.75F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
+        Button19.ForeColor = SystemColors.ActiveCaptionText
+        Button19.Location = New Point(575, 104)
+        Button19.Name = "Button19"
+        Button19.Size = New Size(40, 157)
+        Button19.TabIndex = 163
+        Button19.Text = "Alcalinos"
+        Button19.UseVisualStyleBackColor = False
+        ' 
+        ' Button20
+        ' 
+        Button20.BackColor = Color.DarkOrange
+        Button20.Cursor = Cursors.Hand
+        Button20.FlatStyle = FlatStyle.Flat
+        Button20.Font = New Font("Lucida Sans Unicode", 9.75F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
+        Button20.ForeColor = SystemColors.ActiveCaptionText
+        Button20.Location = New Point(621, 126)
+        Button20.Name = "Button20"
+        Button20.Size = New Size(40, 135)
+        Button20.TabIndex = 164
+        Button20.Text = "Alcalinos"
+        Button20.UseVisualStyleBackColor = False
+        ' 
+        ' Button37
+        ' 
+        Button37.BackColor = Color.LimeGreen
+        Button37.Cursor = Cursors.Hand
+        Button37.FlatStyle = FlatStyle.Flat
+        Button37.Font = New Font("Lucida Sans Unicode", 9.75F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
+        Button37.ForeColor = SystemColors.ActiveCaptionText
+        Button37.Location = New Point(666, 126)
+        Button37.Name = "Button37"
+        Button37.Size = New Size(40, 135)
+        Button37.TabIndex = 165
+        Button37.Text = "Alcalinos"
+        Button37.UseVisualStyleBackColor = False
+        ' 
+        ' Panel1
+        ' 
+        Panel1.BackColor = Color.White
+        Panel1.ForeColor = Color.Black
+        Panel1.Location = New Point(182, 405)
+        Panel1.Name = "Panel1"
+        Panel1.Size = New Size(52, 251)
+        Panel1.TabIndex = 166
+        ' 
+        ' btnAbrirForm2
+        ' 
+        btnAbrirForm2.BackColor = Color.IndianRed
+        btnAbrirForm2.Cursor = Cursors.Hand
+        btnAbrirForm2.Font = New Font("Lucida Sans Unicode", 9F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
+        btnAbrirForm2.Location = New Point(15, 545)
+        btnAbrirForm2.Name = "btnAbrirForm2"
+        btnAbrirForm2.Size = New Size(146, 72)
+        btnAbrirForm2.TabIndex = 167
+        btnAbrirForm2.Text = "Cuánticos"
+        btnAbrirForm2.UseVisualStyleBackColor = False
+        ' 
         ' Form1
         ' 
         AutoScaleDimensions = New SizeF(7F, 15F)
         AutoScaleMode = AutoScaleMode.Font
-        ClientSize = New Size(1546, 832)
+        ClientSize = New Size(1304, 749)
+        Controls.Add(btnAbrirForm2)
+        Controls.Add(Panel1)
+        Controls.Add(Button37)
+        Controls.Add(Button20)
+        Controls.Add(Button19)
+        Controls.Add(Button12)
+        Controls.Add(Button11)
+        Controls.Add(btnActínidos)
+        Controls.Add(btnLantánidos)
+        Controls.Add(btnAlcalinoterrenos)
+        Controls.Add(btnAlcalinos)
         Controls.Add(GroupBox1)
         Controls.Add(Label27)
         Controls.Add(Label2)
@@ -2137,8 +2306,8 @@ Partial Class Form1
         Controls.Add(Button91)
         Controls.Add(Button92)
         Controls.Add(Button90)
-        Controls.Add(Button87)
-        Controls.Add(Button88)
+        Controls.Add(BtnFr)
+        Controls.Add(btnRa)
         Controls.Add(Button82)
         Controls.Add(Button83)
         Controls.Add(Button84)
@@ -2176,14 +2345,14 @@ Partial Class Form1
         Controls.Add(Button52)
         Controls.Add(Button53)
         Controls.Add(Button54)
-        Controls.Add(Button55)
-        Controls.Add(Button56)
+        Controls.Add(btnCs)
+        Controls.Add(btnBa)
         Controls.Add(Button33)
         Controls.Add(Button34)
         Controls.Add(Button35)
         Controls.Add(Button36)
-        Controls.Add(Button37)
-        Controls.Add(Button38)
+        Controls.Add(btnRb)
+        Controls.Add(btnSr)
         Controls.Add(Button39)
         Controls.Add(Button40)
         Controls.Add(Button41)
@@ -2199,31 +2368,31 @@ Partial Class Form1
         Controls.Add(Button28)
         Controls.Add(Button29)
         Controls.Add(Button30)
-        Controls.Add(Button20)
+        Controls.Add(btnCa)
         Controls.Add(Button21)
         Controls.Add(Button22)
         Controls.Add(Button23)
         Controls.Add(Button24)
         Controls.Add(Button25)
-        Controls.Add(Button19)
+        Controls.Add(btnK)
         Controls.Add(Button18)
-        Controls.Add(Button12)
+        Controls.Add(btmMg)
         Controls.Add(Button13)
         Controls.Add(Button14)
         Controls.Add(Button15)
         Controls.Add(Button16)
         Controls.Add(Button17)
-        Controls.Add(Button11)
+        Controls.Add(btnNa)
         Controls.Add(Button10)
         Controls.Add(Button9)
         Controls.Add(Button8)
         Controls.Add(Button7)
         Controls.Add(Button6)
         Controls.Add(Button5)
-        Controls.Add(Button4)
-        Controls.Add(Button3)
+        Controls.Add(btnBe)
+        Controls.Add(btnLi)
         Controls.Add(Button2)
-        Controls.Add(elemento_tabla1)
+        Controls.Add(btnH)
         Name = "Form1"
         Text = "x"
         GroupBox1.ResumeLayout(False)
@@ -2232,26 +2401,26 @@ Partial Class Form1
         PerformLayout()
     End Sub
 
-    Friend WithEvents elemento_tabla1 As Button
+    Friend WithEvents btnH As Button
     Friend WithEvents Button2 As Button
-    Friend WithEvents Button3 As Button
-    Friend WithEvents Button4 As Button
+    Friend WithEvents btnLi As Button
+    Friend WithEvents btnBe As Button
     Friend WithEvents Button5 As Button
     Friend WithEvents Button6 As Button
     Friend WithEvents Button7 As Button
     Friend WithEvents Button8 As Button
     Friend WithEvents Button9 As Button
     Friend WithEvents Button10 As Button
-    Friend WithEvents Button11 As Button
-    Friend WithEvents Button12 As Button
+    Friend WithEvents btnNa As Button
+    Friend WithEvents btmMg As Button
     Friend WithEvents Button13 As Button
     Friend WithEvents Button14 As Button
     Friend WithEvents Button15 As Button
     Friend WithEvents Button16 As Button
     Friend WithEvents Button17 As Button
     Friend WithEvents Button18 As Button
-    Friend WithEvents Button19 As Button
-    Friend WithEvents Button20 As Button
+    Friend WithEvents btnK As Button
+    Friend WithEvents btnCa As Button
     Friend WithEvents Button21 As Button
     Friend WithEvents Button22 As Button
     Friend WithEvents Button23 As Button
@@ -2268,8 +2437,8 @@ Partial Class Form1
     Friend WithEvents Button34 As Button
     Friend WithEvents Button35 As Button
     Friend WithEvents Button36 As Button
-    Friend WithEvents Button37 As Button
-    Friend WithEvents Button38 As Button
+    Friend WithEvents btnRb As Button
+    Friend WithEvents btnSr As Button
     Friend WithEvents Button39 As Button
     Friend WithEvents Button40 As Button
     Friend WithEvents Button41 As Button
@@ -2286,8 +2455,8 @@ Partial Class Form1
     Friend WithEvents Button52 As Button
     Friend WithEvents Button53 As Button
     Friend WithEvents Button54 As Button
-    Friend WithEvents Button55 As Button
-    Friend WithEvents Button56 As Button
+    Friend WithEvents btnCs As Button
+    Friend WithEvents btnBa As Button
     Friend WithEvents Button58 As Button
     Friend WithEvents Button59 As Button
     Friend WithEvents Button60 As Button
@@ -2317,8 +2486,8 @@ Partial Class Form1
     Friend WithEvents Button84 As Button
     Friend WithEvents Button85 As Button
     Friend WithEvents Button86 As Button
-    Friend WithEvents Button87 As Button
-    Friend WithEvents Button88 As Button
+    Friend WithEvents BtnFr As Button
+    Friend WithEvents btnRa As Button
     Friend WithEvents Button90 As Button
     Friend WithEvents Button91 As Button
     Friend WithEvents Button92 As Button
@@ -2386,4 +2555,15 @@ Partial Class Form1
     Friend WithEvents lblPuntoF As Label
     Friend WithEvents lblDensidad As Label
     Friend WithEvents lblZ As Label
+    Friend WithEvents btnAlcalinos As Button
+    Friend WithEvents btnAlcalinoterrenos As Button
+    Friend WithEvents btnLantánidos As Button
+    Friend WithEvents btnActínidos As Button
+    Friend WithEvents Button11 As Button
+    Friend WithEvents Button12 As Button
+    Friend WithEvents Button19 As Button
+    Friend WithEvents Button20 As Button
+    Friend WithEvents Button37 As Button
+    Friend WithEvents Panel1 As Panel
+    Friend WithEvents btnAbrirForm2 As Button
 End Class
