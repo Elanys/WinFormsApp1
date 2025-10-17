@@ -3028,7 +3028,7 @@ Partial Class Form2
         Button1.Name = "Button1"
         Button1.Size = New Size(67, 56)
         Button1.TabIndex = 560
-        Button1.Text = "Button1"
+        Button1.Text = "git add ."
         Button1.UseVisualStyleBackColor = True
         ' 
         ' Form2
