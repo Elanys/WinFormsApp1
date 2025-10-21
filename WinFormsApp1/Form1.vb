@@ -4,6 +4,8 @@
         AgregarEventosBotones(Me.Controls)
         Me.WindowState = FormWindowState.Maximized
         Me.FormBorderStyle = FormBorderStyle.None
+        Me.AutoScaleMode = AutoScaleMode.Dpi
+        Me.AutoSize = True
     End Sub
 
     Private Sub Form1_FormClosing(sender As Object, e As FormClosingEventArgs) Handles MyBase.FormClosing
@@ -41,6 +43,14 @@
                     lblPuntoE.Text = el.PuntoDeEbullicion
                     lblPuntoF.Text = el.PuntoDeFusion
                     lblDensidad.Text = el.densidad
+                    lblAbundancia.Text = el.Abundancia
+                    lblConductividad.Text = el.Conductividad
+                    lblDescubrimiento.Text = el.Descubrimiento
+                    lblDureza.Text = el.Dureza
+                    lblDescripcion.Text = el.Descripcion
+                    lblEstadoF.Text = el.EstadoFisico
+                    lblEnergiaI.Text = el.EnergiaIonizacion
+
                 Else
                     lblNombre.Text = "Desconocido"
                     lblSimbolo.Text = ""
@@ -60,19 +70,22 @@
         End Try
     End Sub
 
-    Private Sub btnAbrirForm2_Click(sender As Object, e As EventArgs) Handles btnAbrirForm2.Click
-        Dim f2 As New Form2()
-        f2.Show()
+    Private Sub btnAbrirForm2_Click(sender As Object, e As EventArgs) Handles btnAbrirFormDos.Click
+        For i = 1 To 100 Step 10
+            Me.Opacity = (100 - i) / 100
+            Application.DoEvents()
+            Threading.Thread.Sleep(10)
+        Next
+
+        ' Mostrar el otro form
+        Form2.Show()
         Me.Hide()
+
+        ' Restaurar opacidad para cuando se vuelva a mostrar
+        Me.Opacity = 1
     End Sub
 
-    Private Sub Button114_Click(sender As Object, e As EventArgs) Handles Button114.Click
+    Private Sub Label69_Click(sender As Object, e As EventArgs) Handles Label69.Click
 
-    End Sub
-
-    Private Sub Button1_Click(sender As Object, e As EventArgs) Handles Button1.Click
-        Dim f2 As New Form2()
-        f2.Show()
-        Me.Hide()
     End Sub
 End Class

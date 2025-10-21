@@ -24,12 +24,23 @@ Partial Class Form2
     Private Sub InitializeComponent()
         BtnVolver = New Button()
         GroupBox1 = New GroupBox()
+        Label39 = New Label()
+        Label37 = New Label()
+        Label36 = New Label()
+        Label35 = New Label()
+        Label33 = New Label()
+        Label31 = New Label()
+        Label29 = New Label()
+        Label27 = New Label()
+        Label26 = New Label()
+        lblConfigE = New Label()
         lblL = New Label()
         lblS = New Label()
         lblM = New Label()
         lblN = New Label()
         lblConfig = New Label()
         GroupBox2 = New GroupBox()
+        Label38 = New Label()
         Label2 = New Label()
         Label30 = New Label()
         Label32 = New Label()
@@ -184,68 +195,65 @@ Partial Class Form2
         btnLi3 = New Button()
         Button2 = New Button()
         btnH1 = New Button()
-        Label26 = New Label()
-        Label27 = New Label()
-        Label29 = New Label()
-        Label31 = New Label()
-        Label33 = New Label()
-        Label35 = New Label()
-        Label36 = New Label()
-        Label37 = New Label()
-        Label38 = New Label()
-        Label39 = New Label()
-        Label40 = New Label()
-        Label41 = New Label()
-        Label42 = New Label()
-        Label43 = New Label()
-        Label44 = New Label()
-        Label45 = New Label()
-        Label46 = New Label()
-        Label47 = New Label()
-        Label48 = New Label()
-        Label49 = New Label()
-        Label50 = New Label()
-        Label51 = New Label()
-        Label52 = New Label()
-        Label53 = New Label()
-        Label54 = New Label()
-        Label55 = New Label()
-        Label56 = New Label()
-        Label57 = New Label()
-        Label58 = New Label()
-        Label59 = New Label()
-        Label60 = New Label()
-        Label61 = New Label()
-        Label62 = New Label()
-        Label63 = New Label()
-        Label64 = New Label()
-        Label65 = New Label()
-        Label66 = New Label()
-        Label70 = New Label()
-        Label71 = New Label()
-        Label72 = New Label()
-        Label73 = New Label()
-        Label74 = New Label()
-        Label75 = New Label()
-        Label67 = New Label()
-        Label68 = New Label()
-        Label69 = New Label()
-        Label76 = New Label()
-        Label77 = New Label()
-        Label78 = New Label()
-        Label79 = New Label()
-        Label80 = New Label()
-        Label81 = New Label()
-        Label82 = New Label()
-        Label83 = New Label()
-        Label84 = New Label()
-        Label85 = New Label()
-        Label86 = New Label()
-        Label87 = New Label()
-        Label88 = New Label()
-        Label89 = New Label()
-        Label90 = New Label()
-        Label91 = New Label()
+        cajita7s = New Label()
+        cajita6s = New Label()
+        cajita4s = New Label()
+        cajita5s = New Label()
+        cajita1s = New Label()
+        cajita2s = New Label()
+        cajita3s = New Label()
+        cajita2_1p = New Label()
+        cajita3_1p = New Label()
+        cajita4_1p = New Label()
+        cajita5_1p = New Label()
+        cajita6_1p = New Label()
+        cajita7_1p = New Label()
+        cajita2_2p = New Label()
+        cajita3_2p = New Label()
+        cajita4_2p = New Label()
+        cajita5_2p = New Label()
+        cajita6_2p = New Label()
+        cajita7_2p = New Label()
+        cajita2_3p = New Label()
+        cajita3_3p = New Label()
+        cajita4_3p = New Label()
+        cajita5_3p = New Label()
+        cajita6_3p = New Label()
+        cajita7_3p = New Label()
+        cajita4_3d = New Label()
+        cajita5_3d = New Label()
+        cajita6_3d = New Label()
+        cajita4_2d = New Label()
+        cajita5_2d = New Label()
+        cajita6_2d = New Label()
+        cajita4_1d = New Label()
+        cajita5_1d = New Label()
+        cajita6_1d = New Label()
+        cajita4_5d = New Label()
+        cajita5_5d = New Label()
+        cajita6_5d = New Label()
+        cajita4_4d = New Label()
+        cajita5_4d = New Label()
+        cajita6_4d = New Label()
+        cajita3_4d = New Label()
+        cajita3_5d = New Label()
+        cajita3_3d = New Label()
+        cajita3_2d = New Label()
+        cajita3_1d = New Label()
+        cajita4_5f = New Label()
+        cajita5_5f = New Label()
+        cajita4_4f = New Label()
+        cajita5_4f = New Label()
+        cajita4_3f = New Label()
+        cajita5_3f = New Label()
+        cajita4_2f = New Label()
+        cajita5_2f = New Label()
+        cajita4_1f = New Label()
+        cajita5_1f = New Label()
+        cajita4_7f = New Label()
+        cajita5_7f = New Label()
+        cajita4_6f = New Label()
+        cajita5_6f = New Label()
         Label92 = New Label()
         Label93 = New Label()
         Label94 = New Label()
@@ -253,7 +261,6 @@ Partial Class Form2
         Label96 = New Label()
         Label97 = New Label()
         Label98 = New Label()
-        Label99 = New Label()
         Label100 = New Label()
         Label101 = New Label()
         Label102 = New Label()
@@ -266,7 +273,7 @@ Partial Class Form2
         Label109 = New Label()
         Label110 = New Label()
         Label111 = New Label()
-        Button1 = New Button()
+        Label69 = New Label()
         GroupBox1.SuspendLayout()
         GroupBox2.SuspendLayout()
         propiedades.SuspendLayout()
@@ -285,6 +292,17 @@ Partial Class Form2
         ' 
         ' GroupBox1
         ' 
+        GroupBox1.BackColor = Color.MediumAquamarine
+        GroupBox1.Controls.Add(Label39)
+        GroupBox1.Controls.Add(Label37)
+        GroupBox1.Controls.Add(Label36)
+        GroupBox1.Controls.Add(Label35)
+        GroupBox1.Controls.Add(Label33)
+        GroupBox1.Controls.Add(Label31)
+        GroupBox1.Controls.Add(Label29)
+        GroupBox1.Controls.Add(Label27)
+        GroupBox1.Controls.Add(Label26)
+        GroupBox1.Controls.Add(lblConfigE)
         GroupBox1.Controls.Add(lblL)
         GroupBox1.Controls.Add(lblS)
         GroupBox1.Controls.Add(lblM)
@@ -292,61 +310,167 @@ Partial Class Form2
         GroupBox1.Controls.Add(lblConfig)
         GroupBox1.Controls.Add(GroupBox2)
         GroupBox1.Font = New Font("Segoe UI", 1F)
-        GroupBox1.Location = New Point(1468, 112)
+        GroupBox1.Location = New Point(1491, 112)
         GroupBox1.Name = "GroupBox1"
-        GroupBox1.Size = New Size(408, 836)
+        GroupBox1.Size = New Size(408, 801)
         GroupBox1.TabIndex = 475
         GroupBox1.TabStop = False
         ' 
+        ' Label39
+        ' 
+        Label39.Font = New Font("Microsoft Sans Serif", 14F)
+        Label39.Location = New Point(2, 185)
+        Label39.Name = "Label39"
+        Label39.Size = New Size(108, 23)
+        Label39.TabIndex = 172
+        Label39.Text = "Nombre"
+        Label39.TextAlign = ContentAlignment.TopCenter
+        ' 
+        ' Label37
+        ' 
+        Label37.Font = New Font("Microsoft Sans Serif", 14F)
+        Label37.Location = New Point(324, 116)
+        Label37.Name = "Label37"
+        Label37.Size = New Size(81, 29)
+        Label37.TabIndex = 171
+        Label37.Text = "Simbolo"
+        Label37.TextAlign = ContentAlignment.TopCenter
+        ' 
+        ' Label36
+        ' 
+        Label36.Font = New Font("Microsoft Sans Serif", 14F)
+        Label36.Location = New Point(321, 56)
+        Label36.Name = "Label36"
+        Label36.Size = New Size(81, 29)
+        Label36.TabIndex = 170
+        Label36.Text = "Masa"
+        Label36.TextAlign = ContentAlignment.TopCenter
+        ' 
+        ' Label35
+        ' 
+        Label35.Font = New Font("Microsoft Sans Serif", 14F)
+        Label35.Location = New Point(6, 39)
+        Label35.Name = "Label35"
+        Label35.Size = New Size(108, 56)
+        Label35.TabIndex = 169
+        Label35.Text = "Número atómico"
+        Label35.TextAlign = ContentAlignment.TopCenter
+        ' 
+        ' Label33
+        ' 
+        Label33.Font = New Font("Microsoft Sans Serif", 14F)
+        Label33.Location = New Point(120, 658)
+        Label33.Name = "Label33"
+        Label33.Size = New Size(176, 33)
+        Label33.TabIndex = 168
+        Label33.Text = "s (spín)"
+        Label33.TextAlign = ContentAlignment.TopCenter
+        ' 
+        ' Label31
+        ' 
+        Label31.Font = New Font("Microsoft Sans Serif", 14F)
+        Label31.Location = New Point(120, 561)
+        Label31.Name = "Label31"
+        Label31.Size = New Size(176, 33)
+        Label31.TabIndex = 167
+        Label31.Text = "M (Magnético)"
+        Label31.TextAlign = ContentAlignment.TopCenter
+        ' 
+        ' Label29
+        ' 
+        Label29.Font = New Font("Microsoft Sans Serif", 14F)
+        Label29.Location = New Point(120, 458)
+        Label29.Name = "Label29"
+        Label29.Size = New Size(176, 33)
+        Label29.TabIndex = 166
+        Label29.Text = "l (Azimutal)"
+        Label29.TextAlign = ContentAlignment.TopCenter
+        ' 
+        ' Label27
+        ' 
+        Label27.Font = New Font("Microsoft Sans Serif", 14F)
+        Label27.Location = New Point(120, 350)
+        Label27.Name = "Label27"
+        Label27.Size = New Size(176, 33)
+        Label27.TabIndex = 165
+        Label27.Text = "n (Principal)"
+        Label27.TextAlign = ContentAlignment.TopCenter
+        ' 
+        ' Label26
+        ' 
+        Label26.Font = New Font("Microsoft Sans Serif", 14F)
+        Label26.Location = New Point(120, 314)
+        Label26.Name = "Label26"
+        Label26.Size = New Size(176, 33)
+        Label26.TabIndex = 164
+        Label26.Text = "Números Cuánticos"
+        ' 
+        ' lblConfigE
+        ' 
+        lblConfigE.BackColor = Color.Transparent
+        lblConfigE.Font = New Font("Microsoft Sans Serif", 14F)
+        lblConfigE.Location = New Point(6, 212)
+        lblConfigE.Name = "lblConfigE"
+        lblConfigE.Size = New Size(396, 33)
+        lblConfigE.TabIndex = 163
+        lblConfigE.Text = "Config. Electrónica"
+        lblConfigE.TextAlign = ContentAlignment.MiddleCenter
+        ' 
         ' lblL
         ' 
+        lblL.BackColor = Color.Honeydew
         lblL.Font = New Font("Microsoft Sans Serif", 14F)
-        lblL.Location = New Point(15, 323)
+        lblL.Location = New Point(120, 491)
         lblL.Name = "lblL"
-        lblL.Size = New Size(162, 39)
+        lblL.Size = New Size(176, 39)
         lblL.TabIndex = 162
-        lblL.Text = "l"
+        lblL.TextAlign = ContentAlignment.TopCenter
         ' 
         ' lblS
         ' 
+        lblS.BackColor = Color.Honeydew
         lblS.Font = New Font("Microsoft Sans Serif", 14F)
-        lblS.Location = New Point(15, 393)
+        lblS.Location = New Point(120, 691)
         lblS.Name = "lblS"
-        lblS.Size = New Size(162, 39)
+        lblS.Size = New Size(176, 39)
         lblS.TabIndex = 161
-        lblS.Text = "s"
+        lblS.TextAlign = ContentAlignment.TopCenter
         ' 
         ' lblM
         ' 
+        lblM.BackColor = Color.Honeydew
         lblM.Font = New Font("Microsoft Sans Serif", 14F)
-        lblM.Location = New Point(15, 362)
+        lblM.Location = New Point(134, 594)
         lblM.Name = "lblM"
         lblM.Size = New Size(162, 39)
         lblM.TabIndex = 160
-        lblM.Text = "m"
+        lblM.TextAlign = ContentAlignment.TopCenter
         ' 
         ' lblN
         ' 
+        lblN.BackColor = Color.Honeydew
         lblN.Font = New Font("Microsoft Sans Serif", 14F)
-        lblN.Location = New Point(15, 274)
+        lblN.Location = New Point(120, 393)
         lblN.Name = "lblN"
-        lblN.Size = New Size(162, 39)
+        lblN.Size = New Size(176, 39)
         lblN.TabIndex = 159
-        lblN.Text = "n"
+        lblN.TextAlign = ContentAlignment.TopCenter
         ' 
         ' lblConfig
         ' 
+        lblConfig.BackColor = Color.Honeydew
         lblConfig.Font = New Font("Microsoft Sans Serif", 14F)
-        lblConfig.Location = New Point(15, 235)
+        lblConfig.Location = New Point(6, 251)
         lblConfig.Name = "lblConfig"
-        lblConfig.Size = New Size(162, 39)
+        lblConfig.Size = New Size(396, 33)
         lblConfig.TabIndex = 158
-        lblConfig.Text = "c"
+        lblConfig.TextAlign = ContentAlignment.MiddleCenter
         ' 
         ' GroupBox2
         ' 
         GroupBox2.BackColor = SystemColors.ControlLightLight
         GroupBox2.BackgroundImageLayout = ImageLayout.Center
+        GroupBox2.Controls.Add(Label38)
         GroupBox2.Controls.Add(Label2)
         GroupBox2.Controls.Add(Label30)
         GroupBox2.Controls.Add(Label32)
@@ -358,6 +482,16 @@ Partial Class Form2
         GroupBox2.Size = New Size(208, 174)
         GroupBox2.TabIndex = 157
         GroupBox2.TabStop = False
+        ' 
+        ' Label38
+        ' 
+        Label38.Font = New Font("Microsoft Sans Serif", 14F)
+        Label38.Location = New Point(111, 84)
+        Label38.Name = "Label38"
+        Label38.Size = New Size(91, 29)
+        Label38.TabIndex = 172
+        Label38.Text = "----------------"
+        Label38.TextAlign = ContentAlignment.TopCenter
         ' 
         ' Label2
         ' 
@@ -371,7 +505,7 @@ Partial Class Form2
         ' Label30
         ' 
         Label30.Font = New Font("Microsoft Sans Serif", 20F)
-        Label30.Location = New Point(56, 78)
+        Label30.Location = New Point(49, 74)
         Label30.Name = "Label30"
         Label30.Size = New Size(72, 39)
         Label30.TabIndex = 121
@@ -390,9 +524,10 @@ Partial Class Form2
         ' 
         ' Label34
         ' 
-        Label34.BackColor = Color.DarkOrange
+        Label34.BackColor = Color.DarkCyan
         Label34.Font = New Font("Microsoft Sans Serif", 8.25F)
-        Label34.Location = New Point(0, 150)
+        Label34.ForeColor = Color.Transparent
+        Label34.Location = New Point(0, 153)
         Label34.Name = "Label34"
         Label34.Size = New Size(208, 21)
         Label34.TabIndex = 120
@@ -413,7 +548,7 @@ Partial Class Form2
         ' Label1
         ' 
         Label1.AutoSize = True
-        Label1.BackColor = SystemColors.ButtonHighlight
+        Label1.BackColor = SystemColors.Menu
         Label1.Font = New Font("Lucida Sans Unicode", 12F, FontStyle.Bold)
         Label1.ForeColor = SystemColors.ActiveCaptionText
         Label1.Location = New Point(88, 278)
@@ -442,7 +577,7 @@ Partial Class Form2
         propiedades.Controls.Add(lblA)
         propiedades.Controls.Add(lblNombre)
         propiedades.Font = New Font("Segoe UI", 1F)
-        propiedades.Location = New Point(185, 108)
+        propiedades.Location = New Point(238, 196)
         propiedades.Margin = New Padding(0)
         propiedades.Name = "propiedades"
         propiedades.Size = New Size(282, 247)
@@ -461,12 +596,12 @@ Partial Class Form2
         ' lblSimbolo
         ' 
         lblSimbolo.Font = New Font("Lucida Sans Unicode", 30F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
-        lblSimbolo.Location = New Point(101, 96)
+        lblSimbolo.Location = New Point(89, 88)
         lblSimbolo.Name = "lblSimbolo"
-        lblSimbolo.Size = New Size(96, 70)
+        lblSimbolo.Size = New Size(108, 70)
         lblSimbolo.TabIndex = 121
         lblSimbolo.Text = " "
-        lblSimbolo.TextAlign = ContentAlignment.MiddleRight
+        lblSimbolo.TextAlign = ContentAlignment.TopCenter
         ' 
         ' lblValencia
         ' 
@@ -480,11 +615,11 @@ Partial Class Form2
         ' 
         ' lblA
         ' 
-        lblA.Font = New Font("Lucida Sans Unicode", 8.25F, FontStyle.Bold)
-        lblA.Location = New Point(150, 24)
+        lblA.Font = New Font("Lucida Sans Unicode", 14F, FontStyle.Bold)
+        lblA.Location = New Point(100, 32)
         lblA.Name = "lblA"
         lblA.RightToLeft = RightToLeft.Yes
-        lblA.Size = New Size(129, 15)
+        lblA.Size = New Size(173, 37)
         lblA.TabIndex = 122
         lblA.Text = " "
         ' 
@@ -514,8 +649,8 @@ Partial Class Form2
         ' 
         Label25.AutoSize = True
         Label25.Font = New Font("Lucida Sans Unicode", 14F, FontStyle.Bold)
-        Label25.ForeColor = Color.OliveDrab
-        Label25.Location = New Point(1374, 278)
+        Label25.ForeColor = SystemColors.ActiveCaptionText
+        Label25.Location = New Point(1369, 347)
         Label25.Name = "Label25"
         Label25.Size = New Size(36, 23)
         Label25.TabIndex = 459
@@ -619,7 +754,7 @@ Partial Class Form2
         ' 
         ' Button89
         ' 
-        Button89.BackColor = Color.MediumSeaGreen
+        Button89.BackColor = Color.MediumBlue
         Button89.Cursor = Cursors.Hand
         Button89.Font = New Font("Lucida Sans Unicode", 8.25F, FontStyle.Bold)
         Button89.ForeColor = SystemColors.ButtonHighlight
@@ -632,9 +767,10 @@ Partial Class Form2
         ' 
         ' Button57
         ' 
-        Button57.BackColor = Color.DarkSeaGreen
+        Button57.BackColor = Color.MediumBlue
         Button57.Cursor = Cursors.Hand
         Button57.Font = New Font("Lucida Sans Unicode", 8.25F, FontStyle.Bold)
+        Button57.ForeColor = SystemColors.ButtonHighlight
         Button57.Location = New Point(289, 787)
         Button57.Name = "Button57"
         Button57.Size = New Size(70, 60)
@@ -717,10 +853,10 @@ Partial Class Form2
         ' Label9
         ' 
         Label9.AutoSize = True
-        Label9.BackColor = SystemColors.ButtonHighlight
+        Label9.BackColor = SystemColors.Menu
         Label9.Font = New Font("Lucida Sans Unicode", 12F, FontStyle.Bold)
         Label9.ForeColor = SystemColors.ActiveCaptionText
-        Label9.Location = New Point(162, 344)
+        Label9.Location = New Point(165, 277)
         Label9.Name = "Label9"
         Label9.Size = New Size(20, 20)
         Label9.TabIndex = 442
@@ -797,8 +933,8 @@ Partial Class Form2
         Button117.BackColor = Color.OliveDrab
         Button117.Cursor = Cursors.Hand
         Button117.Font = New Font("Lucida Sans Unicode", 12F, FontStyle.Bold)
-        Button117.ForeColor = SystemColors.ActiveCaptionText
-        Button117.Location = New Point(1276, 698)
+        Button117.ForeColor = SystemColors.ButtonHighlight
+        Button117.Location = New Point(1277, 700)
         Button117.Name = "Button117"
         Button117.Size = New Size(70, 60)
         Button117.TabIndex = 435
@@ -823,8 +959,8 @@ Partial Class Form2
         Button113.BackColor = Color.OliveDrab
         Button113.Cursor = Cursors.Hand
         Button113.Font = New Font("Lucida Sans Unicode", 12F, FontStyle.Bold)
-        Button113.ForeColor = SystemColors.ActiveCaptionText
-        Button113.Location = New Point(973, 701)
+        Button113.ForeColor = SystemColors.ButtonHighlight
+        Button113.Location = New Point(976, 701)
         Button113.Name = "Button113"
         Button113.Size = New Size(70, 60)
         Button113.TabIndex = 433
@@ -836,7 +972,7 @@ Partial Class Form2
         Button114.BackColor = Color.OliveDrab
         Button114.Cursor = Cursors.Hand
         Button114.Font = New Font("Lucida Sans Unicode", 12F, FontStyle.Bold)
-        Button114.ForeColor = SystemColors.ActiveCaptionText
+        Button114.ForeColor = SystemColors.ButtonHighlight
         Button114.Location = New Point(1052, 701)
         Button114.Name = "Button114"
         Button114.Size = New Size(70, 60)
@@ -849,7 +985,7 @@ Partial Class Form2
         Button115.BackColor = Color.OliveDrab
         Button115.Cursor = Cursors.Hand
         Button115.Font = New Font("Lucida Sans Unicode", 12F, FontStyle.Bold)
-        Button115.ForeColor = SystemColors.ActiveCaptionText
+        Button115.ForeColor = SystemColors.ButtonHighlight
         Button115.Location = New Point(1125, 701)
         Button115.Name = "Button115"
         Button115.Size = New Size(70, 60)
@@ -862,8 +998,8 @@ Partial Class Form2
         Button116.BackColor = Color.OliveDrab
         Button116.Cursor = Cursors.Hand
         Button116.Font = New Font("Lucida Sans Unicode", 12F, FontStyle.Bold)
-        Button116.ForeColor = SystemColors.ActiveCaptionText
-        Button116.Location = New Point(1201, 700)
+        Button116.ForeColor = SystemColors.ButtonHighlight
+        Button116.Location = New Point(1201, 701)
         Button116.Name = "Button116"
         Button116.Size = New Size(70, 60)
         Button116.TabIndex = 430
@@ -875,7 +1011,7 @@ Partial Class Form2
         Button110.BackColor = Color.Crimson
         Button110.Cursor = Cursors.Hand
         Button110.Font = New Font("Lucida Sans Unicode", 12F, FontStyle.Bold)
-        Button110.ForeColor = SystemColors.ActiveCaptionText
+        Button110.ForeColor = SystemColors.ButtonFace
         Button110.Location = New Point(745, 701)
         Button110.Name = "Button110"
         Button110.Size = New Size(70, 60)
@@ -888,7 +1024,7 @@ Partial Class Form2
         Button111.BackColor = Color.Crimson
         Button111.Cursor = Cursors.Hand
         Button111.Font = New Font("Lucida Sans Unicode", 12F, FontStyle.Bold)
-        Button111.ForeColor = SystemColors.ActiveCaptionText
+        Button111.ForeColor = SystemColors.ButtonFace
         Button111.Location = New Point(821, 701)
         Button111.Name = "Button111"
         Button111.Size = New Size(70, 60)
@@ -901,7 +1037,7 @@ Partial Class Form2
         Button112.BackColor = Color.Crimson
         Button112.Cursor = Cursors.Hand
         Button112.Font = New Font("Lucida Sans Unicode", 12F, FontStyle.Bold)
-        Button112.ForeColor = SystemColors.ActiveCaptionText
+        Button112.ForeColor = SystemColors.ButtonFace
         Button112.Location = New Point(897, 701)
         Button112.Name = "Button112"
         Button112.Size = New Size(70, 60)
@@ -914,7 +1050,7 @@ Partial Class Form2
         Button107.BackColor = Color.Crimson
         Button107.Cursor = Cursors.Hand
         Button107.Font = New Font("Lucida Sans Unicode", 12F, FontStyle.Bold)
-        Button107.ForeColor = SystemColors.ActiveCaptionText
+        Button107.ForeColor = SystemColors.ButtonFace
         Button107.Location = New Point(517, 700)
         Button107.Name = "Button107"
         Button107.Size = New Size(70, 60)
@@ -927,7 +1063,7 @@ Partial Class Form2
         Button108.BackColor = Color.Crimson
         Button108.Cursor = Cursors.Hand
         Button108.Font = New Font("Lucida Sans Unicode", 12F, FontStyle.Bold)
-        Button108.ForeColor = SystemColors.ActiveCaptionText
+        Button108.ForeColor = SystemColors.ButtonFace
         Button108.Location = New Point(593, 700)
         Button108.Name = "Button108"
         Button108.Size = New Size(70, 60)
@@ -940,7 +1076,7 @@ Partial Class Form2
         Button109.BackColor = Color.Crimson
         Button109.Cursor = Cursors.Hand
         Button109.Font = New Font("Lucida Sans Unicode", 12F, FontStyle.Bold)
-        Button109.ForeColor = SystemColors.ActiveCaptionText
+        Button109.ForeColor = SystemColors.ButtonFace
         Button109.Location = New Point(669, 700)
         Button109.Name = "Button109"
         Button109.Size = New Size(70, 60)
@@ -953,7 +1089,7 @@ Partial Class Form2
         Button104.BackColor = Color.Crimson
         Button104.Cursor = Cursors.Hand
         Button104.Font = New Font("Lucida Sans Unicode", 12F, FontStyle.Bold)
-        Button104.ForeColor = SystemColors.ActiveCaptionText
+        Button104.ForeColor = SystemColors.ButtonFace
         Button104.Location = New Point(289, 700)
         Button104.Name = "Button104"
         Button104.Size = New Size(70, 60)
@@ -966,7 +1102,7 @@ Partial Class Form2
         Button105.BackColor = Color.Crimson
         Button105.Cursor = Cursors.Hand
         Button105.Font = New Font("Lucida Sans Unicode", 12F, FontStyle.Bold)
-        Button105.ForeColor = SystemColors.ActiveCaptionText
+        Button105.ForeColor = SystemColors.ButtonFace
         Button105.Location = New Point(365, 701)
         Button105.Name = "Button105"
         Button105.Size = New Size(70, 60)
@@ -979,7 +1115,7 @@ Partial Class Form2
         Button106.BackColor = Color.Crimson
         Button106.Cursor = Cursors.Hand
         Button106.Font = New Font("Lucida Sans Unicode", 12F, FontStyle.Bold)
-        Button106.ForeColor = SystemColors.ActiveCaptionText
+        Button106.ForeColor = SystemColors.ButtonFace
         Button106.Location = New Point(441, 701)
         Button106.Name = "Button106"
         Button106.Size = New Size(70, 60)
@@ -989,7 +1125,7 @@ Partial Class Form2
         ' 
         ' Button103
         ' 
-        Button103.BackColor = Color.MediumSeaGreen
+        Button103.BackColor = Color.Crimson
         Button103.Cursor = Cursors.Hand
         Button103.Font = New Font("Lucida Sans Unicode", 8.25F, FontStyle.Bold)
         Button103.ForeColor = SystemColors.ButtonHighlight
@@ -1002,7 +1138,7 @@ Partial Class Form2
         ' 
         ' Button102
         ' 
-        Button102.BackColor = Color.MediumSeaGreen
+        Button102.BackColor = Color.MediumBlue
         Button102.Cursor = Cursors.Hand
         Button102.Font = New Font("Lucida Sans Unicode", 8.25F, FontStyle.Bold)
         Button102.ForeColor = SystemColors.ButtonHighlight
@@ -1015,7 +1151,7 @@ Partial Class Form2
         ' 
         ' Button97
         ' 
-        Button97.BackColor = Color.MediumSeaGreen
+        Button97.BackColor = Color.MediumBlue
         Button97.Cursor = Cursors.Hand
         Button97.Font = New Font("Lucida Sans Unicode", 8.25F, FontStyle.Bold)
         Button97.ForeColor = SystemColors.ButtonHighlight
@@ -1028,7 +1164,7 @@ Partial Class Form2
         ' 
         ' Button98
         ' 
-        Button98.BackColor = Color.MediumSeaGreen
+        Button98.BackColor = Color.MediumBlue
         Button98.Cursor = Cursors.Hand
         Button98.Font = New Font("Lucida Sans Unicode", 8.25F, FontStyle.Bold)
         Button98.ForeColor = SystemColors.ButtonHighlight
@@ -1041,7 +1177,7 @@ Partial Class Form2
         ' 
         ' Button99
         ' 
-        Button99.BackColor = Color.MediumSeaGreen
+        Button99.BackColor = Color.MediumBlue
         Button99.Cursor = Cursors.Hand
         Button99.Font = New Font("Lucida Sans Unicode", 8.25F, FontStyle.Bold)
         Button99.ForeColor = SystemColors.ButtonHighlight
@@ -1054,7 +1190,7 @@ Partial Class Form2
         ' 
         ' Button100
         ' 
-        Button100.BackColor = Color.MediumSeaGreen
+        Button100.BackColor = Color.MediumBlue
         Button100.Cursor = Cursors.Hand
         Button100.Font = New Font("Lucida Sans Unicode", 8.25F, FontStyle.Bold)
         Button100.ForeColor = SystemColors.ButtonHighlight
@@ -1067,7 +1203,7 @@ Partial Class Form2
         ' 
         ' Button101
         ' 
-        Button101.BackColor = Color.MediumSeaGreen
+        Button101.BackColor = Color.MediumBlue
         Button101.Cursor = Cursors.Hand
         Button101.Font = New Font("Lucida Sans Unicode", 8.25F, FontStyle.Bold)
         Button101.ForeColor = SystemColors.ButtonHighlight
@@ -1080,7 +1216,7 @@ Partial Class Form2
         ' 
         ' Button93
         ' 
-        Button93.BackColor = Color.MediumSeaGreen
+        Button93.BackColor = Color.MediumBlue
         Button93.Cursor = Cursors.Hand
         Button93.Font = New Font("Lucida Sans Unicode", 8.25F, FontStyle.Bold)
         Button93.ForeColor = SystemColors.ButtonHighlight
@@ -1093,7 +1229,7 @@ Partial Class Form2
         ' 
         ' Button94
         ' 
-        Button94.BackColor = Color.MediumSeaGreen
+        Button94.BackColor = Color.MediumBlue
         Button94.Cursor = Cursors.Hand
         Button94.Font = New Font("Lucida Sans Unicode", 8.25F, FontStyle.Bold)
         Button94.ForeColor = SystemColors.ButtonHighlight
@@ -1106,7 +1242,7 @@ Partial Class Form2
         ' 
         ' Button95
         ' 
-        Button95.BackColor = Color.MediumSeaGreen
+        Button95.BackColor = Color.MediumBlue
         Button95.Cursor = Cursors.Hand
         Button95.Font = New Font("Lucida Sans Unicode", 8.25F, FontStyle.Bold)
         Button95.ForeColor = SystemColors.ButtonHighlight
@@ -1119,7 +1255,7 @@ Partial Class Form2
         ' 
         ' Button96
         ' 
-        Button96.BackColor = Color.MediumSeaGreen
+        Button96.BackColor = Color.MediumBlue
         Button96.Cursor = Cursors.Hand
         Button96.Font = New Font("Lucida Sans Unicode", 8.25F, FontStyle.Bold)
         Button96.ForeColor = SystemColors.ButtonHighlight
@@ -1132,7 +1268,7 @@ Partial Class Form2
         ' 
         ' Button91
         ' 
-        Button91.BackColor = Color.MediumSeaGreen
+        Button91.BackColor = Color.MediumBlue
         Button91.Cursor = Cursors.Hand
         Button91.Font = New Font("Lucida Sans Unicode", 8.25F, FontStyle.Bold)
         Button91.ForeColor = SystemColors.ButtonHighlight
@@ -1145,7 +1281,7 @@ Partial Class Form2
         ' 
         ' Button92
         ' 
-        Button92.BackColor = Color.MediumSeaGreen
+        Button92.BackColor = Color.MediumBlue
         Button92.Cursor = Cursors.Hand
         Button92.Font = New Font("Lucida Sans Unicode", 8.25F, FontStyle.Bold)
         Button92.ForeColor = SystemColors.ButtonHighlight
@@ -1158,7 +1294,7 @@ Partial Class Form2
         ' 
         ' Button90
         ' 
-        Button90.BackColor = Color.MediumSeaGreen
+        Button90.BackColor = Color.MediumBlue
         Button90.Cursor = Cursors.Hand
         Button90.Font = New Font("Lucida Sans Unicode", 8.25F, FontStyle.Bold)
         Button90.ForeColor = SystemColors.ButtonHighlight
@@ -1174,7 +1310,7 @@ Partial Class Form2
         BtnFr87.BackColor = Color.DarkCyan
         BtnFr87.Cursor = Cursors.Hand
         BtnFr87.Font = New Font("Lucida Sans Unicode", 12F, FontStyle.Bold)
-        BtnFr87.ForeColor = SystemColors.ActiveCaptionText
+        BtnFr87.ForeColor = SystemColors.ButtonHighlight
         BtnFr87.Location = New Point(61, 701)
         BtnFr87.Name = "BtnFr87"
         BtnFr87.Size = New Size(70, 60)
@@ -1187,7 +1323,7 @@ Partial Class Form2
         btnRa88.BackColor = Color.DarkCyan
         btnRa88.Cursor = Cursors.Hand
         btnRa88.Font = New Font("Lucida Sans Unicode", 12F, FontStyle.Bold)
-        btnRa88.ForeColor = SystemColors.ActiveCaptionText
+        btnRa88.ForeColor = SystemColors.ButtonHighlight
         btnRa88.Location = New Point(137, 701)
         btnRa88.Name = "btnRa88"
         btnRa88.Size = New Size(70, 60)
@@ -1200,7 +1336,7 @@ Partial Class Form2
         Button82.BackColor = Color.OliveDrab
         Button82.Cursor = Cursors.Hand
         Button82.Font = New Font("Lucida Sans Unicode", 12F, FontStyle.Bold)
-        Button82.ForeColor = SystemColors.ActiveCaptionText
+        Button82.ForeColor = SystemColors.ButtonHighlight
         Button82.Location = New Point(1052, 634)
         Button82.Name = "Button82"
         Button82.Size = New Size(70, 60)
@@ -1213,7 +1349,7 @@ Partial Class Form2
         Button83.BackColor = Color.OliveDrab
         Button83.Cursor = Cursors.Hand
         Button83.Font = New Font("Lucida Sans Unicode", 12F, FontStyle.Bold)
-        Button83.ForeColor = SystemColors.ActiveCaptionText
+        Button83.ForeColor = SystemColors.ButtonHighlight
         Button83.Location = New Point(1125, 634)
         Button83.Name = "Button83"
         Button83.Size = New Size(70, 60)
@@ -1226,8 +1362,8 @@ Partial Class Form2
         Button84.BackColor = Color.OliveDrab
         Button84.Cursor = Cursors.Hand
         Button84.Font = New Font("Lucida Sans Unicode", 12F, FontStyle.Bold)
-        Button84.ForeColor = SystemColors.ActiveCaptionText
-        Button84.Location = New Point(1201, 634)
+        Button84.ForeColor = SystemColors.ButtonHighlight
+        Button84.Location = New Point(1201, 635)
         Button84.Name = "Button84"
         Button84.Size = New Size(70, 60)
         Button84.TabIndex = 402
@@ -1239,8 +1375,8 @@ Partial Class Form2
         Button85.BackColor = Color.OliveDrab
         Button85.Cursor = Cursors.Hand
         Button85.Font = New Font("Lucida Sans Unicode", 12F, FontStyle.Bold)
-        Button85.ForeColor = SystemColors.ActiveCaptionText
-        Button85.Location = New Point(1276, 634)
+        Button85.ForeColor = SystemColors.ButtonHighlight
+        Button85.Location = New Point(1277, 635)
         Button85.Name = "Button85"
         Button85.Size = New Size(70, 60)
         Button85.TabIndex = 401
@@ -1265,7 +1401,7 @@ Partial Class Form2
         Button77.BackColor = Color.Crimson
         Button77.Cursor = Cursors.Hand
         Button77.Font = New Font("Lucida Sans Unicode", 12F, FontStyle.Bold)
-        Button77.ForeColor = SystemColors.ActiveCaptionText
+        Button77.ForeColor = SystemColors.ButtonFace
         Button77.Location = New Point(669, 634)
         Button77.Name = "Button77"
         Button77.Size = New Size(70, 60)
@@ -1278,7 +1414,7 @@ Partial Class Form2
         Button78.BackColor = Color.Crimson
         Button78.Cursor = Cursors.Hand
         Button78.Font = New Font("Lucida Sans Unicode", 12F, FontStyle.Bold)
-        Button78.ForeColor = SystemColors.ActiveCaptionText
+        Button78.ForeColor = SystemColors.ButtonFace
         Button78.Location = New Point(745, 634)
         Button78.Name = "Button78"
         Button78.Size = New Size(70, 60)
@@ -1291,7 +1427,7 @@ Partial Class Form2
         Button79.BackColor = Color.Crimson
         Button79.Cursor = Cursors.Hand
         Button79.Font = New Font("Lucida Sans Unicode", 12F, FontStyle.Bold)
-        Button79.ForeColor = SystemColors.ActiveCaptionText
+        Button79.ForeColor = SystemColors.ButtonFace
         Button79.Location = New Point(821, 634)
         Button79.Name = "Button79"
         Button79.Size = New Size(70, 60)
@@ -1304,7 +1440,7 @@ Partial Class Form2
         Button80.BackColor = Color.Crimson
         Button80.Cursor = Cursors.Hand
         Button80.Font = New Font("Lucida Sans Unicode", 12F, FontStyle.Bold)
-        Button80.ForeColor = SystemColors.ActiveCaptionText
+        Button80.ForeColor = SystemColors.ButtonFace
         Button80.Location = New Point(897, 635)
         Button80.Name = "Button80"
         Button80.Size = New Size(70, 60)
@@ -1317,7 +1453,7 @@ Partial Class Form2
         Button81.BackColor = Color.OliveDrab
         Button81.Cursor = Cursors.Hand
         Button81.Font = New Font("Lucida Sans Unicode", 12F, FontStyle.Bold)
-        Button81.ForeColor = SystemColors.ActiveCaptionText
+        Button81.ForeColor = SystemColors.ButtonHighlight
         Button81.Location = New Point(976, 635)
         Button81.Name = "Button81"
         Button81.Size = New Size(70, 60)
@@ -1330,7 +1466,7 @@ Partial Class Form2
         Button74.BackColor = Color.Crimson
         Button74.Cursor = Cursors.Hand
         Button74.Font = New Font("Lucida Sans Unicode", 12F, FontStyle.Bold)
-        Button74.ForeColor = SystemColors.ActiveCaptionText
+        Button74.ForeColor = SystemColors.ButtonFace
         Button74.Location = New Point(441, 634)
         Button74.Name = "Button74"
         Button74.Size = New Size(70, 60)
@@ -1343,7 +1479,7 @@ Partial Class Form2
         Button75.BackColor = Color.Crimson
         Button75.Cursor = Cursors.Hand
         Button75.Font = New Font("Lucida Sans Unicode", 12F, FontStyle.Bold)
-        Button75.ForeColor = SystemColors.ActiveCaptionText
+        Button75.ForeColor = SystemColors.ButtonFace
         Button75.Location = New Point(517, 634)
         Button75.Name = "Button75"
         Button75.Size = New Size(70, 60)
@@ -1356,7 +1492,7 @@ Partial Class Form2
         Button76.BackColor = Color.Crimson
         Button76.Cursor = Cursors.Hand
         Button76.Font = New Font("Lucida Sans Unicode", 12F, FontStyle.Bold)
-        Button76.ForeColor = SystemColors.ActiveCaptionText
+        Button76.ForeColor = SystemColors.ButtonFace
         Button76.Location = New Point(593, 635)
         Button76.Name = "Button76"
         Button76.Size = New Size(70, 60)
@@ -1366,9 +1502,10 @@ Partial Class Form2
         ' 
         ' Button71
         ' 
-        Button71.BackColor = Color.DarkSeaGreen
+        Button71.BackColor = Color.Crimson
         Button71.Cursor = Cursors.Hand
         Button71.Font = New Font("Lucida Sans Unicode", 8.25F, FontStyle.Bold)
+        Button71.ForeColor = SystemColors.ButtonHighlight
         Button71.Location = New Point(1353, 787)
         Button71.Name = "Button71"
         Button71.Size = New Size(70, 60)
@@ -1381,7 +1518,7 @@ Partial Class Form2
         Button72.BackColor = Color.Crimson
         Button72.Cursor = Cursors.Hand
         Button72.Font = New Font("Lucida Sans Unicode", 12F, FontStyle.Bold)
-        Button72.ForeColor = SystemColors.ActiveCaptionText
+        Button72.ForeColor = SystemColors.ButtonFace
         Button72.Location = New Point(289, 634)
         Button72.Name = "Button72"
         Button72.Size = New Size(70, 60)
@@ -1394,7 +1531,7 @@ Partial Class Form2
         Button73.BackColor = Color.Crimson
         Button73.Cursor = Cursors.Hand
         Button73.Font = New Font("Lucida Sans Unicode", 12F, FontStyle.Bold)
-        Button73.ForeColor = SystemColors.ActiveCaptionText
+        Button73.ForeColor = SystemColors.ButtonFace
         Button73.Location = New Point(365, 635)
         Button73.Name = "Button73"
         Button73.Size = New Size(70, 60)
@@ -1404,9 +1541,10 @@ Partial Class Form2
         ' 
         ' Button63
         ' 
-        Button63.BackColor = Color.DarkSeaGreen
+        Button63.BackColor = Color.MediumBlue
         Button63.Cursor = Cursors.Hand
         Button63.Font = New Font("Lucida Sans Unicode", 8.25F, FontStyle.Bold)
+        Button63.ForeColor = SystemColors.ButtonHighlight
         Button63.Location = New Point(745, 787)
         Button63.Name = "Button63"
         Button63.Size = New Size(70, 60)
@@ -1416,9 +1554,10 @@ Partial Class Form2
         ' 
         ' Button64
         ' 
-        Button64.BackColor = Color.DarkSeaGreen
+        Button64.BackColor = Color.MediumBlue
         Button64.Cursor = Cursors.Hand
         Button64.Font = New Font("Lucida Sans Unicode", 8.25F, FontStyle.Bold)
+        Button64.ForeColor = SystemColors.ButtonHighlight
         Button64.Location = New Point(821, 787)
         Button64.Name = "Button64"
         Button64.Size = New Size(70, 60)
@@ -1428,9 +1567,10 @@ Partial Class Form2
         ' 
         ' Button65
         ' 
-        Button65.BackColor = Color.DarkSeaGreen
+        Button65.BackColor = Color.MediumBlue
         Button65.Cursor = Cursors.Hand
         Button65.Font = New Font("Lucida Sans Unicode", 8.25F, FontStyle.Bold)
+        Button65.ForeColor = SystemColors.ButtonHighlight
         Button65.Location = New Point(897, 787)
         Button65.Name = "Button65"
         Button65.Size = New Size(70, 60)
@@ -1440,9 +1580,10 @@ Partial Class Form2
         ' 
         ' Button66
         ' 
-        Button66.BackColor = Color.DarkSeaGreen
+        Button66.BackColor = Color.MediumBlue
         Button66.Cursor = Cursors.Hand
         Button66.Font = New Font("Lucida Sans Unicode", 8.25F, FontStyle.Bold)
+        Button66.ForeColor = SystemColors.ButtonHighlight
         Button66.Location = New Point(973, 787)
         Button66.Name = "Button66"
         Button66.Size = New Size(70, 60)
@@ -1452,9 +1593,10 @@ Partial Class Form2
         ' 
         ' Button67
         ' 
-        Button67.BackColor = Color.DarkSeaGreen
+        Button67.BackColor = Color.MediumBlue
         Button67.Cursor = Cursors.Hand
         Button67.Font = New Font("Lucida Sans Unicode", 8.25F, FontStyle.Bold)
+        Button67.ForeColor = SystemColors.ButtonHighlight
         Button67.Location = New Point(1049, 787)
         Button67.Name = "Button67"
         Button67.Size = New Size(70, 60)
@@ -1464,9 +1606,10 @@ Partial Class Form2
         ' 
         ' Button68
         ' 
-        Button68.BackColor = Color.DarkSeaGreen
+        Button68.BackColor = Color.MediumBlue
         Button68.Cursor = Cursors.Hand
         Button68.Font = New Font("Lucida Sans Unicode", 8.25F, FontStyle.Bold)
+        Button68.ForeColor = SystemColors.ButtonHighlight
         Button68.Location = New Point(1125, 787)
         Button68.Name = "Button68"
         Button68.Size = New Size(70, 60)
@@ -1476,9 +1619,10 @@ Partial Class Form2
         ' 
         ' Button69
         ' 
-        Button69.BackColor = Color.DarkSeaGreen
+        Button69.BackColor = Color.MediumBlue
         Button69.Cursor = Cursors.Hand
         Button69.Font = New Font("Lucida Sans Unicode", 8.25F, FontStyle.Bold)
+        Button69.ForeColor = SystemColors.ButtonHighlight
         Button69.Location = New Point(1200, 787)
         Button69.Name = "Button69"
         Button69.Size = New Size(70, 60)
@@ -1488,9 +1632,10 @@ Partial Class Form2
         ' 
         ' Button70
         ' 
-        Button70.BackColor = Color.DarkSeaGreen
+        Button70.BackColor = Color.MediumBlue
         Button70.Cursor = Cursors.Hand
         Button70.Font = New Font("Lucida Sans Unicode", 8.25F, FontStyle.Bold)
+        Button70.ForeColor = SystemColors.ButtonHighlight
         Button70.Location = New Point(1276, 787)
         Button70.Name = "Button70"
         Button70.Size = New Size(70, 60)
@@ -1500,45 +1645,49 @@ Partial Class Form2
         ' 
         ' Button59
         ' 
-        Button59.BackColor = Color.DarkSeaGreen
+        Button59.BackColor = Color.MediumBlue
         Button59.Cursor = Cursors.Hand
         Button59.Font = New Font("Lucida Sans Unicode", 8.25F, FontStyle.Bold)
+        Button59.ForeColor = SystemColors.ButtonHighlight
         Button59.Location = New Point(441, 787)
         Button59.Name = "Button59"
         Button59.Size = New Size(70, 60)
         Button59.TabIndex = 380
-        Button59.Text = "Pm"
+        Button59.Text = "Pr"
         Button59.UseVisualStyleBackColor = False
         ' 
         ' Button60
         ' 
-        Button60.BackColor = Color.DarkSeaGreen
+        Button60.BackColor = Color.MediumBlue
         Button60.Cursor = Cursors.Hand
         Button60.Font = New Font("Lucida Sans Unicode", 8.25F, FontStyle.Bold)
+        Button60.ForeColor = SystemColors.ButtonHighlight
         Button60.Location = New Point(517, 787)
         Button60.Name = "Button60"
         Button60.Size = New Size(70, 60)
         Button60.TabIndex = 379
-        Button60.Text = "Pr"
+        Button60.Text = "Nd"
         Button60.UseVisualStyleBackColor = False
         ' 
         ' Button61
         ' 
-        Button61.BackColor = Color.DarkSeaGreen
+        Button61.BackColor = Color.MediumBlue
         Button61.Cursor = Cursors.Hand
         Button61.Font = New Font("Lucida Sans Unicode", 8.25F, FontStyle.Bold)
+        Button61.ForeColor = SystemColors.ButtonHighlight
         Button61.Location = New Point(593, 787)
         Button61.Name = "Button61"
         Button61.Size = New Size(70, 60)
         Button61.TabIndex = 378
-        Button61.Text = "Nd"
+        Button61.Text = "Pm"
         Button61.UseVisualStyleBackColor = False
         ' 
         ' Button62
         ' 
-        Button62.BackColor = Color.DarkSeaGreen
+        Button62.BackColor = Color.MediumBlue
         Button62.Cursor = Cursors.Hand
         Button62.Font = New Font("Lucida Sans Unicode", 8.25F, FontStyle.Bold)
+        Button62.ForeColor = SystemColors.ButtonHighlight
         Button62.Location = New Point(669, 787)
         Button62.Name = "Button62"
         Button62.Size = New Size(70, 60)
@@ -1548,9 +1697,10 @@ Partial Class Form2
         ' 
         ' Button58
         ' 
-        Button58.BackColor = Color.DarkSeaGreen
+        Button58.BackColor = Color.MediumBlue
         Button58.Cursor = Cursors.Hand
         Button58.Font = New Font("Lucida Sans Unicode", 8.25F, FontStyle.Bold)
+        Button58.ForeColor = SystemColors.ButtonHighlight
         Button58.Location = New Point(365, 787)
         Button58.Name = "Button58"
         Button58.Size = New Size(70, 60)
@@ -1563,7 +1713,7 @@ Partial Class Form2
         Button47.BackColor = Color.Crimson
         Button47.Cursor = Cursors.Hand
         Button47.Font = New Font("Lucida Sans Unicode", 12F, FontStyle.Bold)
-        Button47.ForeColor = SystemColors.ActiveCaptionText
+        Button47.ForeColor = SystemColors.ButtonFace
         Button47.Location = New Point(821, 569)
         Button47.Name = "Button47"
         Button47.Size = New Size(70, 60)
@@ -1576,7 +1726,7 @@ Partial Class Form2
         Button48.BackColor = Color.Crimson
         Button48.Cursor = Cursors.Hand
         Button48.Font = New Font("Lucida Sans Unicode", 12F, FontStyle.Bold)
-        Button48.ForeColor = SystemColors.ActiveCaptionText
+        Button48.ForeColor = SystemColors.ButtonFace
         Button48.Location = New Point(897, 569)
         Button48.Name = "Button48"
         Button48.Size = New Size(70, 60)
@@ -1589,7 +1739,7 @@ Partial Class Form2
         Button49.BackColor = Color.OliveDrab
         Button49.Cursor = Cursors.Hand
         Button49.Font = New Font("Lucida Sans Unicode", 12F, FontStyle.Bold)
-        Button49.ForeColor = SystemColors.ActiveCaptionText
+        Button49.ForeColor = SystemColors.ButtonHighlight
         Button49.Location = New Point(976, 568)
         Button49.Name = "Button49"
         Button49.Size = New Size(70, 60)
@@ -1602,8 +1752,8 @@ Partial Class Form2
         Button50.BackColor = Color.OliveDrab
         Button50.Cursor = Cursors.Hand
         Button50.Font = New Font("Lucida Sans Unicode", 12F, FontStyle.Bold)
-        Button50.ForeColor = SystemColors.ActiveCaptionText
-        Button50.Location = New Point(1052, 569)
+        Button50.ForeColor = SystemColors.ButtonHighlight
+        Button50.Location = New Point(1052, 568)
         Button50.Name = "Button50"
         Button50.Size = New Size(70, 60)
         Button50.TabIndex = 372
@@ -1615,8 +1765,8 @@ Partial Class Form2
         Button51.BackColor = Color.OliveDrab
         Button51.Cursor = Cursors.Hand
         Button51.Font = New Font("Lucida Sans Unicode", 12F, FontStyle.Bold)
-        Button51.ForeColor = SystemColors.ActiveCaptionText
-        Button51.Location = New Point(1125, 569)
+        Button51.ForeColor = SystemColors.ButtonHighlight
+        Button51.Location = New Point(1125, 568)
         Button51.Name = "Button51"
         Button51.Size = New Size(70, 60)
         Button51.TabIndex = 371
@@ -1628,8 +1778,8 @@ Partial Class Form2
         Button52.BackColor = Color.OliveDrab
         Button52.Cursor = Cursors.Hand
         Button52.Font = New Font("Lucida Sans Unicode", 12F, FontStyle.Bold)
-        Button52.ForeColor = SystemColors.ActiveCaptionText
-        Button52.Location = New Point(1201, 568)
+        Button52.ForeColor = SystemColors.ButtonHighlight
+        Button52.Location = New Point(1201, 569)
         Button52.Name = "Button52"
         Button52.Size = New Size(70, 60)
         Button52.TabIndex = 370
@@ -1641,8 +1791,8 @@ Partial Class Form2
         Button53.BackColor = Color.OliveDrab
         Button53.Cursor = Cursors.Hand
         Button53.Font = New Font("Lucida Sans Unicode", 12F, FontStyle.Bold)
-        Button53.ForeColor = SystemColors.ActiveCaptionText
-        Button53.Location = New Point(1276, 568)
+        Button53.ForeColor = SystemColors.ButtonHighlight
+        Button53.Location = New Point(1276, 570)
         Button53.Name = "Button53"
         Button53.Size = New Size(70, 60)
         Button53.TabIndex = 369
@@ -1667,7 +1817,7 @@ Partial Class Form2
         btnCs55.BackColor = Color.DarkCyan
         btnCs55.Cursor = Cursors.Hand
         btnCs55.Font = New Font("Lucida Sans Unicode", 12F, FontStyle.Bold)
-        btnCs55.ForeColor = SystemColors.ActiveCaptionText
+        btnCs55.ForeColor = SystemColors.ButtonHighlight
         btnCs55.Location = New Point(61, 634)
         btnCs55.Name = "btnCs55"
         btnCs55.Size = New Size(70, 60)
@@ -1680,7 +1830,7 @@ Partial Class Form2
         btnBa56.BackColor = Color.DarkCyan
         btnBa56.Cursor = Cursors.Hand
         btnBa56.Font = New Font("Lucida Sans Unicode", 12F, FontStyle.Bold)
-        btnBa56.ForeColor = SystemColors.ActiveCaptionText
+        btnBa56.ForeColor = SystemColors.ButtonHighlight
         btnBa56.Location = New Point(137, 634)
         btnBa56.Name = "btnBa56"
         btnBa56.Size = New Size(70, 60)
@@ -1693,8 +1843,8 @@ Partial Class Form2
         Button33.BackColor = Color.OliveDrab
         Button33.Cursor = Cursors.Hand
         Button33.Font = New Font("Lucida Sans Unicode", 12F, FontStyle.Bold)
-        Button33.ForeColor = SystemColors.ActiveCaptionText
-        Button33.Location = New Point(1124, 505)
+        Button33.ForeColor = SystemColors.ButtonHighlight
+        Button33.Location = New Point(1125, 505)
         Button33.Name = "Button33"
         Button33.Size = New Size(70, 60)
         Button33.TabIndex = 365
@@ -1706,8 +1856,8 @@ Partial Class Form2
         Button34.BackColor = Color.OliveDrab
         Button34.Cursor = Cursors.Hand
         Button34.Font = New Font("Lucida Sans Unicode", 12F, FontStyle.Bold)
-        Button34.ForeColor = SystemColors.ActiveCaptionText
-        Button34.Location = New Point(1200, 505)
+        Button34.ForeColor = SystemColors.ButtonHighlight
+        Button34.Location = New Point(1201, 504)
         Button34.Name = "Button34"
         Button34.Size = New Size(70, 60)
         Button34.TabIndex = 364
@@ -1719,8 +1869,8 @@ Partial Class Form2
         Button35.BackColor = Color.OliveDrab
         Button35.Cursor = Cursors.Hand
         Button35.Font = New Font("Lucida Sans Unicode", 12F, FontStyle.Bold)
-        Button35.ForeColor = SystemColors.ActiveCaptionText
-        Button35.Location = New Point(1276, 505)
+        Button35.ForeColor = SystemColors.ButtonHighlight
+        Button35.Location = New Point(1277, 504)
         Button35.Name = "Button35"
         Button35.Size = New Size(70, 60)
         Button35.TabIndex = 363
@@ -1745,7 +1895,7 @@ Partial Class Form2
         btnRb37.BackColor = Color.DarkCyan
         btnRb37.Cursor = Cursors.Hand
         btnRb37.Font = New Font("Lucida Sans Unicode", 12F, FontStyle.Bold)
-        btnRb37.ForeColor = SystemColors.ActiveCaptionText
+        btnRb37.ForeColor = SystemColors.ButtonHighlight
         btnRb37.Location = New Point(61, 568)
         btnRb37.Name = "btnRb37"
         btnRb37.Size = New Size(70, 60)
@@ -1758,7 +1908,7 @@ Partial Class Form2
         btnSr38.BackColor = Color.DarkCyan
         btnSr38.Cursor = Cursors.Hand
         btnSr38.Font = New Font("Lucida Sans Unicode", 12F, FontStyle.Bold)
-        btnSr38.ForeColor = SystemColors.ActiveCaptionText
+        btnSr38.ForeColor = SystemColors.ButtonHighlight
         btnSr38.Location = New Point(137, 568)
         btnSr38.Name = "btnSr38"
         btnSr38.Size = New Size(70, 60)
@@ -1771,7 +1921,7 @@ Partial Class Form2
         Button39.BackColor = Color.Crimson
         Button39.Cursor = Cursors.Hand
         Button39.Font = New Font("Lucida Sans Unicode", 12F, FontStyle.Bold)
-        Button39.ForeColor = SystemColors.ActiveCaptionText
+        Button39.ForeColor = SystemColors.ButtonHighlight
         Button39.Location = New Point(213, 568)
         Button39.Name = "Button39"
         Button39.Size = New Size(70, 60)
@@ -1784,7 +1934,7 @@ Partial Class Form2
         Button40.BackColor = Color.Crimson
         Button40.Cursor = Cursors.Hand
         Button40.Font = New Font("Lucida Sans Unicode", 12F, FontStyle.Bold)
-        Button40.ForeColor = SystemColors.ActiveCaptionText
+        Button40.ForeColor = SystemColors.ButtonFace
         Button40.Location = New Point(288, 569)
         Button40.Name = "Button40"
         Button40.Size = New Size(70, 60)
@@ -1797,7 +1947,7 @@ Partial Class Form2
         Button41.BackColor = Color.Crimson
         Button41.Cursor = Cursors.Hand
         Button41.Font = New Font("Lucida Sans Unicode", 12F, FontStyle.Bold)
-        Button41.ForeColor = SystemColors.ActiveCaptionText
+        Button41.ForeColor = SystemColors.ButtonFace
         Button41.Location = New Point(365, 569)
         Button41.Name = "Button41"
         Button41.Size = New Size(70, 60)
@@ -1810,7 +1960,7 @@ Partial Class Form2
         Button42.BackColor = Color.Crimson
         Button42.Cursor = Cursors.Hand
         Button42.Font = New Font("Lucida Sans Unicode", 12F, FontStyle.Bold)
-        Button42.ForeColor = SystemColors.ActiveCaptionText
+        Button42.ForeColor = SystemColors.ButtonFace
         Button42.Location = New Point(441, 568)
         Button42.Name = "Button42"
         Button42.Size = New Size(70, 60)
@@ -1823,7 +1973,7 @@ Partial Class Form2
         Button43.BackColor = Color.Crimson
         Button43.Cursor = Cursors.Hand
         Button43.Font = New Font("Lucida Sans Unicode", 12F, FontStyle.Bold)
-        Button43.ForeColor = SystemColors.ActiveCaptionText
+        Button43.ForeColor = SystemColors.ButtonFace
         Button43.Location = New Point(517, 569)
         Button43.Name = "Button43"
         Button43.Size = New Size(70, 60)
@@ -1836,7 +1986,7 @@ Partial Class Form2
         Button44.BackColor = Color.Crimson
         Button44.Cursor = Cursors.Hand
         Button44.Font = New Font("Lucida Sans Unicode", 12F, FontStyle.Bold)
-        Button44.ForeColor = SystemColors.ActiveCaptionText
+        Button44.ForeColor = SystemColors.ButtonFace
         Button44.Location = New Point(593, 568)
         Button44.Name = "Button44"
         Button44.Size = New Size(70, 60)
@@ -1849,7 +1999,7 @@ Partial Class Form2
         Button45.BackColor = Color.Crimson
         Button45.Cursor = Cursors.Hand
         Button45.Font = New Font("Lucida Sans Unicode", 12F, FontStyle.Bold)
-        Button45.ForeColor = SystemColors.ActiveCaptionText
+        Button45.ForeColor = SystemColors.ButtonFace
         Button45.Location = New Point(669, 569)
         Button45.Name = "Button45"
         Button45.Size = New Size(70, 60)
@@ -1862,7 +2012,7 @@ Partial Class Form2
         Button46.BackColor = Color.Crimson
         Button46.Cursor = Cursors.Hand
         Button46.Font = New Font("Lucida Sans Unicode", 12F, FontStyle.Bold)
-        Button46.ForeColor = SystemColors.ActiveCaptionText
+        Button46.ForeColor = SystemColors.ButtonFace
         Button46.Location = New Point(745, 568)
         Button46.Name = "Button46"
         Button46.Size = New Size(70, 60)
@@ -1875,8 +2025,8 @@ Partial Class Form2
         Button31.BackColor = Color.OliveDrab
         Button31.Cursor = Cursors.Hand
         Button31.Font = New Font("Lucida Sans Unicode", 12F, FontStyle.Bold)
-        Button31.ForeColor = SystemColors.ActiveCaptionText
-        Button31.Location = New Point(976, 502)
+        Button31.ForeColor = SystemColors.ButtonHighlight
+        Button31.Location = New Point(976, 505)
         Button31.Name = "Button31"
         Button31.Size = New Size(70, 60)
         Button31.TabIndex = 351
@@ -1888,7 +2038,7 @@ Partial Class Form2
         Button32.BackColor = Color.OliveDrab
         Button32.Cursor = Cursors.Hand
         Button32.Font = New Font("Lucida Sans Unicode", 12F, FontStyle.Bold)
-        Button32.ForeColor = SystemColors.ActiveCaptionText
+        Button32.ForeColor = SystemColors.ButtonHighlight
         Button32.Location = New Point(1052, 505)
         Button32.Name = "Button32"
         Button32.Size = New Size(70, 60)
@@ -1901,7 +2051,7 @@ Partial Class Form2
         Button26.BackColor = Color.Crimson
         Button26.Cursor = Cursors.Hand
         Button26.Font = New Font("Lucida Sans Unicode", 12F, FontStyle.Bold)
-        Button26.ForeColor = SystemColors.ActiveCaptionText
+        Button26.ForeColor = SystemColors.ButtonFace
         Button26.Location = New Point(593, 504)
         Button26.Name = "Button26"
         Button26.Size = New Size(70, 60)
@@ -1914,7 +2064,7 @@ Partial Class Form2
         Button27.BackColor = Color.Crimson
         Button27.Cursor = Cursors.Hand
         Button27.Font = New Font("Lucida Sans Unicode", 12F, FontStyle.Bold)
-        Button27.ForeColor = SystemColors.ActiveCaptionText
+        Button27.ForeColor = SystemColors.ButtonFace
         Button27.Location = New Point(669, 504)
         Button27.Name = "Button27"
         Button27.Size = New Size(70, 60)
@@ -1927,7 +2077,7 @@ Partial Class Form2
         Button28.BackColor = Color.Crimson
         Button28.Cursor = Cursors.Hand
         Button28.Font = New Font("Lucida Sans Unicode", 12F, FontStyle.Bold)
-        Button28.ForeColor = SystemColors.ActiveCaptionText
+        Button28.ForeColor = SystemColors.ButtonFace
         Button28.Location = New Point(745, 504)
         Button28.Name = "Button28"
         Button28.Size = New Size(70, 60)
@@ -1940,7 +2090,7 @@ Partial Class Form2
         Button29.BackColor = Color.Crimson
         Button29.Cursor = Cursors.Hand
         Button29.Font = New Font("Lucida Sans Unicode", 12F, FontStyle.Bold)
-        Button29.ForeColor = SystemColors.ActiveCaptionText
+        Button29.ForeColor = SystemColors.ButtonFace
         Button29.Location = New Point(821, 504)
         Button29.Name = "Button29"
         Button29.Size = New Size(70, 60)
@@ -1953,7 +2103,7 @@ Partial Class Form2
         Button30.BackColor = Color.Crimson
         Button30.Cursor = Cursors.Hand
         Button30.Font = New Font("Lucida Sans Unicode", 12F, FontStyle.Bold)
-        Button30.ForeColor = SystemColors.ActiveCaptionText
+        Button30.ForeColor = SystemColors.ButtonFace
         Button30.Location = New Point(897, 504)
         Button30.Name = "Button30"
         Button30.Size = New Size(70, 60)
@@ -1966,7 +2116,7 @@ Partial Class Form2
         btnCa20.BackColor = Color.DarkCyan
         btnCa20.Cursor = Cursors.Hand
         btnCa20.Font = New Font("Lucida Sans Unicode", 12F, FontStyle.Bold)
-        btnCa20.ForeColor = SystemColors.ActiveCaptionText
+        btnCa20.ForeColor = SystemColors.ButtonHighlight
         btnCa20.Location = New Point(139, 500)
         btnCa20.Name = "btnCa20"
         btnCa20.Size = New Size(70, 60)
@@ -1979,7 +2129,7 @@ Partial Class Form2
         Button21.BackColor = Color.Crimson
         Button21.Cursor = Cursors.Hand
         Button21.Font = New Font("Lucida Sans Unicode", 12F, FontStyle.Bold)
-        Button21.ForeColor = SystemColors.ActiveCaptionText
+        Button21.ForeColor = SystemColors.ButtonHighlight
         Button21.Location = New Point(213, 504)
         Button21.Name = "Button21"
         Button21.Size = New Size(70, 60)
@@ -1992,7 +2142,7 @@ Partial Class Form2
         Button22.BackColor = Color.Crimson
         Button22.Cursor = Cursors.Hand
         Button22.Font = New Font("Lucida Sans Unicode", 12F, FontStyle.Bold)
-        Button22.ForeColor = SystemColors.ActiveCaptionText
+        Button22.ForeColor = SystemColors.ButtonFace
         Button22.Location = New Point(288, 504)
         Button22.Name = "Button22"
         Button22.Size = New Size(70, 60)
@@ -2005,7 +2155,7 @@ Partial Class Form2
         Button23.BackColor = Color.Crimson
         Button23.Cursor = Cursors.Hand
         Button23.Font = New Font("Lucida Sans Unicode", 12F, FontStyle.Bold)
-        Button23.ForeColor = SystemColors.ActiveCaptionText
+        Button23.ForeColor = SystemColors.ButtonFace
         Button23.Location = New Point(365, 504)
         Button23.Name = "Button23"
         Button23.Size = New Size(70, 60)
@@ -2018,7 +2168,7 @@ Partial Class Form2
         Button24.BackColor = Color.Crimson
         Button24.Cursor = Cursors.Hand
         Button24.Font = New Font("Lucida Sans Unicode", 12F, FontStyle.Bold)
-        Button24.ForeColor = SystemColors.ActiveCaptionText
+        Button24.ForeColor = SystemColors.ButtonFace
         Button24.Location = New Point(441, 504)
         Button24.Name = "Button24"
         Button24.Size = New Size(70, 60)
@@ -2031,7 +2181,7 @@ Partial Class Form2
         Button25.BackColor = Color.Crimson
         Button25.Cursor = Cursors.Hand
         Button25.Font = New Font("Lucida Sans Unicode", 12F, FontStyle.Bold)
-        Button25.ForeColor = SystemColors.ActiveCaptionText
+        Button25.ForeColor = SystemColors.ButtonFace
         Button25.Location = New Point(517, 504)
         Button25.Name = "Button25"
         Button25.Size = New Size(70, 60)
@@ -2044,7 +2194,7 @@ Partial Class Form2
         btnK19.BackColor = Color.DarkCyan
         btnK19.Cursor = Cursors.Hand
         btnK19.Font = New Font("Lucida Sans Unicode", 12F, FontStyle.Bold)
-        btnK19.ForeColor = SystemColors.ActiveCaptionText
+        btnK19.ForeColor = SystemColors.ButtonHighlight
         btnK19.Location = New Point(61, 502)
         btnK19.Name = "btnK19"
         btnK19.Size = New Size(70, 60)
@@ -2070,7 +2220,7 @@ Partial Class Form2
         btmMg12.BackColor = Color.DarkCyan
         btmMg12.Cursor = Cursors.Hand
         btmMg12.Font = New Font("Lucida Sans Unicode", 12F, FontStyle.Bold)
-        btmMg12.ForeColor = SystemColors.ActiveCaptionText
+        btmMg12.ForeColor = SystemColors.ButtonHighlight
         btmMg12.Location = New Point(139, 435)
         btmMg12.Name = "btmMg12"
         btmMg12.Size = New Size(70, 60)
@@ -2083,7 +2233,7 @@ Partial Class Form2
         Button13.BackColor = Color.OliveDrab
         Button13.Cursor = Cursors.Hand
         Button13.Font = New Font("Lucida Sans Unicode", 12F, FontStyle.Bold)
-        Button13.ForeColor = SystemColors.ActiveCaptionText
+        Button13.ForeColor = SystemColors.ButtonHighlight
         Button13.Location = New Point(976, 439)
         Button13.Name = "Button13"
         Button13.Size = New Size(70, 60)
@@ -2096,7 +2246,7 @@ Partial Class Form2
         Button14.BackColor = Color.OliveDrab
         Button14.Cursor = Cursors.Hand
         Button14.Font = New Font("Lucida Sans Unicode", 12F, FontStyle.Bold)
-        Button14.ForeColor = SystemColors.ActiveCaptionText
+        Button14.ForeColor = SystemColors.ButtonHighlight
         Button14.Location = New Point(1052, 439)
         Button14.Name = "Button14"
         Button14.Size = New Size(70, 60)
@@ -2109,7 +2259,7 @@ Partial Class Form2
         Button15.BackColor = Color.OliveDrab
         Button15.Cursor = Cursors.Hand
         Button15.Font = New Font("Lucida Sans Unicode", 12F, FontStyle.Bold)
-        Button15.ForeColor = SystemColors.ActiveCaptionText
+        Button15.ForeColor = SystemColors.ButtonHighlight
         Button15.Location = New Point(1125, 439)
         Button15.Name = "Button15"
         Button15.Size = New Size(70, 60)
@@ -2122,8 +2272,8 @@ Partial Class Form2
         Button16.BackColor = Color.OliveDrab
         Button16.Cursor = Cursors.Hand
         Button16.Font = New Font("Lucida Sans Unicode", 12F, FontStyle.Bold)
-        Button16.ForeColor = SystemColors.ActiveCaptionText
-        Button16.Location = New Point(1200, 439)
+        Button16.ForeColor = SystemColors.ButtonHighlight
+        Button16.Location = New Point(1201, 438)
         Button16.Name = "Button16"
         Button16.Size = New Size(70, 60)
         Button16.TabIndex = 332
@@ -2135,8 +2285,8 @@ Partial Class Form2
         Button17.BackColor = Color.OliveDrab
         Button17.Cursor = Cursors.Hand
         Button17.Font = New Font("Lucida Sans Unicode", 12F, FontStyle.Bold)
-        Button17.ForeColor = SystemColors.ActiveCaptionText
-        Button17.Location = New Point(1276, 439)
+        Button17.ForeColor = SystemColors.ButtonHighlight
+        Button17.Location = New Point(1276, 436)
         Button17.Name = "Button17"
         Button17.Size = New Size(70, 60)
         Button17.TabIndex = 331
@@ -2148,7 +2298,7 @@ Partial Class Form2
         btnNa11.BackColor = Color.DarkCyan
         btnNa11.Cursor = Cursors.Hand
         btnNa11.Font = New Font("Lucida Sans Unicode", 12F, FontStyle.Bold)
-        btnNa11.ForeColor = SystemColors.ActiveCaptionText
+        btnNa11.ForeColor = SystemColors.ButtonHighlight
         btnNa11.Location = New Point(61, 436)
         btnNa11.Name = "btnNa11"
         btnNa11.Size = New Size(70, 60)
@@ -2174,8 +2324,8 @@ Partial Class Form2
         Button9.BackColor = Color.OliveDrab
         Button9.Cursor = Cursors.Hand
         Button9.Font = New Font("Lucida Sans Unicode", 12F, FontStyle.Bold)
-        Button9.ForeColor = SystemColors.ActiveCaptionText
-        Button9.Location = New Point(1278, 373)
+        Button9.ForeColor = SystemColors.ButtonHighlight
+        Button9.Location = New Point(1277, 372)
         Button9.Name = "Button9"
         Button9.Size = New Size(70, 60)
         Button9.TabIndex = 328
@@ -2187,8 +2337,8 @@ Partial Class Form2
         Button8.BackColor = Color.OliveDrab
         Button8.Cursor = Cursors.Hand
         Button8.Font = New Font("Lucida Sans Unicode", 12F, FontStyle.Bold)
-        Button8.ForeColor = SystemColors.ActiveCaptionText
-        Button8.Location = New Point(1201, 373)
+        Button8.ForeColor = SystemColors.ButtonHighlight
+        Button8.Location = New Point(1201, 372)
         Button8.Name = "Button8"
         Button8.Size = New Size(70, 60)
         Button8.TabIndex = 327
@@ -2200,7 +2350,7 @@ Partial Class Form2
         Button7.BackColor = Color.OliveDrab
         Button7.Cursor = Cursors.Hand
         Button7.Font = New Font("Lucida Sans Unicode", 12F, FontStyle.Bold)
-        Button7.ForeColor = SystemColors.ActiveCaptionText
+        Button7.ForeColor = SystemColors.ButtonHighlight
         Button7.Location = New Point(1125, 373)
         Button7.Name = "Button7"
         Button7.Size = New Size(70, 60)
@@ -2213,7 +2363,7 @@ Partial Class Form2
         Button6.BackColor = Color.OliveDrab
         Button6.Cursor = Cursors.Hand
         Button6.Font = New Font("Lucida Sans Unicode", 12F, FontStyle.Bold)
-        Button6.ForeColor = SystemColors.ActiveCaptionText
+        Button6.ForeColor = SystemColors.ButtonHighlight
         Button6.Location = New Point(1052, 373)
         Button6.Name = "Button6"
         Button6.Size = New Size(70, 60)
@@ -2226,8 +2376,8 @@ Partial Class Form2
         Button5.BackColor = Color.OliveDrab
         Button5.Cursor = Cursors.Hand
         Button5.Font = New Font("Lucida Sans Unicode", 12F, FontStyle.Bold)
-        Button5.ForeColor = SystemColors.ActiveCaptionText
-        Button5.Location = New Point(979, 374)
+        Button5.ForeColor = SystemColors.ButtonHighlight
+        Button5.Location = New Point(976, 374)
         Button5.Name = "Button5"
         Button5.Size = New Size(70, 60)
         Button5.TabIndex = 324
@@ -2239,7 +2389,7 @@ Partial Class Form2
         btnBe4.BackColor = Color.DarkCyan
         btnBe4.Cursor = Cursors.Hand
         btnBe4.Font = New Font("Lucida Sans Unicode", 12F, FontStyle.Bold)
-        btnBe4.ForeColor = SystemColors.ActiveCaptionText
+        btnBe4.ForeColor = SystemColors.ButtonHighlight
         btnBe4.Location = New Point(139, 370)
         btnBe4.Name = "btnBe4"
         btnBe4.Size = New Size(70, 60)
@@ -2252,7 +2402,7 @@ Partial Class Form2
         btnLi3.BackColor = Color.DarkCyan
         btnLi3.Cursor = Cursors.Hand
         btnLi3.Font = New Font("Lucida Sans Unicode", 12F, FontStyle.Bold)
-        btnLi3.ForeColor = SystemColors.ActiveCaptionText
+        btnLi3.ForeColor = SystemColors.ButtonHighlight
         btnLi3.Location = New Point(61, 370)
         btnLi3.Name = "btnLi3"
         btnLi3.Size = New Size(70, 60)
@@ -2262,11 +2412,11 @@ Partial Class Form2
         ' 
         ' Button2
         ' 
-        Button2.BackColor = Color.OliveDrab
+        Button2.BackColor = Color.DarkCyan
         Button2.Cursor = Cursors.Hand
         Button2.Font = New Font("Lucida Sans Unicode", 8.25F, FontStyle.Bold)
         Button2.ForeColor = SystemColors.ButtonHighlight
-        Button2.Location = New Point(1353, 307)
+        Button2.Location = New Point(139, 304)
         Button2.Name = "Button2"
         Button2.Size = New Size(70, 60)
         Button2.TabIndex = 321
@@ -2278,7 +2428,7 @@ Partial Class Form2
         btnH1.BackColor = Color.DarkCyan
         btnH1.Cursor = Cursors.Hand
         btnH1.Font = New Font("Lucida Sans Unicode", 12F, FontStyle.Bold)
-        btnH1.ForeColor = SystemColors.ActiveCaptionText
+        btnH1.ForeColor = SystemColors.ButtonHighlight
         btnH1.Location = New Point(61, 304)
         btnH1.Name = "btnH1"
         btnH1.Size = New Size(70, 60)
@@ -2286,501 +2436,596 @@ Partial Class Form2
         btnH1.Text = "H"
         btnH1.UseVisualStyleBackColor = False
         ' 
-        ' Label26
-        ' 
-        Label26.BackColor = Color.DarkCyan
-        Label26.Location = New Point(600, 247)
-        Label26.Name = "Label26"
-        Label26.Size = New Size(21, 26)
-        Label26.TabIndex = 477
-        ' 
-        ' Label27
-        ' 
-        Label27.BackColor = Color.DarkCyan
-        Label27.Location = New Point(600, 278)
-        Label27.Name = "Label27"
-        Label27.Size = New Size(21, 26)
-        Label27.TabIndex = 478
-        ' 
-        ' Label29
-        ' 
-        Label29.BackColor = Color.DarkCyan
-        Label29.Location = New Point(600, 338)
-        Label29.Name = "Label29"
-        Label29.Size = New Size(21, 26)
-        Label29.TabIndex = 480
-        ' 
-        ' Label31
-        ' 
-        Label31.BackColor = Color.DarkCyan
-        Label31.Location = New Point(600, 308)
-        Label31.Name = "Label31"
-        Label31.Size = New Size(21, 26)
-        Label31.TabIndex = 479
-        ' 
-        ' Label33
-        ' 
-        Label33.BackColor = Color.DarkCyan
-        Label33.Location = New Point(600, 429)
-        Label33.Name = "Label33"
-        Label33.Size = New Size(21, 26)
-        Label33.TabIndex = 483
-        ' 
-        ' Label35
-        ' 
-        Label35.BackColor = Color.DarkCyan
-        Label35.Location = New Point(600, 399)
-        Label35.Name = "Label35"
-        Label35.Size = New Size(21, 26)
-        Label35.TabIndex = 482
-        ' 
-        ' Label36
-        ' 
-        Label36.BackColor = Color.DarkCyan
-        Label36.Location = New Point(600, 368)
-        Label36.Name = "Label36"
-        Label36.Size = New Size(21, 26)
-        Label36.TabIndex = 481
-        ' 
-        ' Label37
-        ' 
-        Label37.BackColor = Color.OliveDrab
-        Label37.Location = New Point(669, 390)
-        Label37.Name = "Label37"
-        Label37.Size = New Size(21, 26)
-        Label37.TabIndex = 490
-        ' 
-        ' Label38
-        ' 
-        Label38.BackColor = Color.OliveDrab
-        Label38.Location = New Point(669, 360)
-        Label38.Name = "Label38"
-        Label38.Size = New Size(21, 26)
-        Label38.TabIndex = 489
-        ' 
-        ' Label39
-        ' 
-        Label39.BackColor = Color.OliveDrab
-        Label39.Location = New Point(669, 329)
-        Label39.Name = "Label39"
-        Label39.Size = New Size(21, 26)
-        Label39.TabIndex = 488
-        ' 
-        ' Label40
-        ' 
-        Label40.BackColor = Color.OliveDrab
-        Label40.Location = New Point(669, 299)
-        Label40.Name = "Label40"
-        Label40.Size = New Size(21, 26)
-        Label40.TabIndex = 487
-        ' 
-        ' Label41
-        ' 
-        Label41.BackColor = Color.OliveDrab
-        Label41.Location = New Point(669, 269)
-        Label41.Name = "Label41"
-        Label41.Size = New Size(21, 26)
-        Label41.TabIndex = 486
-        ' 
-        ' Label42
-        ' 
-        Label42.BackColor = Color.OliveDrab
-        Label42.Location = New Point(669, 239)
-        Label42.Name = "Label42"
-        Label42.Size = New Size(21, 26)
-        Label42.TabIndex = 485
-        ' 
-        ' Label43
-        ' 
-        Label43.BackColor = Color.OliveDrab
-        Label43.Location = New Point(669, 208)
-        Label43.Name = "Label43"
-        Label43.Size = New Size(21, 26)
-        Label43.TabIndex = 484
-        ' 
-        ' Label44
-        ' 
-        Label44.BackColor = Color.OliveDrab
-        Label44.Location = New Point(696, 390)
-        Label44.Name = "Label44"
-        Label44.Size = New Size(21, 26)
-        Label44.TabIndex = 497
-        ' 
-        ' Label45
-        ' 
-        Label45.BackColor = Color.OliveDrab
-        Label45.Location = New Point(696, 360)
-        Label45.Name = "Label45"
-        Label45.Size = New Size(21, 26)
-        Label45.TabIndex = 496
-        ' 
-        ' Label46
-        ' 
-        Label46.BackColor = Color.OliveDrab
-        Label46.Location = New Point(696, 329)
-        Label46.Name = "Label46"
-        Label46.Size = New Size(21, 26)
-        Label46.TabIndex = 495
-        ' 
-        ' Label47
-        ' 
-        Label47.BackColor = Color.OliveDrab
-        Label47.Location = New Point(696, 299)
-        Label47.Name = "Label47"
-        Label47.Size = New Size(21, 26)
-        Label47.TabIndex = 494
-        ' 
-        ' Label48
-        ' 
-        Label48.BackColor = Color.OliveDrab
-        Label48.Location = New Point(696, 269)
-        Label48.Name = "Label48"
-        Label48.Size = New Size(21, 26)
-        Label48.TabIndex = 493
-        ' 
-        ' Label49
-        ' 
-        Label49.BackColor = Color.OliveDrab
-        Label49.Location = New Point(696, 239)
-        Label49.Name = "Label49"
-        Label49.Size = New Size(21, 26)
-        Label49.TabIndex = 492
-        ' 
-        ' Label50
-        ' 
-        Label50.BackColor = Color.OliveDrab
-        Label50.Location = New Point(696, 208)
-        Label50.Name = "Label50"
-        Label50.Size = New Size(21, 26)
-        Label50.TabIndex = 491
-        ' 
-        ' Label51
-        ' 
-        Label51.BackColor = Color.OliveDrab
-        Label51.Location = New Point(723, 390)
-        Label51.Name = "Label51"
-        Label51.Size = New Size(21, 26)
-        Label51.TabIndex = 504
-        ' 
-        ' Label52
-        ' 
-        Label52.BackColor = Color.OliveDrab
-        Label52.Location = New Point(723, 360)
-        Label52.Name = "Label52"
-        Label52.Size = New Size(21, 26)
-        Label52.TabIndex = 503
-        ' 
-        ' Label53
-        ' 
-        Label53.BackColor = Color.OliveDrab
-        Label53.Location = New Point(723, 329)
-        Label53.Name = "Label53"
-        Label53.Size = New Size(21, 26)
-        Label53.TabIndex = 502
-        ' 
-        ' Label54
-        ' 
-        Label54.BackColor = Color.OliveDrab
-        Label54.Location = New Point(723, 299)
-        Label54.Name = "Label54"
-        Label54.Size = New Size(21, 26)
-        Label54.TabIndex = 501
-        ' 
-        ' Label55
-        ' 
-        Label55.BackColor = Color.OliveDrab
-        Label55.Location = New Point(723, 269)
-        Label55.Name = "Label55"
-        Label55.Size = New Size(21, 26)
-        Label55.TabIndex = 500
-        ' 
-        ' Label56
-        ' 
-        Label56.BackColor = Color.OliveDrab
-        Label56.Location = New Point(723, 239)
-        Label56.Name = "Label56"
-        Label56.Size = New Size(21, 26)
-        Label56.TabIndex = 499
-        ' 
-        ' Label57
-        ' 
-        Label57.BackColor = Color.OliveDrab
-        Label57.Location = New Point(723, 208)
-        Label57.Name = "Label57"
-        Label57.Size = New Size(21, 26)
-        Label57.TabIndex = 498
-        ' 
-        ' Label58
-        ' 
-        Label58.BackColor = Color.Crimson
-        Label58.Location = New Point(832, 269)
-        Label58.Name = "Label58"
-        Label58.Size = New Size(21, 26)
-        Label58.TabIndex = 513
-        ' 
-        ' Label59
-        ' 
-        Label59.BackColor = Color.Crimson
-        Label59.Location = New Point(832, 239)
-        Label59.Name = "Label59"
-        Label59.Size = New Size(21, 26)
-        Label59.TabIndex = 512
-        ' 
-        ' Label60
-        ' 
-        Label60.BackColor = Color.Crimson
-        Label60.Location = New Point(832, 208)
-        Label60.Name = "Label60"
-        Label60.Size = New Size(21, 26)
-        Label60.TabIndex = 511
-        ' 
-        ' Label61
-        ' 
-        Label61.BackColor = Color.Crimson
-        Label61.Location = New Point(805, 269)
-        Label61.Name = "Label61"
-        Label61.Size = New Size(21, 26)
-        Label61.TabIndex = 510
-        ' 
-        ' Label62
-        ' 
-        Label62.BackColor = Color.Crimson
-        Label62.Location = New Point(805, 239)
-        Label62.Name = "Label62"
-        Label62.Size = New Size(21, 26)
-        Label62.TabIndex = 509
-        ' 
-        ' Label63
-        ' 
-        Label63.BackColor = Color.Crimson
-        Label63.Location = New Point(805, 208)
-        Label63.Name = "Label63"
-        Label63.Size = New Size(21, 26)
-        Label63.TabIndex = 508
-        ' 
-        ' Label64
-        ' 
-        Label64.BackColor = Color.Crimson
-        Label64.Location = New Point(778, 269)
-        Label64.Name = "Label64"
-        Label64.Size = New Size(21, 26)
-        Label64.TabIndex = 507
-        ' 
-        ' Label65
-        ' 
-        Label65.BackColor = Color.Crimson
-        Label65.Location = New Point(778, 239)
-        Label65.Name = "Label65"
-        Label65.Size = New Size(21, 26)
-        Label65.TabIndex = 506
-        ' 
-        ' Label66
-        ' 
-        Label66.BackColor = Color.Crimson
-        Label66.Location = New Point(778, 208)
-        Label66.Name = "Label66"
-        Label66.Size = New Size(21, 26)
-        Label66.TabIndex = 505
-        ' 
-        ' Label70
-        ' 
-        Label70.BackColor = Color.Crimson
-        Label70.Location = New Point(886, 269)
-        Label70.Name = "Label70"
-        Label70.Size = New Size(21, 26)
-        Label70.TabIndex = 519
-        ' 
-        ' Label71
-        ' 
-        Label71.BackColor = Color.Crimson
-        Label71.Location = New Point(886, 239)
-        Label71.Name = "Label71"
-        Label71.Size = New Size(21, 26)
-        Label71.TabIndex = 518
-        ' 
-        ' Label72
-        ' 
-        Label72.BackColor = Color.Crimson
-        Label72.Location = New Point(886, 208)
-        Label72.Name = "Label72"
-        Label72.Size = New Size(21, 26)
-        Label72.TabIndex = 517
-        ' 
-        ' Label73
-        ' 
-        Label73.BackColor = Color.Crimson
-        Label73.Location = New Point(859, 269)
-        Label73.Name = "Label73"
-        Label73.Size = New Size(21, 26)
-        Label73.TabIndex = 516
-        ' 
-        ' Label74
-        ' 
-        Label74.BackColor = Color.Crimson
-        Label74.Location = New Point(859, 239)
-        Label74.Name = "Label74"
-        Label74.Size = New Size(21, 26)
-        Label74.TabIndex = 515
-        ' 
-        ' Label75
-        ' 
-        Label75.BackColor = Color.Crimson
-        Label75.Location = New Point(859, 208)
-        Label75.Name = "Label75"
-        Label75.Size = New Size(21, 26)
-        Label75.TabIndex = 514
-        ' 
-        ' Label67
-        ' 
-        Label67.BackColor = Color.Crimson
-        Label67.Location = New Point(859, 300)
-        Label67.Name = "Label67"
-        Label67.Size = New Size(21, 26)
-        Label67.TabIndex = 522
-        ' 
-        ' Label68
-        ' 
-        Label68.BackColor = Color.Crimson
-        Label68.Location = New Point(886, 300)
-        Label68.Name = "Label68"
-        Label68.Size = New Size(21, 26)
-        Label68.TabIndex = 521
-        ' 
-        ' Label69
-        ' 
-        Label69.BackColor = Color.Crimson
-        Label69.Location = New Point(832, 300)
-        Label69.Name = "Label69"
-        Label69.Size = New Size(21, 26)
-        Label69.TabIndex = 520
-        ' 
-        ' Label76
-        ' 
-        Label76.BackColor = Color.Crimson
-        Label76.Location = New Point(805, 300)
-        Label76.Name = "Label76"
-        Label76.Size = New Size(21, 26)
-        Label76.TabIndex = 525
-        ' 
-        ' Label77
-        ' 
-        Label77.BackColor = Color.Crimson
-        Label77.Location = New Point(778, 300)
-        Label77.Name = "Label77"
-        Label77.Size = New Size(21, 26)
-        Label77.TabIndex = 524
-        ' 
-        ' Label78
-        ' 
-        Label78.BackColor = Color.MediumBlue
-        Label78.Location = New Point(1055, 241)
-        Label78.Name = "Label78"
-        Label78.Size = New Size(21, 26)
-        Label78.TabIndex = 535
-        ' 
-        ' Label79
-        ' 
-        Label79.BackColor = Color.MediumBlue
-        Label79.Location = New Point(1055, 210)
-        Label79.Name = "Label79"
-        Label79.Size = New Size(21, 26)
-        Label79.TabIndex = 534
-        ' 
-        ' Label80
-        ' 
-        Label80.BackColor = Color.MediumBlue
-        Label80.Location = New Point(1028, 241)
-        Label80.Name = "Label80"
-        Label80.Size = New Size(21, 26)
-        Label80.TabIndex = 533
-        ' 
-        ' Label81
-        ' 
-        Label81.BackColor = Color.MediumBlue
-        Label81.Location = New Point(1028, 210)
-        Label81.Name = "Label81"
-        Label81.Size = New Size(21, 26)
-        Label81.TabIndex = 532
-        ' 
-        ' Label82
-        ' 
-        Label82.BackColor = Color.MediumBlue
-        Label82.Location = New Point(1001, 241)
-        Label82.Name = "Label82"
-        Label82.Size = New Size(21, 26)
-        Label82.TabIndex = 531
-        ' 
-        ' Label83
-        ' 
-        Label83.BackColor = Color.MediumBlue
-        Label83.Location = New Point(1001, 210)
-        Label83.Name = "Label83"
-        Label83.Size = New Size(21, 26)
-        Label83.TabIndex = 530
-        ' 
-        ' Label84
-        ' 
-        Label84.BackColor = Color.MediumBlue
-        Label84.Location = New Point(974, 241)
-        Label84.Name = "Label84"
-        Label84.Size = New Size(21, 26)
-        Label84.TabIndex = 529
-        ' 
-        ' Label85
-        ' 
-        Label85.BackColor = Color.MediumBlue
-        Label85.Location = New Point(974, 210)
-        Label85.Name = "Label85"
-        Label85.Size = New Size(21, 26)
-        Label85.TabIndex = 528
-        ' 
-        ' Label86
-        ' 
-        Label86.BackColor = Color.MediumBlue
-        Label86.Location = New Point(947, 241)
-        Label86.Name = "Label86"
-        Label86.Size = New Size(21, 26)
-        Label86.TabIndex = 527
-        ' 
-        ' Label87
-        ' 
-        Label87.BackColor = Color.MediumBlue
-        Label87.Location = New Point(947, 210)
-        Label87.Name = "Label87"
-        Label87.Size = New Size(21, 26)
-        Label87.TabIndex = 526
-        ' 
-        ' Label88
-        ' 
-        Label88.BackColor = Color.MediumBlue
-        Label88.Location = New Point(1110, 241)
-        Label88.Name = "Label88"
-        Label88.Size = New Size(21, 26)
-        Label88.TabIndex = 539
-        ' 
-        ' Label89
-        ' 
-        Label89.BackColor = Color.MediumBlue
-        Label89.Location = New Point(1110, 210)
-        Label89.Name = "Label89"
-        Label89.Size = New Size(21, 26)
-        Label89.TabIndex = 538
-        ' 
-        ' Label90
-        ' 
-        Label90.BackColor = Color.MediumBlue
-        Label90.Location = New Point(1083, 241)
-        Label90.Name = "Label90"
-        Label90.Size = New Size(21, 26)
-        Label90.TabIndex = 537
-        ' 
-        ' Label91
-        ' 
-        Label91.BackColor = Color.MediumBlue
-        Label91.Location = New Point(1083, 210)
-        Label91.Name = "Label91"
-        Label91.Size = New Size(21, 26)
-        Label91.TabIndex = 536
+        ' cajita7s
+        ' 
+        cajita7s.BackColor = Color.DarkCyan
+        cajita7s.ForeColor = SystemColors.ButtonHighlight
+        cajita7s.Location = New Point(600, 247)
+        cajita7s.Name = "cajita7s"
+        cajita7s.Size = New Size(26, 26)
+        cajita7s.TabIndex = 477
+        cajita7s.TextAlign = ContentAlignment.MiddleCenter
+        ' 
+        ' cajita6s
+        ' 
+        cajita6s.BackColor = Color.DarkCyan
+        cajita6s.ForeColor = SystemColors.ButtonHighlight
+        cajita6s.Location = New Point(600, 278)
+        cajita6s.Name = "cajita6s"
+        cajita6s.Size = New Size(26, 26)
+        cajita6s.TabIndex = 478
+        cajita6s.TextAlign = ContentAlignment.MiddleCenter
+        ' 
+        ' cajita4s
+        ' 
+        cajita4s.BackColor = Color.DarkCyan
+        cajita4s.ForeColor = SystemColors.ButtonHighlight
+        cajita4s.Location = New Point(600, 338)
+        cajita4s.Name = "cajita4s"
+        cajita4s.Size = New Size(26, 26)
+        cajita4s.TabIndex = 480
+        cajita4s.TextAlign = ContentAlignment.MiddleCenter
+        ' 
+        ' cajita5s
+        ' 
+        cajita5s.BackColor = Color.DarkCyan
+        cajita5s.ForeColor = SystemColors.ButtonHighlight
+        cajita5s.Location = New Point(600, 308)
+        cajita5s.Name = "cajita5s"
+        cajita5s.Size = New Size(26, 26)
+        cajita5s.TabIndex = 479
+        cajita5s.TextAlign = ContentAlignment.MiddleCenter
+        ' 
+        ' cajita1s
+        ' 
+        cajita1s.BackColor = Color.DarkCyan
+        cajita1s.Font = New Font("Segoe UI", 9F)
+        cajita1s.ForeColor = SystemColors.ButtonHighlight
+        cajita1s.Location = New Point(600, 429)
+        cajita1s.Name = "cajita1s"
+        cajita1s.Size = New Size(26, 26)
+        cajita1s.TabIndex = 483
+        cajita1s.TextAlign = ContentAlignment.MiddleCenter
+        ' 
+        ' cajita2s
+        ' 
+        cajita2s.BackColor = Color.DarkCyan
+        cajita2s.ForeColor = SystemColors.ButtonHighlight
+        cajita2s.Location = New Point(600, 399)
+        cajita2s.Name = "cajita2s"
+        cajita2s.Size = New Size(26, 26)
+        cajita2s.TabIndex = 482
+        cajita2s.TextAlign = ContentAlignment.MiddleCenter
+        ' 
+        ' cajita3s
+        ' 
+        cajita3s.BackColor = Color.DarkCyan
+        cajita3s.ForeColor = SystemColors.ButtonHighlight
+        cajita3s.Location = New Point(600, 368)
+        cajita3s.Name = "cajita3s"
+        cajita3s.Size = New Size(26, 26)
+        cajita3s.TabIndex = 481
+        cajita3s.TextAlign = ContentAlignment.MiddleCenter
+        ' 
+        ' cajita2_1p
+        ' 
+        cajita2_1p.BackColor = Color.OliveDrab
+        cajita2_1p.ForeColor = SystemColors.ButtonHighlight
+        cajita2_1p.Location = New Point(689, 359)
+        cajita2_1p.Name = "cajita2_1p"
+        cajita2_1p.Size = New Size(26, 26)
+        cajita2_1p.TabIndex = 489
+        cajita2_1p.TextAlign = ContentAlignment.MiddleCenter
+        ' 
+        ' cajita3_1p
+        ' 
+        cajita3_1p.BackColor = Color.OliveDrab
+        cajita3_1p.ForeColor = SystemColors.ButtonHighlight
+        cajita3_1p.Location = New Point(689, 329)
+        cajita3_1p.Name = "cajita3_1p"
+        cajita3_1p.Size = New Size(26, 26)
+        cajita3_1p.TabIndex = 488
+        cajita3_1p.TextAlign = ContentAlignment.MiddleCenter
+        ' 
+        ' cajita4_1p
+        ' 
+        cajita4_1p.BackColor = Color.OliveDrab
+        cajita4_1p.ForeColor = SystemColors.ButtonHighlight
+        cajita4_1p.Location = New Point(689, 300)
+        cajita4_1p.Name = "cajita4_1p"
+        cajita4_1p.Size = New Size(26, 26)
+        cajita4_1p.TabIndex = 487
+        cajita4_1p.TextAlign = ContentAlignment.MiddleCenter
+        ' 
+        ' cajita5_1p
+        ' 
+        cajita5_1p.BackColor = Color.OliveDrab
+        cajita5_1p.ForeColor = SystemColors.ButtonHighlight
+        cajita5_1p.Location = New Point(689, 271)
+        cajita5_1p.Name = "cajita5_1p"
+        cajita5_1p.Size = New Size(26, 26)
+        cajita5_1p.TabIndex = 486
+        cajita5_1p.TextAlign = ContentAlignment.MiddleCenter
+        ' 
+        ' cajita6_1p
+        ' 
+        cajita6_1p.BackColor = Color.OliveDrab
+        cajita6_1p.ForeColor = SystemColors.ButtonHighlight
+        cajita6_1p.Location = New Point(689, 242)
+        cajita6_1p.Name = "cajita6_1p"
+        cajita6_1p.Size = New Size(26, 26)
+        cajita6_1p.TabIndex = 485
+        cajita6_1p.TextAlign = ContentAlignment.MiddleCenter
+        ' 
+        ' cajita7_1p
+        ' 
+        cajita7_1p.BackColor = Color.OliveDrab
+        cajita7_1p.ForeColor = SystemColors.ButtonHighlight
+        cajita7_1p.Location = New Point(689, 214)
+        cajita7_1p.Name = "cajita7_1p"
+        cajita7_1p.Size = New Size(26, 26)
+        cajita7_1p.TabIndex = 484
+        cajita7_1p.TextAlign = ContentAlignment.MiddleCenter
+        ' 
+        ' cajita2_2p
+        ' 
+        cajita2_2p.BackColor = Color.OliveDrab
+        cajita2_2p.ForeColor = SystemColors.ButtonHighlight
+        cajita2_2p.Location = New Point(717, 359)
+        cajita2_2p.Name = "cajita2_2p"
+        cajita2_2p.Size = New Size(26, 26)
+        cajita2_2p.TabIndex = 496
+        cajita2_2p.TextAlign = ContentAlignment.MiddleCenter
+        ' 
+        ' cajita3_2p
+        ' 
+        cajita3_2p.BackColor = Color.OliveDrab
+        cajita3_2p.ForeColor = SystemColors.ButtonHighlight
+        cajita3_2p.Location = New Point(717, 329)
+        cajita3_2p.Name = "cajita3_2p"
+        cajita3_2p.Size = New Size(26, 26)
+        cajita3_2p.TabIndex = 495
+        cajita3_2p.TextAlign = ContentAlignment.MiddleCenter
+        ' 
+        ' cajita4_2p
+        ' 
+        cajita4_2p.BackColor = Color.OliveDrab
+        cajita4_2p.ForeColor = SystemColors.ButtonHighlight
+        cajita4_2p.Location = New Point(717, 300)
+        cajita4_2p.Name = "cajita4_2p"
+        cajita4_2p.Size = New Size(26, 26)
+        cajita4_2p.TabIndex = 494
+        cajita4_2p.TextAlign = ContentAlignment.MiddleCenter
+        ' 
+        ' cajita5_2p
+        ' 
+        cajita5_2p.BackColor = Color.OliveDrab
+        cajita5_2p.ForeColor = SystemColors.ButtonHighlight
+        cajita5_2p.Location = New Point(717, 271)
+        cajita5_2p.Name = "cajita5_2p"
+        cajita5_2p.Size = New Size(26, 26)
+        cajita5_2p.TabIndex = 493
+        cajita5_2p.TextAlign = ContentAlignment.MiddleCenter
+        ' 
+        ' cajita6_2p
+        ' 
+        cajita6_2p.BackColor = Color.OliveDrab
+        cajita6_2p.ForeColor = SystemColors.ButtonHighlight
+        cajita6_2p.Location = New Point(717, 242)
+        cajita6_2p.Name = "cajita6_2p"
+        cajita6_2p.Size = New Size(26, 26)
+        cajita6_2p.TabIndex = 492
+        cajita6_2p.TextAlign = ContentAlignment.MiddleCenter
+        ' 
+        ' cajita7_2p
+        ' 
+        cajita7_2p.BackColor = Color.OliveDrab
+        cajita7_2p.ForeColor = SystemColors.ButtonHighlight
+        cajita7_2p.Location = New Point(717, 214)
+        cajita7_2p.Name = "cajita7_2p"
+        cajita7_2p.Size = New Size(26, 26)
+        cajita7_2p.TabIndex = 491
+        cajita7_2p.TextAlign = ContentAlignment.MiddleCenter
+        ' 
+        ' cajita2_3p
+        ' 
+        cajita2_3p.BackColor = Color.OliveDrab
+        cajita2_3p.ForeColor = SystemColors.ButtonHighlight
+        cajita2_3p.Location = New Point(745, 359)
+        cajita2_3p.Name = "cajita2_3p"
+        cajita2_3p.Size = New Size(26, 26)
+        cajita2_3p.TabIndex = 503
+        cajita2_3p.TextAlign = ContentAlignment.MiddleCenter
+        ' 
+        ' cajita3_3p
+        ' 
+        cajita3_3p.BackColor = Color.OliveDrab
+        cajita3_3p.ForeColor = SystemColors.ButtonHighlight
+        cajita3_3p.Location = New Point(745, 329)
+        cajita3_3p.Name = "cajita3_3p"
+        cajita3_3p.Size = New Size(26, 26)
+        cajita3_3p.TabIndex = 502
+        cajita3_3p.TextAlign = ContentAlignment.MiddleCenter
+        ' 
+        ' cajita4_3p
+        ' 
+        cajita4_3p.BackColor = Color.OliveDrab
+        cajita4_3p.ForeColor = SystemColors.ButtonHighlight
+        cajita4_3p.Location = New Point(745, 300)
+        cajita4_3p.Name = "cajita4_3p"
+        cajita4_3p.Size = New Size(26, 26)
+        cajita4_3p.TabIndex = 501
+        cajita4_3p.TextAlign = ContentAlignment.MiddleCenter
+        ' 
+        ' cajita5_3p
+        ' 
+        cajita5_3p.BackColor = Color.OliveDrab
+        cajita5_3p.ForeColor = SystemColors.ButtonHighlight
+        cajita5_3p.Location = New Point(745, 271)
+        cajita5_3p.Name = "cajita5_3p"
+        cajita5_3p.Size = New Size(26, 26)
+        cajita5_3p.TabIndex = 500
+        cajita5_3p.TextAlign = ContentAlignment.MiddleCenter
+        ' 
+        ' cajita6_3p
+        ' 
+        cajita6_3p.BackColor = Color.OliveDrab
+        cajita6_3p.ForeColor = SystemColors.ButtonHighlight
+        cajita6_3p.Location = New Point(745, 242)
+        cajita6_3p.Name = "cajita6_3p"
+        cajita6_3p.Size = New Size(26, 26)
+        cajita6_3p.TabIndex = 499
+        cajita6_3p.TextAlign = ContentAlignment.MiddleCenter
+        ' 
+        ' cajita7_3p
+        ' 
+        cajita7_3p.BackColor = Color.OliveDrab
+        cajita7_3p.ForeColor = SystemColors.ButtonHighlight
+        cajita7_3p.Location = New Point(745, 214)
+        cajita7_3p.Name = "cajita7_3p"
+        cajita7_3p.Size = New Size(26, 26)
+        cajita7_3p.TabIndex = 498
+        cajita7_3p.TextAlign = ContentAlignment.MiddleCenter
+        ' 
+        ' cajita4_3d
+        ' 
+        cajita4_3d.BackColor = Color.Crimson
+        cajita4_3d.ForeColor = SystemColors.ButtonHighlight
+        cajita4_3d.Location = New Point(874, 263)
+        cajita4_3d.Name = "cajita4_3d"
+        cajita4_3d.Size = New Size(26, 26)
+        cajita4_3d.TabIndex = 513
+        cajita4_3d.TextAlign = ContentAlignment.MiddleCenter
+        ' 
+        ' cajita5_3d
+        ' 
+        cajita5_3d.BackColor = Color.Crimson
+        cajita5_3d.ForeColor = SystemColors.ButtonHighlight
+        cajita5_3d.Location = New Point(874, 232)
+        cajita5_3d.Name = "cajita5_3d"
+        cajita5_3d.Size = New Size(26, 26)
+        cajita5_3d.TabIndex = 512
+        cajita5_3d.TextAlign = ContentAlignment.MiddleCenter
+        ' 
+        ' cajita6_3d
+        ' 
+        cajita6_3d.BackColor = Color.Crimson
+        cajita6_3d.ForeColor = SystemColors.ButtonHighlight
+        cajita6_3d.Location = New Point(874, 202)
+        cajita6_3d.Name = "cajita6_3d"
+        cajita6_3d.Size = New Size(26, 26)
+        cajita6_3d.TabIndex = 511
+        cajita6_3d.TextAlign = ContentAlignment.MiddleCenter
+        ' 
+        ' cajita4_2d
+        ' 
+        cajita4_2d.BackColor = Color.Crimson
+        cajita4_2d.ForeColor = SystemColors.ButtonHighlight
+        cajita4_2d.Location = New Point(847, 263)
+        cajita4_2d.Name = "cajita4_2d"
+        cajita4_2d.Size = New Size(26, 26)
+        cajita4_2d.TabIndex = 510
+        cajita4_2d.TextAlign = ContentAlignment.MiddleCenter
+        ' 
+        ' cajita5_2d
+        ' 
+        cajita5_2d.BackColor = Color.Crimson
+        cajita5_2d.ForeColor = SystemColors.ButtonHighlight
+        cajita5_2d.Location = New Point(847, 232)
+        cajita5_2d.Name = "cajita5_2d"
+        cajita5_2d.Size = New Size(26, 26)
+        cajita5_2d.TabIndex = 509
+        cajita5_2d.TextAlign = ContentAlignment.MiddleCenter
+        ' 
+        ' cajita6_2d
+        ' 
+        cajita6_2d.BackColor = Color.Crimson
+        cajita6_2d.ForeColor = SystemColors.ButtonHighlight
+        cajita6_2d.Location = New Point(847, 202)
+        cajita6_2d.Name = "cajita6_2d"
+        cajita6_2d.Size = New Size(26, 26)
+        cajita6_2d.TabIndex = 508
+        cajita6_2d.TextAlign = ContentAlignment.MiddleCenter
+        ' 
+        ' cajita4_1d
+        ' 
+        cajita4_1d.BackColor = Color.Crimson
+        cajita4_1d.ForeColor = SystemColors.ButtonHighlight
+        cajita4_1d.Location = New Point(820, 263)
+        cajita4_1d.Name = "cajita4_1d"
+        cajita4_1d.Size = New Size(26, 26)
+        cajita4_1d.TabIndex = 507
+        cajita4_1d.TextAlign = ContentAlignment.MiddleCenter
+        ' 
+        ' cajita5_1d
+        ' 
+        cajita5_1d.BackColor = Color.Crimson
+        cajita5_1d.ForeColor = SystemColors.ButtonHighlight
+        cajita5_1d.Location = New Point(820, 232)
+        cajita5_1d.Name = "cajita5_1d"
+        cajita5_1d.Size = New Size(26, 26)
+        cajita5_1d.TabIndex = 506
+        cajita5_1d.TextAlign = ContentAlignment.MiddleCenter
+        ' 
+        ' cajita6_1d
+        ' 
+        cajita6_1d.BackColor = Color.Crimson
+        cajita6_1d.ForeColor = SystemColors.ButtonHighlight
+        cajita6_1d.Location = New Point(820, 202)
+        cajita6_1d.Name = "cajita6_1d"
+        cajita6_1d.Size = New Size(26, 26)
+        cajita6_1d.TabIndex = 505
+        cajita6_1d.TextAlign = ContentAlignment.MiddleCenter
+        ' 
+        ' cajita4_5d
+        ' 
+        cajita4_5d.BackColor = Color.Crimson
+        cajita4_5d.ForeColor = SystemColors.ButtonHighlight
+        cajita4_5d.Location = New Point(928, 263)
+        cajita4_5d.Name = "cajita4_5d"
+        cajita4_5d.Size = New Size(26, 26)
+        cajita4_5d.TabIndex = 519
+        cajita4_5d.TextAlign = ContentAlignment.MiddleCenter
+        ' 
+        ' cajita5_5d
+        ' 
+        cajita5_5d.BackColor = Color.Crimson
+        cajita5_5d.ForeColor = SystemColors.ButtonHighlight
+        cajita5_5d.Location = New Point(928, 232)
+        cajita5_5d.Name = "cajita5_5d"
+        cajita5_5d.Size = New Size(26, 26)
+        cajita5_5d.TabIndex = 518
+        cajita5_5d.TextAlign = ContentAlignment.MiddleCenter
+        ' 
+        ' cajita6_5d
+        ' 
+        cajita6_5d.BackColor = Color.Crimson
+        cajita6_5d.ForeColor = SystemColors.ButtonHighlight
+        cajita6_5d.Location = New Point(928, 202)
+        cajita6_5d.Name = "cajita6_5d"
+        cajita6_5d.Size = New Size(26, 26)
+        cajita6_5d.TabIndex = 517
+        cajita6_5d.TextAlign = ContentAlignment.MiddleCenter
+        ' 
+        ' cajita4_4d
+        ' 
+        cajita4_4d.BackColor = Color.Crimson
+        cajita4_4d.ForeColor = SystemColors.ButtonHighlight
+        cajita4_4d.Location = New Point(901, 263)
+        cajita4_4d.Name = "cajita4_4d"
+        cajita4_4d.Size = New Size(26, 26)
+        cajita4_4d.TabIndex = 516
+        cajita4_4d.TextAlign = ContentAlignment.MiddleCenter
+        ' 
+        ' cajita5_4d
+        ' 
+        cajita5_4d.BackColor = Color.Crimson
+        cajita5_4d.ForeColor = SystemColors.ButtonHighlight
+        cajita5_4d.Location = New Point(901, 232)
+        cajita5_4d.Name = "cajita5_4d"
+        cajita5_4d.Size = New Size(26, 26)
+        cajita5_4d.TabIndex = 515
+        cajita5_4d.TextAlign = ContentAlignment.MiddleCenter
+        ' 
+        ' cajita6_4d
+        ' 
+        cajita6_4d.BackColor = Color.Crimson
+        cajita6_4d.ForeColor = SystemColors.ButtonHighlight
+        cajita6_4d.Location = New Point(901, 202)
+        cajita6_4d.Name = "cajita6_4d"
+        cajita6_4d.Size = New Size(26, 26)
+        cajita6_4d.TabIndex = 514
+        cajita6_4d.TextAlign = ContentAlignment.MiddleCenter
+        ' 
+        ' cajita3_4d
+        ' 
+        cajita3_4d.BackColor = Color.Crimson
+        cajita3_4d.ForeColor = SystemColors.ButtonHighlight
+        cajita3_4d.Location = New Point(901, 294)
+        cajita3_4d.Name = "cajita3_4d"
+        cajita3_4d.Size = New Size(26, 26)
+        cajita3_4d.TabIndex = 522
+        cajita3_4d.TextAlign = ContentAlignment.MiddleCenter
+        ' 
+        ' cajita3_5d
+        ' 
+        cajita3_5d.BackColor = Color.Crimson
+        cajita3_5d.ForeColor = SystemColors.ButtonHighlight
+        cajita3_5d.Location = New Point(928, 294)
+        cajita3_5d.Name = "cajita3_5d"
+        cajita3_5d.Size = New Size(26, 26)
+        cajita3_5d.TabIndex = 521
+        cajita3_5d.TextAlign = ContentAlignment.MiddleCenter
+        ' 
+        ' cajita3_3d
+        ' 
+        cajita3_3d.BackColor = Color.Crimson
+        cajita3_3d.ForeColor = SystemColors.ButtonHighlight
+        cajita3_3d.Location = New Point(874, 294)
+        cajita3_3d.Name = "cajita3_3d"
+        cajita3_3d.Size = New Size(26, 26)
+        cajita3_3d.TabIndex = 520
+        cajita3_3d.TextAlign = ContentAlignment.MiddleCenter
+        ' 
+        ' cajita3_2d
+        ' 
+        cajita3_2d.BackColor = Color.Crimson
+        cajita3_2d.ForeColor = SystemColors.ButtonHighlight
+        cajita3_2d.Location = New Point(847, 294)
+        cajita3_2d.Name = "cajita3_2d"
+        cajita3_2d.Size = New Size(26, 26)
+        cajita3_2d.TabIndex = 525
+        cajita3_2d.TextAlign = ContentAlignment.MiddleCenter
+        ' 
+        ' cajita3_1d
+        ' 
+        cajita3_1d.BackColor = Color.Crimson
+        cajita3_1d.ForeColor = SystemColors.ButtonHighlight
+        cajita3_1d.Location = New Point(820, 294)
+        cajita3_1d.Name = "cajita3_1d"
+        cajita3_1d.Size = New Size(26, 26)
+        cajita3_1d.TabIndex = 524
+        cajita3_1d.TextAlign = ContentAlignment.MiddleCenter
+        ' 
+        ' cajita4_5f
+        ' 
+        cajita4_5f.BackColor = Color.MediumBlue
+        cajita4_5f.ForeColor = SystemColors.ButtonHighlight
+        cajita4_5f.Location = New Point(1127, 236)
+        cajita4_5f.Name = "cajita4_5f"
+        cajita4_5f.Size = New Size(26, 26)
+        cajita4_5f.TabIndex = 535
+        cajita4_5f.TextAlign = ContentAlignment.MiddleCenter
+        ' 
+        ' cajita5_5f
+        ' 
+        cajita5_5f.BackColor = Color.MediumBlue
+        cajita5_5f.ForeColor = SystemColors.ButtonHighlight
+        cajita5_5f.Location = New Point(1127, 205)
+        cajita5_5f.Name = "cajita5_5f"
+        cajita5_5f.Size = New Size(26, 26)
+        cajita5_5f.TabIndex = 534
+        cajita5_5f.TextAlign = ContentAlignment.MiddleCenter
+        ' 
+        ' cajita4_4f
+        ' 
+        cajita4_4f.BackColor = Color.MediumBlue
+        cajita4_4f.ForeColor = SystemColors.ButtonHighlight
+        cajita4_4f.Location = New Point(1095, 236)
+        cajita4_4f.Name = "cajita4_4f"
+        cajita4_4f.Size = New Size(26, 26)
+        cajita4_4f.TabIndex = 533
+        cajita4_4f.TextAlign = ContentAlignment.MiddleCenter
+        ' 
+        ' cajita5_4f
+        ' 
+        cajita5_4f.BackColor = Color.MediumBlue
+        cajita5_4f.ForeColor = SystemColors.ButtonHighlight
+        cajita5_4f.Location = New Point(1096, 205)
+        cajita5_4f.Name = "cajita5_4f"
+        cajita5_4f.Size = New Size(26, 26)
+        cajita5_4f.TabIndex = 532
+        cajita5_4f.TextAlign = ContentAlignment.MiddleCenter
+        ' 
+        ' cajita4_3f
+        ' 
+        cajita4_3f.BackColor = Color.MediumBlue
+        cajita4_3f.ForeColor = SystemColors.ButtonHighlight
+        cajita4_3f.Location = New Point(1063, 236)
+        cajita4_3f.Name = "cajita4_3f"
+        cajita4_3f.Size = New Size(26, 26)
+        cajita4_3f.TabIndex = 531
+        cajita4_3f.TextAlign = ContentAlignment.MiddleCenter
+        ' 
+        ' cajita5_3f
+        ' 
+        cajita5_3f.BackColor = Color.MediumBlue
+        cajita5_3f.ForeColor = SystemColors.ButtonHighlight
+        cajita5_3f.Location = New Point(1064, 205)
+        cajita5_3f.Name = "cajita5_3f"
+        cajita5_3f.Size = New Size(26, 26)
+        cajita5_3f.TabIndex = 530
+        cajita5_3f.TextAlign = ContentAlignment.MiddleCenter
+        ' 
+        ' cajita4_2f
+        ' 
+        cajita4_2f.BackColor = Color.MediumBlue
+        cajita4_2f.ForeColor = SystemColors.ButtonHighlight
+        cajita4_2f.Location = New Point(1032, 236)
+        cajita4_2f.Name = "cajita4_2f"
+        cajita4_2f.Size = New Size(26, 26)
+        cajita4_2f.TabIndex = 529
+        cajita4_2f.TextAlign = ContentAlignment.MiddleCenter
+        ' 
+        ' cajita5_2f
+        ' 
+        cajita5_2f.BackColor = Color.MediumBlue
+        cajita5_2f.ForeColor = SystemColors.ButtonHighlight
+        cajita5_2f.Location = New Point(1032, 205)
+        cajita5_2f.Name = "cajita5_2f"
+        cajita5_2f.Size = New Size(26, 26)
+        cajita5_2f.TabIndex = 528
+        cajita5_2f.TextAlign = ContentAlignment.MiddleCenter
+        ' 
+        ' cajita4_1f
+        ' 
+        cajita4_1f.BackColor = Color.MediumBlue
+        cajita4_1f.ForeColor = SystemColors.ButtonHighlight
+        cajita4_1f.Location = New Point(1000, 236)
+        cajita4_1f.Name = "cajita4_1f"
+        cajita4_1f.Size = New Size(26, 26)
+        cajita4_1f.TabIndex = 527
+        cajita4_1f.TextAlign = ContentAlignment.MiddleCenter
+        ' 
+        ' cajita5_1f
+        ' 
+        cajita5_1f.BackColor = Color.MediumBlue
+        cajita5_1f.ForeColor = SystemColors.ButtonHighlight
+        cajita5_1f.Location = New Point(1001, 205)
+        cajita5_1f.Name = "cajita5_1f"
+        cajita5_1f.Size = New Size(26, 26)
+        cajita5_1f.TabIndex = 526
+        cajita5_1f.TextAlign = ContentAlignment.MiddleCenter
+        ' 
+        ' cajita4_7f
+        ' 
+        cajita4_7f.BackColor = Color.MediumBlue
+        cajita4_7f.ForeColor = SystemColors.ButtonHighlight
+        cajita4_7f.Location = New Point(1191, 236)
+        cajita4_7f.Name = "cajita4_7f"
+        cajita4_7f.Size = New Size(26, 26)
+        cajita4_7f.TabIndex = 539
+        cajita4_7f.TextAlign = ContentAlignment.MiddleCenter
+        ' 
+        ' cajita5_7f
+        ' 
+        cajita5_7f.BackColor = Color.MediumBlue
+        cajita5_7f.ForeColor = SystemColors.ButtonHighlight
+        cajita5_7f.Location = New Point(1191, 205)
+        cajita5_7f.Name = "cajita5_7f"
+        cajita5_7f.Size = New Size(26, 26)
+        cajita5_7f.TabIndex = 538
+        cajita5_7f.TextAlign = ContentAlignment.MiddleCenter
+        ' 
+        ' cajita4_6f
+        ' 
+        cajita4_6f.BackColor = Color.MediumBlue
+        cajita4_6f.ForeColor = SystemColors.ButtonHighlight
+        cajita4_6f.Location = New Point(1159, 236)
+        cajita4_6f.Name = "cajita4_6f"
+        cajita4_6f.Size = New Size(26, 26)
+        cajita4_6f.TabIndex = 537
+        cajita4_6f.TextAlign = ContentAlignment.MiddleCenter
+        ' 
+        ' cajita5_6f
+        ' 
+        cajita5_6f.BackColor = Color.MediumBlue
+        cajita5_6f.ForeColor = SystemColors.ButtonHighlight
+        cajita5_6f.Location = New Point(1159, 205)
+        cajita5_6f.Name = "cajita5_6f"
+        cajita5_6f.Size = New Size(26, 26)
+        cajita5_6f.TabIndex = 536
+        cajita5_6f.TextAlign = ContentAlignment.MiddleCenter
         ' 
         ' Label92
         ' 
@@ -2788,7 +3033,7 @@ Partial Class Form2
         Label92.BackColor = SystemColors.ButtonFace
         Label92.Font = New Font("Lucida Sans Unicode", 12F, FontStyle.Bold)
         Label92.ForeColor = SystemColors.ActiveCaptionText
-        Label92.Location = New Point(565, 253)
+        Label92.Location = New Point(565, 248)
         Label92.Name = "Label92"
         Label92.Size = New Size(29, 20)
         Label92.TabIndex = 540
@@ -2800,7 +3045,7 @@ Partial Class Form2
         Label93.BackColor = SystemColors.ButtonFace
         Label93.Font = New Font("Lucida Sans Unicode", 12F, FontStyle.Bold)
         Label93.ForeColor = SystemColors.ActiveCaptionText
-        Label93.Location = New Point(565, 284)
+        Label93.Location = New Point(565, 280)
         Label93.Name = "Label93"
         Label93.Size = New Size(29, 20)
         Label93.TabIndex = 541
@@ -2812,7 +3057,7 @@ Partial Class Form2
         Label94.BackColor = SystemColors.ButtonFace
         Label94.Font = New Font("Lucida Sans Unicode", 12F, FontStyle.Bold)
         Label94.ForeColor = SystemColors.ActiveCaptionText
-        Label94.Location = New Point(565, 342)
+        Label94.Location = New Point(565, 339)
         Label94.Name = "Label94"
         Label94.Size = New Size(29, 20)
         Label94.TabIndex = 543
@@ -2824,7 +3069,7 @@ Partial Class Form2
         Label95.BackColor = SystemColors.ButtonFace
         Label95.Font = New Font("Lucida Sans Unicode", 12F, FontStyle.Bold)
         Label95.ForeColor = SystemColors.ActiveCaptionText
-        Label95.Location = New Point(565, 311)
+        Label95.Location = New Point(565, 306)
         Label95.Name = "Label95"
         Label95.Size = New Size(29, 20)
         Label95.TabIndex = 542
@@ -2836,7 +3081,7 @@ Partial Class Form2
         Label96.BackColor = SystemColors.ButtonFace
         Label96.Font = New Font("Lucida Sans Unicode", 12F, FontStyle.Bold)
         Label96.ForeColor = SystemColors.ActiveCaptionText
-        Label96.Location = New Point(565, 432)
+        Label96.Location = New Point(565, 428)
         Label96.Name = "Label96"
         Label96.Size = New Size(29, 20)
         Label96.TabIndex = 546
@@ -2848,7 +3093,7 @@ Partial Class Form2
         Label97.BackColor = SystemColors.ButtonFace
         Label97.Font = New Font("Lucida Sans Unicode", 12F, FontStyle.Bold)
         Label97.ForeColor = SystemColors.ActiveCaptionText
-        Label97.Location = New Point(565, 405)
+        Label97.Location = New Point(565, 396)
         Label97.Name = "Label97"
         Label97.Size = New Size(29, 20)
         Label97.TabIndex = 545
@@ -2860,23 +3105,11 @@ Partial Class Form2
         Label98.BackColor = SystemColors.ButtonFace
         Label98.Font = New Font("Lucida Sans Unicode", 12F, FontStyle.Bold)
         Label98.ForeColor = SystemColors.ActiveCaptionText
-        Label98.Location = New Point(565, 374)
+        Label98.Location = New Point(565, 369)
         Label98.Name = "Label98"
         Label98.Size = New Size(29, 20)
         Label98.TabIndex = 544
         Label98.Text = "3s"
-        ' 
-        ' Label99
-        ' 
-        Label99.AutoSize = True
-        Label99.BackColor = SystemColors.ButtonFace
-        Label99.Font = New Font("Lucida Sans Unicode", 12F, FontStyle.Bold)
-        Label99.ForeColor = SystemColors.ActiveCaptionText
-        Label99.Location = New Point(634, 393)
-        Label99.Name = "Label99"
-        Label99.Size = New Size(31, 20)
-        Label99.TabIndex = 553
-        Label99.Text = "1p"
         ' 
         ' Label100
         ' 
@@ -2884,7 +3117,7 @@ Partial Class Form2
         Label100.BackColor = SystemColors.ButtonFace
         Label100.Font = New Font("Lucida Sans Unicode", 12F, FontStyle.Bold)
         Label100.ForeColor = SystemColors.ActiveCaptionText
-        Label100.Location = New Point(634, 366)
+        Label100.Location = New Point(652, 360)
         Label100.Name = "Label100"
         Label100.Size = New Size(31, 20)
         Label100.TabIndex = 552
@@ -2896,7 +3129,7 @@ Partial Class Form2
         Label101.BackColor = SystemColors.ButtonFace
         Label101.Font = New Font("Lucida Sans Unicode", 12F, FontStyle.Bold)
         Label101.ForeColor = SystemColors.ActiveCaptionText
-        Label101.Location = New Point(634, 335)
+        Label101.Location = New Point(652, 330)
         Label101.Name = "Label101"
         Label101.Size = New Size(31, 20)
         Label101.TabIndex = 551
@@ -2908,7 +3141,7 @@ Partial Class Form2
         Label102.BackColor = SystemColors.ButtonFace
         Label102.Font = New Font("Lucida Sans Unicode", 12F, FontStyle.Bold)
         Label102.ForeColor = SystemColors.ActiveCaptionText
-        Label102.Location = New Point(634, 303)
+        Label102.Location = New Point(652, 300)
         Label102.Name = "Label102"
         Label102.Size = New Size(31, 20)
         Label102.TabIndex = 550
@@ -2920,7 +3153,7 @@ Partial Class Form2
         Label103.BackColor = SystemColors.ButtonFace
         Label103.Font = New Font("Lucida Sans Unicode", 12F, FontStyle.Bold)
         Label103.ForeColor = SystemColors.ActiveCaptionText
-        Label103.Location = New Point(634, 272)
+        Label103.Location = New Point(652, 272)
         Label103.Name = "Label103"
         Label103.Size = New Size(31, 20)
         Label103.TabIndex = 549
@@ -2932,7 +3165,7 @@ Partial Class Form2
         Label104.BackColor = SystemColors.ButtonFace
         Label104.Font = New Font("Lucida Sans Unicode", 12F, FontStyle.Bold)
         Label104.ForeColor = SystemColors.ActiveCaptionText
-        Label104.Location = New Point(634, 245)
+        Label104.Location = New Point(652, 243)
         Label104.Name = "Label104"
         Label104.Size = New Size(31, 20)
         Label104.TabIndex = 548
@@ -2944,7 +3177,7 @@ Partial Class Form2
         Label105.BackColor = SystemColors.ButtonFace
         Label105.Font = New Font("Lucida Sans Unicode", 12F, FontStyle.Bold)
         Label105.ForeColor = SystemColors.ActiveCaptionText
-        Label105.Location = New Point(634, 214)
+        Label105.Location = New Point(652, 215)
         Label105.Name = "Label105"
         Label105.Size = New Size(31, 20)
         Label105.TabIndex = 547
@@ -2956,7 +3189,7 @@ Partial Class Form2
         Label106.BackColor = SystemColors.ButtonFace
         Label106.Font = New Font("Lucida Sans Unicode", 12F, FontStyle.Bold)
         Label106.ForeColor = SystemColors.ActiveCaptionText
-        Label106.Location = New Point(745, 302)
+        Label106.Location = New Point(787, 296)
         Label106.Name = "Label106"
         Label106.Size = New Size(31, 20)
         Label106.TabIndex = 557
@@ -2968,7 +3201,7 @@ Partial Class Form2
         Label107.BackColor = SystemColors.ButtonFace
         Label107.Font = New Font("Lucida Sans Unicode", 12F, FontStyle.Bold)
         Label107.ForeColor = SystemColors.ActiveCaptionText
-        Label107.Location = New Point(745, 270)
+        Label107.Location = New Point(787, 264)
         Label107.Name = "Label107"
         Label107.Size = New Size(31, 20)
         Label107.TabIndex = 556
@@ -2980,7 +3213,7 @@ Partial Class Form2
         Label108.BackColor = SystemColors.ButtonFace
         Label108.Font = New Font("Lucida Sans Unicode", 12F, FontStyle.Bold)
         Label108.ForeColor = SystemColors.ActiveCaptionText
-        Label108.Location = New Point(745, 239)
+        Label108.Location = New Point(787, 233)
         Label108.Name = "Label108"
         Label108.Size = New Size(31, 20)
         Label108.TabIndex = 555
@@ -2992,7 +3225,7 @@ Partial Class Form2
         Label109.BackColor = SystemColors.ButtonFace
         Label109.Font = New Font("Lucida Sans Unicode", 12F, FontStyle.Bold)
         Label109.ForeColor = SystemColors.ActiveCaptionText
-        Label109.Location = New Point(745, 212)
+        Label109.Location = New Point(787, 206)
         Label109.Name = "Label109"
         Label109.Size = New Size(31, 20)
         Label109.TabIndex = 554
@@ -3004,7 +3237,7 @@ Partial Class Form2
         Label110.BackColor = SystemColors.ButtonFace
         Label110.Font = New Font("Lucida Sans Unicode", 12F, FontStyle.Bold)
         Label110.ForeColor = SystemColors.ActiveCaptionText
-        Label110.Location = New Point(913, 245)
+        Label110.Location = New Point(967, 237)
         Label110.Name = "Label110"
         Label110.Size = New Size(27, 20)
         Label110.TabIndex = 559
@@ -3016,34 +3249,35 @@ Partial Class Form2
         Label111.BackColor = SystemColors.ButtonFace
         Label111.Font = New Font("Lucida Sans Unicode", 12F, FontStyle.Bold)
         Label111.ForeColor = SystemColors.ActiveCaptionText
-        Label111.Location = New Point(913, 214)
+        Label111.Location = New Point(967, 206)
         Label111.Name = "Label111"
         Label111.Size = New Size(27, 20)
         Label111.TabIndex = 558
         Label111.Text = "5f"
         ' 
-        ' Button1
+        ' Label69
         ' 
-        Button1.Location = New Point(565, 120)
-        Button1.Name = "Button1"
-        Button1.Size = New Size(67, 56)
-        Button1.TabIndex = 560
-        Button1.Text = "git add ."
-        Button1.UseVisualStyleBackColor = True
+        Label69.Font = New Font("MV Boli", 39.75F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
+        Label69.ForeColor = Color.Crimson
+        Label69.Location = New Point(347, 30)
+        Label69.Name = "Label69"
+        Label69.Size = New Size(999, 150)
+        Label69.TabIndex = 560
+        Label69.Text = "TABLA PERIÓDICA " & vbCrLf & "CONFIG. ELECTRÓNICA" & vbCrLf
+        Label69.TextAlign = ContentAlignment.MiddleCenter
         ' 
         ' Form2
         ' 
         AutoScaleDimensions = New SizeF(7F, 15F)
         AutoScaleMode = AutoScaleMode.Font
-        ClientSize = New Size(1370, 749)
-        Controls.Add(Button1)
+        ClientSize = New Size(1911, 1053)
+        Controls.Add(Label69)
         Controls.Add(Label110)
         Controls.Add(Label111)
         Controls.Add(Label106)
         Controls.Add(Label107)
         Controls.Add(Label108)
         Controls.Add(Label109)
-        Controls.Add(Label99)
         Controls.Add(Label100)
         Controls.Add(Label101)
         Controls.Add(Label102)
@@ -3057,68 +3291,65 @@ Partial Class Form2
         Controls.Add(Label95)
         Controls.Add(Label93)
         Controls.Add(Label92)
-        Controls.Add(Label88)
-        Controls.Add(Label89)
-        Controls.Add(Label90)
-        Controls.Add(Label91)
-        Controls.Add(Label78)
-        Controls.Add(Label79)
-        Controls.Add(Label80)
-        Controls.Add(Label81)
-        Controls.Add(Label82)
-        Controls.Add(Label83)
-        Controls.Add(Label84)
-        Controls.Add(Label85)
-        Controls.Add(Label86)
-        Controls.Add(Label87)
-        Controls.Add(Label76)
-        Controls.Add(Label77)
-        Controls.Add(Label67)
-        Controls.Add(Label68)
-        Controls.Add(Label69)
-        Controls.Add(Label70)
-        Controls.Add(Label71)
-        Controls.Add(Label72)
-        Controls.Add(Label73)
-        Controls.Add(Label74)
-        Controls.Add(Label75)
-        Controls.Add(Label58)
-        Controls.Add(Label59)
-        Controls.Add(Label60)
-        Controls.Add(Label61)
-        Controls.Add(Label62)
-        Controls.Add(Label63)
-        Controls.Add(Label64)
-        Controls.Add(Label65)
-        Controls.Add(Label66)
-        Controls.Add(Label51)
-        Controls.Add(Label52)
-        Controls.Add(Label53)
-        Controls.Add(Label54)
-        Controls.Add(Label55)
-        Controls.Add(Label56)
-        Controls.Add(Label57)
-        Controls.Add(Label44)
-        Controls.Add(Label45)
-        Controls.Add(Label46)
-        Controls.Add(Label47)
-        Controls.Add(Label48)
-        Controls.Add(Label49)
-        Controls.Add(Label50)
-        Controls.Add(Label37)
-        Controls.Add(Label38)
-        Controls.Add(Label39)
-        Controls.Add(Label40)
-        Controls.Add(Label41)
-        Controls.Add(Label42)
-        Controls.Add(Label43)
-        Controls.Add(Label33)
-        Controls.Add(Label35)
-        Controls.Add(Label36)
-        Controls.Add(Label29)
-        Controls.Add(Label31)
-        Controls.Add(Label27)
-        Controls.Add(Label26)
+        Controls.Add(cajita4_7f)
+        Controls.Add(cajita5_7f)
+        Controls.Add(cajita4_6f)
+        Controls.Add(cajita5_6f)
+        Controls.Add(cajita4_5f)
+        Controls.Add(cajita5_5f)
+        Controls.Add(cajita4_4f)
+        Controls.Add(cajita5_4f)
+        Controls.Add(cajita4_3f)
+        Controls.Add(cajita5_3f)
+        Controls.Add(cajita4_2f)
+        Controls.Add(cajita5_2f)
+        Controls.Add(cajita4_1f)
+        Controls.Add(cajita5_1f)
+        Controls.Add(cajita3_2d)
+        Controls.Add(cajita3_1d)
+        Controls.Add(cajita3_4d)
+        Controls.Add(cajita3_5d)
+        Controls.Add(cajita3_3d)
+        Controls.Add(cajita4_5d)
+        Controls.Add(cajita5_5d)
+        Controls.Add(cajita6_5d)
+        Controls.Add(cajita4_4d)
+        Controls.Add(cajita5_4d)
+        Controls.Add(cajita6_4d)
+        Controls.Add(cajita4_3d)
+        Controls.Add(cajita5_3d)
+        Controls.Add(cajita6_3d)
+        Controls.Add(cajita4_2d)
+        Controls.Add(cajita5_2d)
+        Controls.Add(cajita6_2d)
+        Controls.Add(cajita4_1d)
+        Controls.Add(cajita5_1d)
+        Controls.Add(cajita6_1d)
+        Controls.Add(cajita2_3p)
+        Controls.Add(cajita3_3p)
+        Controls.Add(cajita4_3p)
+        Controls.Add(cajita5_3p)
+        Controls.Add(cajita6_3p)
+        Controls.Add(cajita7_3p)
+        Controls.Add(cajita2_2p)
+        Controls.Add(cajita3_2p)
+        Controls.Add(cajita4_2p)
+        Controls.Add(cajita5_2p)
+        Controls.Add(cajita6_2p)
+        Controls.Add(cajita7_2p)
+        Controls.Add(cajita2_1p)
+        Controls.Add(cajita3_1p)
+        Controls.Add(cajita4_1p)
+        Controls.Add(cajita5_1p)
+        Controls.Add(cajita6_1p)
+        Controls.Add(cajita7_1p)
+        Controls.Add(cajita1s)
+        Controls.Add(cajita2s)
+        Controls.Add(cajita3s)
+        Controls.Add(cajita4s)
+        Controls.Add(cajita5s)
+        Controls.Add(cajita6s)
+        Controls.Add(cajita7s)
         Controls.Add(BtnVolver)
         Controls.Add(GroupBox1)
         Controls.Add(Label28)
@@ -3438,68 +3669,65 @@ Partial Class Form2
     Friend WithEvents lblS As Label
     Friend WithEvents lblM As Label
     Friend WithEvents lblL As Label
-    Friend WithEvents Label26 As Label
-    Friend WithEvents Label27 As Label
-    Friend WithEvents Label29 As Label
-    Friend WithEvents Label31 As Label
-    Friend WithEvents Label33 As Label
-    Friend WithEvents Label35 As Label
-    Friend WithEvents Label36 As Label
-    Friend WithEvents Label37 As Label
-    Friend WithEvents Label38 As Label
-    Friend WithEvents Label39 As Label
-    Friend WithEvents Label40 As Label
-    Friend WithEvents Label41 As Label
-    Friend WithEvents Label42 As Label
-    Friend WithEvents Label43 As Label
-    Friend WithEvents Label44 As Label
-    Friend WithEvents Label45 As Label
-    Friend WithEvents Label46 As Label
-    Friend WithEvents Label47 As Label
-    Friend WithEvents Label48 As Label
-    Friend WithEvents Label49 As Label
-    Friend WithEvents Label50 As Label
-    Friend WithEvents Label51 As Label
-    Friend WithEvents Label52 As Label
-    Friend WithEvents Label53 As Label
-    Friend WithEvents Label54 As Label
-    Friend WithEvents Label55 As Label
-    Friend WithEvents Label56 As Label
-    Friend WithEvents Label57 As Label
-    Friend WithEvents Label58 As Label
-    Friend WithEvents Label59 As Label
-    Friend WithEvents Label60 As Label
-    Friend WithEvents Label61 As Label
-    Friend WithEvents Label62 As Label
-    Friend WithEvents Label63 As Label
-    Friend WithEvents Label64 As Label
-    Friend WithEvents Label65 As Label
-    Friend WithEvents Label66 As Label
-    Friend WithEvents Label70 As Label
-    Friend WithEvents Label71 As Label
-    Friend WithEvents Label72 As Label
-    Friend WithEvents Label73 As Label
-    Friend WithEvents Label74 As Label
-    Friend WithEvents Label75 As Label
-    Friend WithEvents Label67 As Label
-    Friend WithEvents Label68 As Label
-    Friend WithEvents Label69 As Label
-    Friend WithEvents Label76 As Label
-    Friend WithEvents Label77 As Label
-    Friend WithEvents Label78 As Label
-    Friend WithEvents Label79 As Label
-    Friend WithEvents Label80 As Label
-    Friend WithEvents Label81 As Label
-    Friend WithEvents Label82 As Label
-    Friend WithEvents Label83 As Label
-    Friend WithEvents Label84 As Label
-    Friend WithEvents Label85 As Label
-    Friend WithEvents Label86 As Label
-    Friend WithEvents Label87 As Label
-    Friend WithEvents Label88 As Label
-    Friend WithEvents Label89 As Label
-    Friend WithEvents Label90 As Label
-    Friend WithEvents Label91 As Label
+    Friend WithEvents cajita7s As Label
+    Friend WithEvents cajita6s As Label
+    Friend WithEvents cajita4s As Label
+    Friend WithEvents cajita5s As Label
+    Friend WithEvents cajita1s As Label
+    Friend WithEvents cajita2s As Label
+    Friend WithEvents cajita3s As Label
+    Friend WithEvents cajita2_1p As Label
+    Friend WithEvents cajita3_1p As Label
+    Friend WithEvents cajita4_1p As Label
+    Friend WithEvents cajita5_1p As Label
+    Friend WithEvents cajita6_1p As Label
+    Friend WithEvents cajita7_1p As Label
+    Friend WithEvents cajita2_2p As Label
+    Friend WithEvents cajita3_2p As Label
+    Friend WithEvents cajita4_2p As Label
+    Friend WithEvents cajita5_2p As Label
+    Friend WithEvents cajita6_2p As Label
+    Friend WithEvents cajita7_2p As Label
+    Friend WithEvents cajita2_3p As Label
+    Friend WithEvents cajita3_3p As Label
+    Friend WithEvents cajita4_3p As Label
+    Friend WithEvents cajita5_3p As Label
+    Friend WithEvents cajita6_3p As Label
+    Friend WithEvents cajita7_3p As Label
+    Friend WithEvents cajita4_3d As Label
+    Friend WithEvents cajita5_3d As Label
+    Friend WithEvents cajita6_3d As Label
+    Friend WithEvents cajita4_2d As Label
+    Friend WithEvents cajita5_2d As Label
+    Friend WithEvents cajita6_2d As Label
+    Friend WithEvents cajita4_1d As Label
+    Friend WithEvents cajita5_1d As Label
+    Friend WithEvents cajita6_1d As Label
+    Friend WithEvents cajita4_5d As Label
+    Friend WithEvents cajita5_5d As Label
+    Friend WithEvents cajita6_5d As Label
+    Friend WithEvents cajita4_4d As Label
+    Friend WithEvents cajita5_4d As Label
+    Friend WithEvents cajita6_4d As Label
+    Friend WithEvents cajita3_4d As Label
+    Friend WithEvents cajita3_5d As Label
+    Friend WithEvents cajita3_3d As Label
+    Friend WithEvents cajita3_2d As Label
+    Friend WithEvents cajita3_1d As Label
+    Friend WithEvents cajita4_5f As Label
+    Friend WithEvents cajita5_5f As Label
+    Friend WithEvents cajita4_4f As Label
+    Friend WithEvents cajita5_4f As Label
+    Friend WithEvents cajita4_3f As Label
+    Friend WithEvents cajita5_3f As Label
+    Friend WithEvents cajita4_2f As Label
+    Friend WithEvents cajita5_2f As Label
+    Friend WithEvents cajita4_1f As Label
+    Friend WithEvents cajita5_1f As Label
+    Friend WithEvents cajita4_7f As Label
+    Friend WithEvents cajita5_7f As Label
+    Friend WithEvents cajita4_6f As Label
+    Friend WithEvents cajita5_6f As Label
     Friend WithEvents Label92 As Label
     Friend WithEvents Label93 As Label
     Friend WithEvents Label94 As Label
@@ -3507,7 +3735,6 @@ Partial Class Form2
     Friend WithEvents Label96 As Label
     Friend WithEvents Label97 As Label
     Friend WithEvents Label98 As Label
-    Friend WithEvents Label99 As Label
     Friend WithEvents Label100 As Label
     Friend WithEvents Label101 As Label
     Friend WithEvents Label102 As Label
@@ -3520,5 +3747,16 @@ Partial Class Form2
     Friend WithEvents Label109 As Label
     Friend WithEvents Label110 As Label
     Friend WithEvents Label111 As Label
-    Friend WithEvents Button1 As Button
+    Friend WithEvents lblConfigE As Label
+    Friend WithEvents Label26 As Label
+    Friend WithEvents Label27 As Label
+    Friend WithEvents Label33 As Label
+    Friend WithEvents Label31 As Label
+    Friend WithEvents Label29 As Label
+    Friend WithEvents Label36 As Label
+    Friend WithEvents Label35 As Label
+    Friend WithEvents Label37 As Label
+    Friend WithEvents Label38 As Label
+    Friend WithEvents Label39 As Label
+    Friend WithEvents Label69 As Label
 End Class

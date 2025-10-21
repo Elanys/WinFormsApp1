@@ -173,20 +173,37 @@ Partial Class Form1
         lblDensidad = New Label()
         lblPuntoE = New Label()
         lblPuntoF = New Label()
-        btnAlcalinos = New Button()
-        btnAlcalinoterrenos = New Button()
-        btnLantánidos = New Button()
-        btnActínidos = New Button()
-        Button11 = New Button()
-        Button12 = New Button()
-        Button19 = New Button()
-        Button20 = New Button()
-        Button37 = New Button()
         Panel1 = New Panel()
-        btnAbrirForm2 = New Button()
+        btnAbrirFormDos = New Button()
         Label1 = New Label()
         Label28 = New Label()
         GroupBox1 = New GroupBox()
+        lblDescubrimiento = New Label()
+        Label72 = New Label()
+        lblAbundancia = New Label()
+        Label70 = New Label()
+        lblConductividad = New Label()
+        Label75 = New Label()
+        lblDureza = New Label()
+        Label73 = New Label()
+        lblEnergiaI = New Label()
+        Label71 = New Label()
+        lblEstadoF = New Label()
+        Label68 = New Label()
+        lblDescripcion = New Label()
+        Label66 = New Label()
+        Label67 = New Label()
+        Label65 = New Label()
+        Label64 = New Label()
+        Label63 = New Label()
+        Label62 = New Label()
+        Label61 = New Label()
+        Label60 = New Label()
+        Label59 = New Label()
+        Label58 = New Label()
+        Label57 = New Label()
+        Label56 = New Label()
+        Label55 = New Label()
         GroupBox2 = New GroupBox()
         Label2 = New Label()
         Label26 = New Label()
@@ -197,14 +214,31 @@ Partial Class Form1
         Label32 = New Label()
         Label33 = New Label()
         Label34 = New Label()
-        GroupBox3 = New GroupBox()
-        GroupBox4 = New GroupBox()
-        Button1 = New Button()
+        Label35 = New Label()
+        Label36 = New Label()
+        Label37 = New Label()
+        Label38 = New Label()
+        Label39 = New Label()
+        Label40 = New Label()
+        Label41 = New Label()
+        Label42 = New Label()
+        Label43 = New Label()
+        Label44 = New Label()
+        Label45 = New Label()
+        Label46 = New Label()
+        Label47 = New Label()
+        Label48 = New Label()
+        Label49 = New Label()
+        Label50 = New Label()
+        Label51 = New Label()
+        Label52 = New Label()
+        Label53 = New Label()
+        Label54 = New Label()
+        Label69 = New Label()
+        Label74 = New Label()
         propiedades.SuspendLayout()
         GroupBox1.SuspendLayout()
         GroupBox2.SuspendLayout()
-        GroupBox3.SuspendLayout()
-        GroupBox4.SuspendLayout()
         SuspendLayout()
         ' 
         ' btnH1
@@ -222,7 +256,7 @@ Partial Class Form1
         ' 
         ' Button2
         ' 
-        Button2.BackColor = Color.LimeGreen
+        Button2.BackColor = Color.ForestGreen
         Button2.Cursor = Cursors.Hand
         Button2.Font = New Font("Lucida Sans Unicode", 8.25F, FontStyle.Bold)
         Button2.ForeColor = SystemColors.ButtonHighlight
@@ -235,7 +269,7 @@ Partial Class Form1
         ' 
         ' btnLi3
         ' 
-        btnLi3.BackColor = Color.MediumBlue
+        btnLi3.BackColor = Color.Navy
         btnLi3.Cursor = Cursors.Hand
         btnLi3.Font = New Font("Lucida Sans Unicode", 9F, FontStyle.Bold)
         btnLi3.ForeColor = SystemColors.Control
@@ -260,7 +294,7 @@ Partial Class Form1
         ' 
         ' Button5
         ' 
-        Button5.BackColor = Color.Tomato
+        Button5.BackColor = Color.Crimson
         Button5.Cursor = Cursors.Hand
         Button5.Font = New Font("Lucida Sans Unicode", 8.25F, FontStyle.Bold)
         Button5.ForeColor = SystemColors.ButtonHighlight
@@ -312,11 +346,11 @@ Partial Class Form1
         ' 
         ' Button9
         ' 
-        Button9.BackColor = Color.ForestGreen
+        Button9.BackColor = Color.LimeGreen
         Button9.Cursor = Cursors.Hand
         Button9.Font = New Font("Lucida Sans Unicode", 8.25F, FontStyle.Bold)
         Button9.ForeColor = SystemColors.ButtonHighlight
-        Button9.Location = New Point(1272, 393)
+        Button9.Location = New Point(1270, 393)
         Button9.Name = "Button9"
         Button9.Size = New Size(70, 60)
         Button9.TabIndex = 8
@@ -325,7 +359,7 @@ Partial Class Form1
         ' 
         ' button10
         ' 
-        button10.BackColor = Color.LimeGreen
+        button10.BackColor = Color.ForestGreen
         button10.Cursor = Cursors.Hand
         button10.Font = New Font("Lucida Sans Unicode", 8.25F, FontStyle.Bold)
         button10.ForeColor = SystemColors.ButtonHighlight
@@ -338,7 +372,7 @@ Partial Class Form1
         ' 
         ' btnNa11
         ' 
-        btnNa11.BackColor = Color.MediumBlue
+        btnNa11.BackColor = Color.Navy
         btnNa11.Cursor = Cursors.Hand
         btnNa11.Font = New Font("Lucida Sans Unicode", 9F, FontStyle.Bold)
         btnNa11.ForeColor = SystemColors.Control
@@ -376,7 +410,7 @@ Partial Class Form1
         ' 
         ' Button14
         ' 
-        Button14.BackColor = Color.Tomato
+        Button14.BackColor = Color.Crimson
         Button14.Cursor = Cursors.Hand
         Button14.Font = New Font("Lucida Sans Unicode", 8.25F, FontStyle.Bold)
         Button14.ForeColor = SystemColors.ButtonHighlight
@@ -415,7 +449,7 @@ Partial Class Form1
         ' 
         ' Button17
         ' 
-        Button17.BackColor = Color.ForestGreen
+        Button17.BackColor = Color.LimeGreen
         Button17.Cursor = Cursors.Hand
         Button17.Font = New Font("Lucida Sans Unicode", 8.25F, FontStyle.Bold)
         Button17.ForeColor = SystemColors.ButtonHighlight
@@ -428,7 +462,7 @@ Partial Class Form1
         ' 
         ' Button18
         ' 
-        Button18.BackColor = Color.LimeGreen
+        Button18.BackColor = Color.ForestGreen
         Button18.Cursor = Cursors.Hand
         Button18.Font = New Font("Lucida Sans Unicode", 8.25F, FontStyle.Bold)
         Button18.ForeColor = SystemColors.ButtonHighlight
@@ -441,7 +475,7 @@ Partial Class Form1
         ' 
         ' btnK19
         ' 
-        btnK19.BackColor = Color.MediumBlue
+        btnK19.BackColor = Color.Navy
         btnK19.Cursor = Cursors.Hand
         btnK19.Font = New Font("Lucida Sans Unicode", 9F, FontStyle.Bold)
         btnK19.ForeColor = SystemColors.Control
@@ -609,7 +643,7 @@ Partial Class Form1
         ' 
         ' Button32
         ' 
-        Button32.BackColor = Color.Tomato
+        Button32.BackColor = Color.Crimson
         Button32.Cursor = Cursors.Hand
         Button32.Font = New Font("Lucida Sans Unicode", 8.25F, FontStyle.Bold)
         Button32.ForeColor = SystemColors.ButtonHighlight
@@ -622,7 +656,7 @@ Partial Class Form1
         ' 
         ' Button33
         ' 
-        Button33.BackColor = Color.Tomato
+        Button33.BackColor = Color.Crimson
         Button33.Cursor = Cursors.Hand
         Button33.Font = New Font("Lucida Sans Unicode", 8.25F, FontStyle.Bold)
         Button33.ForeColor = SystemColors.ButtonHighlight
@@ -648,7 +682,7 @@ Partial Class Form1
         ' 
         ' Button35
         ' 
-        Button35.BackColor = Color.ForestGreen
+        Button35.BackColor = Color.LimeGreen
         Button35.Cursor = Cursors.Hand
         Button35.Font = New Font("Lucida Sans Unicode", 8.25F, FontStyle.Bold)
         Button35.ForeColor = SystemColors.ButtonHighlight
@@ -661,7 +695,7 @@ Partial Class Form1
         ' 
         ' Button36
         ' 
-        Button36.BackColor = Color.LimeGreen
+        Button36.BackColor = Color.ForestGreen
         Button36.Cursor = Cursors.Hand
         Button36.Font = New Font("Lucida Sans Unicode", 8.25F, FontStyle.Bold)
         Button36.ForeColor = SystemColors.ButtonHighlight
@@ -674,7 +708,7 @@ Partial Class Form1
         ' 
         ' btnRb37
         ' 
-        btnRb37.BackColor = Color.MediumBlue
+        btnRb37.BackColor = Color.Navy
         btnRb37.Cursor = Cursors.Hand
         btnRb37.Font = New Font("Lucida Sans Unicode", 9F, FontStyle.Bold)
         btnRb37.ForeColor = SystemColors.Control
@@ -855,7 +889,7 @@ Partial Class Form1
         ' 
         ' Button51
         ' 
-        Button51.BackColor = Color.Tomato
+        Button51.BackColor = Color.Crimson
         Button51.Cursor = Cursors.Hand
         Button51.Font = New Font("Lucida Sans Unicode", 8.25F, FontStyle.Bold)
         Button51.ForeColor = SystemColors.ButtonHighlight
@@ -868,7 +902,7 @@ Partial Class Form1
         ' 
         ' Button52
         ' 
-        Button52.BackColor = Color.Tomato
+        Button52.BackColor = Color.Crimson
         Button52.Cursor = Cursors.Hand
         Button52.Font = New Font("Lucida Sans Unicode", 8.25F, FontStyle.Bold)
         Button52.ForeColor = SystemColors.ButtonHighlight
@@ -881,7 +915,7 @@ Partial Class Form1
         ' 
         ' Button53
         ' 
-        Button53.BackColor = Color.ForestGreen
+        Button53.BackColor = Color.LimeGreen
         Button53.Cursor = Cursors.Hand
         Button53.Font = New Font("Lucida Sans Unicode", 8.25F, FontStyle.Bold)
         Button53.ForeColor = SystemColors.ButtonHighlight
@@ -894,11 +928,11 @@ Partial Class Form1
         ' 
         ' Button54
         ' 
-        Button54.BackColor = Color.LimeGreen
+        Button54.BackColor = Color.ForestGreen
         Button54.Cursor = Cursors.Hand
         Button54.Font = New Font("Lucida Sans Unicode", 8.25F, FontStyle.Bold)
         Button54.ForeColor = SystemColors.ButtonHighlight
-        Button54.Location = New Point(1346, 588)
+        Button54.Location = New Point(1347, 589)
         Button54.Name = "Button54"
         Button54.Size = New Size(70, 60)
         Button54.TabIndex = 48
@@ -907,7 +941,7 @@ Partial Class Form1
         ' 
         ' btnCs55
         ' 
-        btnCs55.BackColor = Color.MediumBlue
+        btnCs55.BackColor = Color.Navy
         btnCs55.Cursor = Cursors.Hand
         btnCs55.Font = New Font("Lucida Sans Unicode", 9F, FontStyle.Bold)
         btnCs55.ForeColor = SystemColors.Control
@@ -951,7 +985,7 @@ Partial Class Form1
         Button59.Name = "Button59"
         Button59.Size = New Size(70, 60)
         Button59.TabIndex = 61
-        Button59.Text = "Pm"
+        Button59.Text = "Pr"
         Button59.UseVisualStyleBackColor = False
         ' 
         ' Button60
@@ -963,7 +997,7 @@ Partial Class Form1
         Button60.Name = "Button60"
         Button60.Size = New Size(70, 60)
         Button60.TabIndex = 60
-        Button60.Text = "Pr"
+        Button60.Text = "Nd"
         Button60.UseVisualStyleBackColor = False
         ' 
         ' Button61
@@ -975,7 +1009,7 @@ Partial Class Form1
         Button61.Name = "Button61"
         Button61.Size = New Size(70, 60)
         Button61.TabIndex = 59
-        Button61.Text = "Nd"
+        Button61.Text = "Pm"
         Button61.UseVisualStyleBackColor = False
         ' 
         ' Button62
@@ -1256,7 +1290,7 @@ Partial Class Form1
         ' 
         ' Button84
         ' 
-        Button84.BackColor = Color.Tomato
+        Button84.BackColor = Color.Crimson
         Button84.Cursor = Cursors.Hand
         Button84.Font = New Font("Lucida Sans Unicode", 8.25F, FontStyle.Bold)
         Button84.ForeColor = SystemColors.ButtonHighlight
@@ -1269,7 +1303,7 @@ Partial Class Form1
         ' 
         ' Button85
         ' 
-        Button85.BackColor = Color.ForestGreen
+        Button85.BackColor = Color.LimeGreen
         Button85.Cursor = Cursors.Hand
         Button85.Font = New Font("Lucida Sans Unicode", 8.25F, FontStyle.Bold)
         Button85.ForeColor = SystemColors.ButtonHighlight
@@ -1282,7 +1316,7 @@ Partial Class Form1
         ' 
         ' Button86
         ' 
-        Button86.BackColor = Color.LimeGreen
+        Button86.BackColor = Color.ForestGreen
         Button86.Cursor = Cursors.Hand
         Button86.Font = New Font("Lucida Sans Unicode", 8.25F, FontStyle.Bold)
         Button86.ForeColor = SystemColors.ButtonHighlight
@@ -1295,7 +1329,7 @@ Partial Class Form1
         ' 
         ' BtnFr87
         ' 
-        BtnFr87.BackColor = Color.MediumBlue
+        BtnFr87.BackColor = Color.Navy
         BtnFr87.Cursor = Cursors.Hand
         BtnFr87.Font = New Font("Lucida Sans Unicode", 9F, FontStyle.Bold)
         BtnFr87.ForeColor = SystemColors.Control
@@ -1623,7 +1657,7 @@ Partial Class Form1
         Button113.Cursor = Cursors.Hand
         Button113.Font = New Font("Lucida Sans Unicode", 8.25F, FontStyle.Bold)
         Button113.ForeColor = SystemColors.ButtonHighlight
-        Button113.Location = New Point(967, 721)
+        Button113.Location = New Point(970, 721)
         Button113.Name = "Button113"
         Button113.Size = New Size(70, 60)
         Button113.TabIndex = 115
@@ -1640,6 +1674,7 @@ Partial Class Form1
         Button114.Name = "Button114"
         Button114.Size = New Size(70, 60)
         Button114.TabIndex = 114
+        Button114.Text = "Fl"
         Button114.UseVisualStyleBackColor = False
         ' 
         ' Button115
@@ -1670,7 +1705,7 @@ Partial Class Form1
         ' 
         ' Button117
         ' 
-        Button117.BackColor = Color.ForestGreen
+        Button117.BackColor = Color.LimeGreen
         Button117.Cursor = Cursors.Hand
         Button117.Font = New Font("Lucida Sans Unicode", 8.25F, FontStyle.Bold)
         Button117.ForeColor = SystemColors.ButtonHighlight
@@ -1683,7 +1718,7 @@ Partial Class Form1
         ' 
         ' Button118
         ' 
-        Button118.BackColor = Color.LimeGreen
+        Button118.BackColor = Color.ForestGreen
         Button118.Cursor = Cursors.Hand
         Button118.Font = New Font("Lucida Sans Unicode", 8.25F, FontStyle.Bold)
         Button118.ForeColor = SystemColors.ButtonHighlight
@@ -1697,10 +1732,10 @@ Partial Class Form1
         ' lblA
         ' 
         lblA.Font = New Font("Lucida Sans Unicode", 8.25F, FontStyle.Bold)
-        lblA.Location = New Point(147, 116)
+        lblA.Location = New Point(113, 116)
         lblA.Name = "lblA"
         lblA.RightToLeft = RightToLeft.Yes
-        lblA.Size = New Size(129, 15)
+        lblA.Size = New Size(163, 15)
         lblA.TabIndex = 122
         lblA.Text = " "
         ' 
@@ -1985,22 +2020,22 @@ Partial Class Form1
         ' lblConfig
         ' 
         lblConfig.Font = New Font("Lucida Sans Unicode", 8.25F, FontStyle.Bold)
-        lblConfig.Location = New Point(141, 186)
+        lblConfig.Location = New Point(97, 179)
         lblConfig.Name = "lblConfig"
         lblConfig.RightToLeft = RightToLeft.Yes
-        lblConfig.Size = New Size(135, 24)
+        lblConfig.Size = New Size(179, 24)
         lblConfig.TabIndex = 124
         lblConfig.Text = " "
         ' 
         ' lblValencia
         ' 
-        lblValencia.AutoSize = True
         lblValencia.Font = New Font("Lucida Sans Unicode", 8.25F, FontStyle.Bold)
-        lblValencia.Location = New Point(262, 151)
+        lblValencia.Location = New Point(127, 151)
         lblValencia.Name = "lblValencia"
-        lblValencia.Size = New Size(11, 15)
+        lblValencia.Size = New Size(149, 14)
         lblValencia.TabIndex = 123
         lblValencia.Text = " "
+        lblValencia.TextAlign = ContentAlignment.TopRight
         ' 
         ' lblNombre
         ' 
@@ -2010,7 +2045,6 @@ Partial Class Form1
         lblNombre.Name = "lblNombre"
         lblNombre.Size = New Size(282, 21)
         lblNombre.TabIndex = 120
-        lblNombre.Text = "lblNombre"
         lblNombre.TextAlign = ContentAlignment.MiddleCenter
         ' 
         ' lblSimbolo
@@ -2037,7 +2071,7 @@ Partial Class Form1
         propiedades.Controls.Add(lblConfig)
         propiedades.Controls.Add(lblNombre)
         propiedades.Font = New Font("Segoe UI", 1F)
-        propiedades.Location = New Point(232, 185)
+        propiedades.Location = New Point(359, 174)
         propiedades.Margin = New Padding(0)
         propiedades.Name = "propiedades"
         propiedades.Size = New Size(282, 247)
@@ -2047,7 +2081,7 @@ Partial Class Form1
         ' lblZ
         ' 
         lblZ.Font = New Font("Segoe UI", 26.25F, FontStyle.Bold)
-        lblZ.Location = New Point(6, 19)
+        lblZ.Location = New Point(3, 19)
         lblZ.Name = "lblZ"
         lblZ.Size = New Size(94, 47)
         lblZ.TabIndex = 157
@@ -2076,128 +2110,9 @@ Partial Class Form1
         lblPuntoF.Font = New Font("Segoe UI", 9F, FontStyle.Bold)
         lblPuntoF.Location = New Point(7, 116)
         lblPuntoF.Name = "lblPuntoF"
-        lblPuntoF.Size = New Size(100, 15)
+        lblPuntoF.Size = New Size(113, 20)
         lblPuntoF.TabIndex = 157
         lblPuntoF.Text = " "
-        ' 
-        ' btnAlcalinos
-        ' 
-        btnAlcalinos.BackColor = Color.MediumBlue
-        btnAlcalinos.Cursor = Cursors.Hand
-        btnAlcalinos.Font = New Font("Lucida Sans Unicode", 8.25F, FontStyle.Bold)
-        btnAlcalinos.ForeColor = SystemColors.ActiveCaptionText
-        btnAlcalinos.Location = New Point(6, 22)
-        btnAlcalinos.Name = "btnAlcalinos"
-        btnAlcalinos.Size = New Size(47, 155)
-        btnAlcalinos.TabIndex = 157
-        btnAlcalinos.Text = "Alcalinos"
-        btnAlcalinos.TextAlign = ContentAlignment.MiddleRight
-        btnAlcalinos.TextImageRelation = TextImageRelation.ImageBeforeText
-        btnAlcalinos.UseVisualStyleBackColor = False
-        ' 
-        ' btnAlcalinoterrenos
-        ' 
-        btnAlcalinoterrenos.BackColor = Color.Khaki
-        btnAlcalinoterrenos.Cursor = Cursors.Hand
-        btnAlcalinoterrenos.Font = New Font("Lucida Sans Unicode", 3.75F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
-        btnAlcalinoterrenos.ForeColor = Color.Black
-        btnAlcalinoterrenos.Location = New Point(59, 30)
-        btnAlcalinoterrenos.Name = "btnAlcalinoterrenos"
-        btnAlcalinoterrenos.Size = New Size(43, 135)
-        btnAlcalinoterrenos.TabIndex = 158
-        btnAlcalinoterrenos.Text = "Alcalinoterrenos"
-        btnAlcalinoterrenos.UseVisualStyleBackColor = False
-        ' 
-        ' btnLantánidos
-        ' 
-        btnLantánidos.BackColor = Color.DarkSeaGreen
-        btnLantánidos.Cursor = Cursors.Hand
-        btnLantánidos.Font = New Font("Lucida Sans Unicode", 6F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
-        btnLantánidos.ForeColor = SystemColors.ControlText
-        btnLantánidos.Location = New Point(108, 96)
-        btnLantánidos.Name = "btnLantánidos"
-        btnLantánidos.Size = New Size(76, 67)
-        btnLantánidos.TabIndex = 159
-        btnLantánidos.Text = "Lantánidos"
-        btnLantánidos.UseVisualStyleBackColor = False
-        ' 
-        ' btnActínidos
-        ' 
-        btnActínidos.BackColor = Color.MediumSeaGreen
-        btnActínidos.Cursor = Cursors.Hand
-        btnActínidos.Font = New Font("Lucida Sans Unicode", 6.75F, FontStyle.Bold)
-        btnActínidos.ForeColor = SystemColors.ActiveCaptionText
-        btnActínidos.Location = New Point(108, 29)
-        btnActínidos.Name = "btnActínidos"
-        btnActínidos.Size = New Size(76, 65)
-        btnActínidos.TabIndex = 160
-        btnActínidos.Text = "Actínidos"
-        btnActínidos.UseVisualStyleBackColor = False
-        ' 
-        ' Button11
-        ' 
-        Button11.BackColor = Color.RoyalBlue
-        Button11.Cursor = Cursors.Hand
-        Button11.Font = New Font("Lucida Sans Unicode", 9.75F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
-        Button11.ForeColor = SystemColors.ActiveCaptionText
-        Button11.Location = New Point(98, 32)
-        Button11.Name = "Button11"
-        Button11.Size = New Size(38, 135)
-        Button11.TabIndex = 161
-        Button11.Text = "Alcalinos"
-        Button11.UseVisualStyleBackColor = False
-        ' 
-        ' Button12
-        ' 
-        Button12.BackColor = Color.Orchid
-        Button12.Cursor = Cursors.Hand
-        Button12.Font = New Font("Lucida Sans Unicode", 9.75F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
-        Button12.ForeColor = SystemColors.ActiveCaptionText
-        Button12.Location = New Point(190, 28)
-        Button12.Name = "Button12"
-        Button12.Size = New Size(40, 135)
-        Button12.TabIndex = 162
-        Button12.Text = "Meta"
-        Button12.UseVisualStyleBackColor = False
-        ' 
-        ' Button19
-        ' 
-        Button19.BackColor = Color.Tomato
-        Button19.Cursor = Cursors.Hand
-        Button19.Font = New Font("Lucida Sans Unicode", 9.75F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
-        Button19.ForeColor = SystemColors.ActiveCaptionText
-        Button19.Location = New Point(823, 182)
-        Button19.Name = "Button19"
-        Button19.Size = New Size(40, 184)
-        Button19.TabIndex = 163
-        Button19.Text = "Alcalinos"
-        Button19.UseVisualStyleBackColor = False
-        ' 
-        ' Button20
-        ' 
-        Button20.BackColor = Color.DarkOrange
-        Button20.Cursor = Cursors.Hand
-        Button20.Font = New Font("Lucida Sans Unicode", 9.75F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
-        Button20.ForeColor = SystemColors.ActiveCaptionText
-        Button20.Location = New Point(6, 32)
-        Button20.Name = "Button20"
-        Button20.Size = New Size(40, 135)
-        Button20.TabIndex = 164
-        Button20.Text = "Alcalinos"
-        Button20.UseVisualStyleBackColor = False
-        ' 
-        ' Button37
-        ' 
-        Button37.BackColor = Color.LimeGreen
-        Button37.Cursor = Cursors.Hand
-        Button37.Font = New Font("Lucida Sans Unicode", 9.75F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
-        Button37.ForeColor = SystemColors.ActiveCaptionText
-        Button37.Location = New Point(52, 32)
-        Button37.Name = "Button37"
-        Button37.Size = New Size(40, 135)
-        Button37.TabIndex = 165
-        Button37.Text = "Alcalinos"
-        Button37.UseVisualStyleBackColor = False
         ' 
         ' Panel1
         ' 
@@ -2208,17 +2123,17 @@ Partial Class Form1
         Panel1.Size = New Size(44, 273)
         Panel1.TabIndex = 166
         ' 
-        ' btnAbrirForm2
+        ' btnAbrirFormDos
         ' 
-        btnAbrirForm2.BackColor = Color.IndianRed
-        btnAbrirForm2.Cursor = Cursors.Hand
-        btnAbrirForm2.Font = New Font("Lucida Sans Unicode", 9F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
-        btnAbrirForm2.Location = New Point(55, 861)
-        btnAbrirForm2.Name = "btnAbrirForm2"
-        btnAbrirForm2.Size = New Size(146, 72)
-        btnAbrirForm2.TabIndex = 167
-        btnAbrirForm2.Text = "Cuánticos"
-        btnAbrirForm2.UseVisualStyleBackColor = False
+        btnAbrirFormDos.BackColor = Color.IndianRed
+        btnAbrirFormDos.Cursor = Cursors.Hand
+        btnAbrirFormDos.Font = New Font("Lucida Sans Unicode", 9F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
+        btnAbrirFormDos.Location = New Point(55, 861)
+        btnAbrirFormDos.Name = "btnAbrirFormDos"
+        btnAbrirFormDos.Size = New Size(146, 72)
+        btnAbrirFormDos.TabIndex = 167
+        btnAbrirFormDos.Text = "Cuánticos"
+        btnAbrirFormDos.UseVisualStyleBackColor = False
         ' 
         ' Label1
         ' 
@@ -2244,13 +2159,313 @@ Partial Class Form1
         ' 
         ' GroupBox1
         ' 
+        GroupBox1.BackColor = SystemColors.InactiveCaption
+        GroupBox1.Controls.Add(lblDescubrimiento)
+        GroupBox1.Controls.Add(Label72)
+        GroupBox1.Controls.Add(lblAbundancia)
+        GroupBox1.Controls.Add(Label70)
+        GroupBox1.Controls.Add(lblConductividad)
+        GroupBox1.Controls.Add(Label75)
+        GroupBox1.Controls.Add(lblDureza)
+        GroupBox1.Controls.Add(Label73)
+        GroupBox1.Controls.Add(lblEnergiaI)
+        GroupBox1.Controls.Add(Label71)
+        GroupBox1.Controls.Add(lblEstadoF)
+        GroupBox1.Controls.Add(Label68)
+        GroupBox1.Controls.Add(lblDescripcion)
+        GroupBox1.Controls.Add(Label66)
+        GroupBox1.Controls.Add(Label67)
+        GroupBox1.Controls.Add(Label65)
+        GroupBox1.Controls.Add(Label64)
+        GroupBox1.Controls.Add(Label63)
+        GroupBox1.Controls.Add(Label62)
+        GroupBox1.Controls.Add(Label61)
+        GroupBox1.Controls.Add(Label60)
+        GroupBox1.Controls.Add(Label59)
+        GroupBox1.Controls.Add(Label58)
+        GroupBox1.Controls.Add(Label57)
+        GroupBox1.Controls.Add(Label56)
+        GroupBox1.Controls.Add(Label55)
         GroupBox1.Controls.Add(GroupBox2)
         GroupBox1.Font = New Font("Segoe UI", 1F)
-        GroupBox1.Location = New Point(1462, 132)
+        GroupBox1.Location = New Point(1453, 97)
         GroupBox1.Name = "GroupBox1"
         GroupBox1.Size = New Size(408, 836)
         GroupBox1.TabIndex = 170
         GroupBox1.TabStop = False
+        ' 
+        ' lblDescubrimiento
+        ' 
+        lblDescubrimiento.BackColor = SystemColors.InactiveCaption
+        lblDescubrimiento.Font = New Font("Microsoft Sans Serif", 15F)
+        lblDescubrimiento.Location = New Point(194, 689)
+        lblDescubrimiento.Name = "lblDescubrimiento"
+        lblDescubrimiento.Size = New Size(200, 35)
+        lblDescubrimiento.TabIndex = 184
+        lblDescubrimiento.TextAlign = ContentAlignment.TopRight
+        ' 
+        ' Label72
+        ' 
+        Label72.BackColor = SystemColors.InactiveCaption
+        Label72.Font = New Font("Microsoft Sans Serif", 15F)
+        Label72.Location = New Point(6, 689)
+        Label72.Name = "Label72"
+        Label72.Size = New Size(157, 35)
+        Label72.TabIndex = 183
+        Label72.Text = "Descubrimiento"
+        ' 
+        ' lblAbundancia
+        ' 
+        lblAbundancia.BackColor = SystemColors.InactiveCaption
+        lblAbundancia.Font = New Font("Microsoft Sans Serif", 15F)
+        lblAbundancia.Location = New Point(168, 654)
+        lblAbundancia.Name = "lblAbundancia"
+        lblAbundancia.Size = New Size(226, 35)
+        lblAbundancia.TabIndex = 182
+        lblAbundancia.TextAlign = ContentAlignment.TopRight
+        ' 
+        ' Label70
+        ' 
+        Label70.BackColor = SystemColors.InactiveCaption
+        Label70.Font = New Font("Microsoft Sans Serif", 15F)
+        Label70.Location = New Point(6, 654)
+        Label70.Name = "Label70"
+        Label70.Size = New Size(120, 35)
+        Label70.TabIndex = 181
+        Label70.Text = "Abundancia"
+        ' 
+        ' lblConductividad
+        ' 
+        lblConductividad.BackColor = SystemColors.InactiveCaption
+        lblConductividad.Font = New Font("Microsoft Sans Serif", 15F)
+        lblConductividad.Location = New Point(156, 619)
+        lblConductividad.Name = "lblConductividad"
+        lblConductividad.Size = New Size(238, 35)
+        lblConductividad.TabIndex = 180
+        lblConductividad.TextAlign = ContentAlignment.TopRight
+        ' 
+        ' Label75
+        ' 
+        Label75.BackColor = SystemColors.InactiveCaption
+        Label75.Font = New Font("Microsoft Sans Serif", 15F)
+        Label75.Location = New Point(6, 619)
+        Label75.Name = "Label75"
+        Label75.Size = New Size(144, 35)
+        Label75.TabIndex = 179
+        Label75.Text = "Conductividad"
+        ' 
+        ' lblDureza
+        ' 
+        lblDureza.BackColor = SystemColors.InactiveCaption
+        lblDureza.Font = New Font("Microsoft Sans Serif", 15F)
+        lblDureza.Location = New Point(156, 581)
+        lblDureza.Name = "lblDureza"
+        lblDureza.Size = New Size(238, 35)
+        lblDureza.TabIndex = 178
+        lblDureza.TextAlign = ContentAlignment.TopRight
+        ' 
+        ' Label73
+        ' 
+        Label73.BackColor = SystemColors.InactiveCaption
+        Label73.Font = New Font("Microsoft Sans Serif", 15F)
+        Label73.Location = New Point(6, 587)
+        Label73.Name = "Label73"
+        Label73.Size = New Size(120, 35)
+        Label73.TabIndex = 177
+        Label73.Text = "Dureza"
+        ' 
+        ' lblEnergiaI
+        ' 
+        lblEnergiaI.BackColor = SystemColors.InactiveCaption
+        lblEnergiaI.Font = New Font("Microsoft Sans Serif", 15F)
+        lblEnergiaI.Location = New Point(238, 546)
+        lblEnergiaI.Name = "lblEnergiaI"
+        lblEnergiaI.Size = New Size(156, 35)
+        lblEnergiaI.TabIndex = 176
+        lblEnergiaI.TextAlign = ContentAlignment.TopRight
+        ' 
+        ' Label71
+        ' 
+        Label71.BackColor = SystemColors.InactiveCaption
+        Label71.Font = New Font("Microsoft Sans Serif", 15F)
+        Label71.Location = New Point(6, 552)
+        Label71.Name = "Label71"
+        Label71.Size = New Size(200, 35)
+        Label71.TabIndex = 175
+        Label71.Text = "Energia de ionizacion"
+        ' 
+        ' lblEstadoF
+        ' 
+        lblEstadoF.BackColor = SystemColors.InactiveCaption
+        lblEstadoF.Font = New Font("Microsoft Sans Serif", 15F)
+        lblEstadoF.Location = New Point(186, 511)
+        lblEstadoF.Name = "lblEstadoF"
+        lblEstadoF.Size = New Size(208, 35)
+        lblEstadoF.TabIndex = 174
+        lblEstadoF.TextAlign = ContentAlignment.TopRight
+        ' 
+        ' Label68
+        ' 
+        Label68.BackColor = SystemColors.InactiveCaption
+        Label68.Font = New Font("Microsoft Sans Serif", 15F)
+        Label68.Location = New Point(6, 517)
+        Label68.Name = "Label68"
+        Label68.Size = New Size(144, 35)
+        Label68.TabIndex = 173
+        Label68.Text = "Estado Fisico"
+        ' 
+        ' lblDescripcion
+        ' 
+        lblDescripcion.BackColor = SystemColors.InactiveCaption
+        lblDescripcion.Font = New Font("Microsoft Sans Serif", 13F)
+        lblDescripcion.Location = New Point(6, 362)
+        lblDescripcion.Name = "lblDescripcion"
+        lblDescripcion.Size = New Size(396, 149)
+        lblDescripcion.TabIndex = 172
+        lblDescripcion.Text = vbCrLf
+        ' 
+        ' Label66
+        ' 
+        Label66.BackColor = SystemColors.InactiveCaption
+        Label66.Font = New Font("Microsoft Sans Serif", 15F)
+        Label66.Location = New Point(6, 327)
+        Label66.Name = "Label66"
+        Label66.Size = New Size(144, 35)
+        Label66.TabIndex = 171
+        Label66.Text = "Descripción"
+        ' 
+        ' Label67
+        ' 
+        Label67.BackColor = Color.SlateGray
+        Label67.Font = New Font("Segoe Script", 16F)
+        Label67.ForeColor = SystemColors.ControlLightLight
+        Label67.Location = New Point(0, 251)
+        Label67.Name = "Label67"
+        Label67.Size = New Size(408, 42)
+        Label67.TabIndex = 170
+        Label67.Text = "Más info."
+        Label67.TextAlign = ContentAlignment.MiddleCenter
+        ' 
+        ' Label65
+        ' 
+        Label65.BackColor = SystemColors.InactiveCaption
+        Label65.Font = New Font("Microsoft Sans Serif", 8.25F)
+        Label65.Location = New Point(169, 211)
+        Label65.Name = "Label65"
+        Label65.Size = New Size(90, 17)
+        Label65.TabIndex = 168
+        Label65.Text = "CLAVE"
+        Label65.TextAlign = ContentAlignment.MiddleCenter
+        ' 
+        ' Label64
+        ' 
+        Label64.BackColor = SystemColors.InactiveCaption
+        Label64.Font = New Font("Microsoft Sans Serif", 8.25F)
+        Label64.Location = New Point(325, 178)
+        Label64.Name = "Label64"
+        Label64.Size = New Size(77, 18)
+        Label64.TabIndex = 167
+        Label64.Text = "Config. E."
+        Label64.TextAlign = ContentAlignment.MiddleCenter
+        ' 
+        ' Label63
+        ' 
+        Label63.BackColor = SystemColors.InactiveCaption
+        Label63.Font = New Font("Microsoft Sans Serif", 8.25F)
+        Label63.Location = New Point(325, 150)
+        Label63.Name = "Label63"
+        Label63.Size = New Size(77, 18)
+        Label63.TabIndex = 166
+        Label63.Text = "Valencia"
+        Label63.TextAlign = ContentAlignment.MiddleCenter
+        ' 
+        ' Label62
+        ' 
+        Label62.BackColor = SystemColors.InactiveCaption
+        Label62.Font = New Font("Microsoft Sans Serif", 8.25F)
+        Label62.Location = New Point(324, 122)
+        Label62.Name = "Label62"
+        Label62.Size = New Size(78, 18)
+        Label62.TabIndex = 165
+        Label62.Text = "Masa"
+        Label62.TextAlign = ContentAlignment.MiddleCenter
+        ' 
+        ' Label61
+        ' 
+        Label61.BackColor = SystemColors.InactiveCaption
+        Label61.Font = New Font("Microsoft Sans Serif", 8.25F)
+        Label61.Location = New Point(324, 80)
+        Label61.Name = "Label61"
+        Label61.Size = New Size(83, 18)
+        Label61.TabIndex = 164
+        Label61.Text = "Grupo (fondo)"
+        Label61.TextAlign = ContentAlignment.MiddleCenter
+        ' 
+        ' Label60
+        ' 
+        Label60.BackColor = SystemColors.InactiveCaption
+        Label60.Font = New Font("Microsoft Sans Serif", 8.25F)
+        Label60.Location = New Point(324, 52)
+        Label60.Name = "Label60"
+        Label60.Size = New Size(70, 14)
+        Label60.TabIndex = 163
+        Label60.Text = "Simbolo"
+        Label60.TextAlign = ContentAlignment.MiddleCenter
+        ' 
+        ' Label59
+        ' 
+        Label59.BackColor = SystemColors.InactiveCaption
+        Label59.Font = New Font("Microsoft Sans Serif", 8.25F)
+        Label59.Location = New Point(17, 180)
+        Label59.Name = "Label59"
+        Label59.Size = New Size(90, 17)
+        Label59.TabIndex = 162
+        Label59.Text = "Densidad"
+        Label59.TextAlign = ContentAlignment.MiddleCenter
+        ' 
+        ' Label58
+        ' 
+        Label58.BackColor = SystemColors.InactiveCaption
+        Label58.Font = New Font("Microsoft Sans Serif", 8.25F)
+        Label58.Location = New Point(17, 129)
+        Label58.Name = "Label58"
+        Label58.Size = New Size(90, 17)
+        Label58.TabIndex = 161
+        Label58.Text = "Punto de fusión"
+        Label58.TextAlign = ContentAlignment.MiddleCenter
+        ' 
+        ' Label57
+        ' 
+        Label57.BackColor = SystemColors.InactiveCaption
+        Label57.Font = New Font("Microsoft Sans Serif", 8.25F)
+        Label57.Location = New Point(6, 156)
+        Label57.Name = "Label57"
+        Label57.Size = New Size(104, 15)
+        Label57.TabIndex = 160
+        Label57.Text = "Punto de ebullición"
+        Label57.TextAlign = ContentAlignment.MiddleCenter
+        ' 
+        ' Label56
+        ' 
+        Label56.BackColor = SystemColors.InactiveCaption
+        Label56.Font = New Font("Microsoft Sans Serif", 8.25F)
+        Label56.Location = New Point(17, 81)
+        Label56.Name = "Label56"
+        Label56.Size = New Size(90, 17)
+        Label56.TabIndex = 159
+        Label56.Text = "Nombre"
+        Label56.TextAlign = ContentAlignment.MiddleCenter
+        ' 
+        ' Label55
+        ' 
+        Label55.BackColor = SystemColors.InactiveCaption
+        Label55.Font = New Font("Microsoft Sans Serif", 8.25F)
+        Label55.Location = New Point(17, 49)
+        Label55.Name = "Label55"
+        Label55.Size = New Size(90, 17)
+        Label55.TabIndex = 158
+        Label55.Text = "Número atómico"
+        Label55.TextAlign = ContentAlignment.MiddleCenter
         ' 
         ' GroupBox2
         ' 
@@ -2323,7 +2538,7 @@ Partial Class Form1
         ' 
         Label31.AutoSize = True
         Label31.Font = New Font("Microsoft Sans Serif", 8.25F)
-        Label31.Location = New Point(189, 144)
+        Label31.Location = New Point(189, 119)
         Label31.Name = "Label31"
         Label31.Size = New Size(13, 13)
         Label31.TabIndex = 123
@@ -2342,7 +2557,7 @@ Partial Class Form1
         ' Label33
         ' 
         Label33.Font = New Font("Microsoft Sans Serif", 8.25F)
-        Label33.Location = New Point(67, 118)
+        Label33.Location = New Point(67, 141)
         Label33.Name = "Label33"
         Label33.RightToLeft = RightToLeft.Yes
         Label33.Size = New Size(135, 16)
@@ -2360,57 +2575,229 @@ Partial Class Form1
         Label34.Text = "Hidrógeno"
         Label34.TextAlign = ContentAlignment.MiddleCenter
         ' 
-        ' GroupBox3
+        ' Label35
         ' 
-        GroupBox3.BackColor = SystemColors.ControlLight
-        GroupBox3.Controls.Add(btnAlcalinos)
-        GroupBox3.Controls.Add(btnAlcalinoterrenos)
-        GroupBox3.Controls.Add(btnLantánidos)
-        GroupBox3.Controls.Add(btnActínidos)
-        GroupBox3.Controls.Add(Button12)
-        GroupBox3.Location = New Point(581, 180)
-        GroupBox3.Name = "GroupBox3"
-        GroupBox3.Size = New Size(236, 186)
-        GroupBox3.TabIndex = 171
-        GroupBox3.TabStop = False
-        GroupBox3.Text = "Metales"
+        Label35.BackColor = Color.ForestGreen
+        Label35.BorderStyle = BorderStyle.FixedSingle
+        Label35.Location = New Point(666, 214)
+        Label35.Name = "Label35"
+        Label35.Size = New Size(30, 27)
+        Label35.TabIndex = 171
         ' 
-        ' GroupBox4
+        ' Label36
         ' 
-        GroupBox4.BackColor = SystemColors.ControlLight
-        GroupBox4.Controls.Add(Button20)
-        GroupBox4.Controls.Add(Button37)
-        GroupBox4.Controls.Add(Button11)
-        GroupBox4.Location = New Point(869, 180)
-        GroupBox4.Name = "GroupBox4"
-        GroupBox4.Size = New Size(152, 184)
-        GroupBox4.TabIndex = 172
-        GroupBox4.TabStop = False
-        GroupBox4.Text = "No Metales"
+        Label36.Location = New Point(702, 218)
+        Label36.Name = "Label36"
+        Label36.Size = New Size(94, 18)
+        Label36.TabIndex = 172
+        Label36.Text = "Gases nobles"
         ' 
-        ' Button1
+        ' Label37
         ' 
-        Button1.Location = New Point(37, 51)
-        Button1.Name = "Button1"
-        Button1.Size = New Size(80, 59)
-        Button1.TabIndex = 173
-        Button1.Text = "Button1"
-        Button1.UseVisualStyleBackColor = True
+        Label37.Location = New Point(702, 250)
+        Label37.Name = "Label37"
+        Label37.Size = New Size(94, 18)
+        Label37.TabIndex = 174
+        Label37.Text = "Halógenos"
+        ' 
+        ' Label38
+        ' 
+        Label38.BackColor = Color.LimeGreen
+        Label38.BorderStyle = BorderStyle.FixedSingle
+        Label38.Location = New Point(666, 246)
+        Label38.Name = "Label38"
+        Label38.Size = New Size(30, 27)
+        Label38.TabIndex = 173
+        ' 
+        ' Label39
+        ' 
+        Label39.Location = New Point(702, 315)
+        Label39.Name = "Label39"
+        Label39.Size = New Size(94, 18)
+        Label39.TabIndex = 178
+        Label39.Text = "Metaloides"
+        ' 
+        ' Label40
+        ' 
+        Label40.BackColor = Color.MediumOrchid
+        Label40.BorderStyle = BorderStyle.FixedSingle
+        Label40.Location = New Point(666, 344)
+        Label40.Name = "Label40"
+        Label40.Size = New Size(30, 27)
+        Label40.TabIndex = 177
+        ' 
+        ' Label41
+        ' 
+        Label41.Location = New Point(702, 284)
+        Label41.Name = "Label41"
+        Label41.Size = New Size(94, 18)
+        Label41.TabIndex = 176
+        Label41.Text = "No metales"
+        ' 
+        ' Label42
+        ' 
+        Label42.BackColor = Color.DarkOrange
+        Label42.BorderStyle = BorderStyle.FixedSingle
+        Label42.Location = New Point(666, 278)
+        Label42.Name = "Label42"
+        Label42.Size = New Size(30, 27)
+        Label42.TabIndex = 175
+        ' 
+        ' Label43
+        ' 
+        Label43.Location = New Point(702, 352)
+        Label43.Name = "Label43"
+        Label43.Size = New Size(94, 15)
+        Label43.TabIndex = 180
+        Label43.Text = "Otros Metales"
+        ' 
+        ' Label44
+        ' 
+        Label44.BackColor = Color.Crimson
+        Label44.BorderStyle = BorderStyle.FixedSingle
+        Label44.Location = New Point(666, 310)
+        Label44.Name = "Label44"
+        Label44.Size = New Size(30, 27)
+        Label44.TabIndex = 179
+        ' 
+        ' Label45
+        ' 
+        Label45.Location = New Point(830, 351)
+        Label45.Name = "Label45"
+        Label45.Size = New Size(94, 15)
+        Label45.TabIndex = 190
+        Label45.Text = "Actínidos"
+        ' 
+        ' Label46
+        ' 
+        Label46.BackColor = Color.DarkSeaGreen
+        Label46.BorderStyle = BorderStyle.FixedSingle
+        Label46.Location = New Point(794, 309)
+        Label46.Name = "Label46"
+        Label46.Size = New Size(30, 27)
+        Label46.TabIndex = 189
+        ' 
+        ' Label47
+        ' 
+        Label47.Location = New Point(830, 314)
+        Label47.Name = "Label47"
+        Label47.Size = New Size(94, 18)
+        Label47.TabIndex = 188
+        Label47.Text = "Lantánidos"
+        ' 
+        ' Label48
+        ' 
+        Label48.BackColor = Color.MediumSeaGreen
+        Label48.BorderStyle = BorderStyle.FixedSingle
+        Label48.Location = New Point(794, 343)
+        Label48.Name = "Label48"
+        Label48.Size = New Size(30, 27)
+        Label48.TabIndex = 187
+        ' 
+        ' Label49
+        ' 
+        Label49.Location = New Point(830, 283)
+        Label49.Name = "Label49"
+        Label49.Size = New Size(127, 18)
+        Label49.TabIndex = 186
+        Label49.Text = "Metales alcalinos"
+        ' 
+        ' Label50
+        ' 
+        Label50.BackColor = Color.Navy
+        Label50.BorderStyle = BorderStyle.FixedSingle
+        Label50.Location = New Point(794, 277)
+        Label50.Name = "Label50"
+        Label50.Size = New Size(30, 27)
+        Label50.TabIndex = 185
+        ' 
+        ' Label51
+        ' 
+        Label51.Location = New Point(830, 249)
+        Label51.Name = "Label51"
+        Label51.Size = New Size(94, 18)
+        Label51.TabIndex = 184
+        Label51.Text = "Alcalinotérreos"
+        ' 
+        ' Label52
+        ' 
+        Label52.BackColor = Color.Khaki
+        Label52.BorderStyle = BorderStyle.FixedSingle
+        Label52.Location = New Point(794, 245)
+        Label52.Name = "Label52"
+        Label52.Size = New Size(30, 27)
+        Label52.TabIndex = 183
+        ' 
+        ' Label53
+        ' 
+        Label53.Location = New Point(830, 217)
+        Label53.Name = "Label53"
+        Label53.Size = New Size(127, 18)
+        Label53.TabIndex = 182
+        Label53.Text = "Metales de transición"
+        ' 
+        ' Label54
+        ' 
+        Label54.BackColor = Color.RoyalBlue
+        Label54.BorderStyle = BorderStyle.FixedSingle
+        Label54.Location = New Point(794, 213)
+        Label54.Name = "Label54"
+        Label54.Size = New Size(30, 27)
+        Label54.TabIndex = 181
+        ' 
+        ' Label69
+        ' 
+        Label69.Font = New Font("MV Boli", 60F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
+        Label69.ForeColor = Color.DarkCyan
+        Label69.Location = New Point(472, 44)
+        Label69.Name = "Label69"
+        Label69.Size = New Size(811, 98)
+        Label69.TabIndex = 191
+        Label69.Text = "TABLA PERIÓDICA"
+        ' 
+        ' Label74
+        ' 
+        Label74.BackColor = SystemColors.ControlLightLight
+        Label74.Font = New Font("Times New Roman", 12F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
+        Label74.Location = New Point(59, 20)
+        Label74.Name = "Label74"
+        Label74.Size = New Size(218, 266)
+        Label74.TabIndex = 192
+        Label74.Text = "MINISTERIO DE EDUCACIÓN" & vbCrLf & "INSTITUTO DAVID" & vbCrLf & "BACHILLER TECNOLÓGICO" & vbCrLf & "Profesoras asesoras:" & vbCrLf & "Zulma Gómez" & vbCrLf & "Gisela Bouche" & vbCrLf & "Estudiantes:" & vbCrLf & "Juan Soto" & vbCrLf & "Elanys González" & vbCrLf & "Grado: 10°M Y 10°L (Colaboración)"
+        Label74.TextAlign = ContentAlignment.MiddleCenter
         ' 
         ' Form1
         ' 
         AutoScaleDimensions = New SizeF(7F, 15F)
         AutoScaleMode = AutoScaleMode.Font
-        ClientSize = New Size(1370, 749)
-        Controls.Add(Button1)
-        Controls.Add(GroupBox4)
-        Controls.Add(GroupBox3)
+        ClientSize = New Size(1924, 1023)
+        Controls.Add(Label74)
+        Controls.Add(Label69)
         Controls.Add(GroupBox1)
+        Controls.Add(Label45)
+        Controls.Add(Label46)
+        Controls.Add(Label47)
+        Controls.Add(Label48)
+        Controls.Add(Label49)
+        Controls.Add(Label50)
+        Controls.Add(Label51)
+        Controls.Add(Label52)
+        Controls.Add(Label53)
+        Controls.Add(Label54)
+        Controls.Add(Label43)
+        Controls.Add(Label44)
+        Controls.Add(Label39)
+        Controls.Add(Label40)
+        Controls.Add(Label41)
+        Controls.Add(Label42)
+        Controls.Add(Label37)
+        Controls.Add(Label38)
+        Controls.Add(Label36)
+        Controls.Add(Label35)
         Controls.Add(Label28)
         Controls.Add(Label1)
-        Controls.Add(btnAbrirForm2)
+        Controls.Add(btnAbrirFormDos)
         Controls.Add(Panel1)
-        Controls.Add(Button19)
         Controls.Add(propiedades)
         Controls.Add(Label24)
         Controls.Add(Label25)
@@ -2559,12 +2946,9 @@ Partial Class Form1
         Text = "x"
         TopMost = True
         propiedades.ResumeLayout(False)
-        propiedades.PerformLayout()
         GroupBox1.ResumeLayout(False)
         GroupBox2.ResumeLayout(False)
         GroupBox2.PerformLayout()
-        GroupBox3.ResumeLayout(False)
-        GroupBox4.ResumeLayout(False)
         ResumeLayout(False)
         PerformLayout()
     End Sub
@@ -2720,17 +3104,8 @@ Partial Class Form1
     Friend WithEvents lblPuntoF As Label
     Friend WithEvents lblDensidad As Label
     Friend WithEvents lblZ As Label
-    Friend WithEvents btnAlcalinos As Button
-    Friend WithEvents btnAlcalinoterrenos As Button
-    Friend WithEvents btnLantánidos As Button
-    Friend WithEvents btnActínidos As Button
-    Friend WithEvents Button11 As Button
-    Friend WithEvents Button12 As Button
-    Friend WithEvents Button19 As Button
-    Friend WithEvents Button20 As Button
-    Friend WithEvents Button37 As Button
     Friend WithEvents Panel1 As Panel
-    Friend WithEvents btnAbrirForm2 As Button
+    Friend WithEvents btnAbrirFormDos As Button
     Friend WithEvents Label1 As Label
     Friend WithEvents Label28 As Label
     Friend WithEvents GroupBox1 As GroupBox
@@ -2744,7 +3119,52 @@ Partial Class Form1
     Friend WithEvents Label33 As Label
     Friend WithEvents Label34 As Label
     Friend WithEvents Label30 As Label
-    Friend WithEvents GroupBox3 As GroupBox
-    Friend WithEvents GroupBox4 As GroupBox
-    Friend WithEvents Button1 As Button
+    Friend WithEvents Label35 As Label
+    Friend WithEvents Label36 As Label
+    Friend WithEvents Label37 As Label
+    Friend WithEvents Label38 As Label
+    Friend WithEvents Label39 As Label
+    Friend WithEvents Label40 As Label
+    Friend WithEvents Label41 As Label
+    Friend WithEvents Label42 As Label
+    Friend WithEvents Label43 As Label
+    Friend WithEvents Label44 As Label
+    Friend WithEvents Label45 As Label
+    Friend WithEvents Label46 As Label
+    Friend WithEvents Label47 As Label
+    Friend WithEvents Label48 As Label
+    Friend WithEvents Label49 As Label
+    Friend WithEvents Label50 As Label
+    Friend WithEvents Label51 As Label
+    Friend WithEvents Label52 As Label
+    Friend WithEvents Label53 As Label
+    Friend WithEvents Label54 As Label
+    Friend WithEvents Label57 As Label
+    Friend WithEvents Label56 As Label
+    Friend WithEvents Label55 As Label
+    Friend WithEvents Label58 As Label
+    Friend WithEvents Label63 As Label
+    Friend WithEvents Label62 As Label
+    Friend WithEvents Label61 As Label
+    Friend WithEvents Label60 As Label
+    Friend WithEvents Label59 As Label
+    Friend WithEvents Label65 As Label
+    Friend WithEvents Label64 As Label
+    Friend WithEvents Label67 As Label
+    Friend WithEvents Label68 As Label
+    Friend WithEvents lblDescripcion As Label
+    Friend WithEvents Label66 As Label
+    Friend WithEvents lblEstadoF As Label
+    Friend WithEvents lblConductividad As Label
+    Friend WithEvents Label75 As Label
+    Friend WithEvents lblDureza As Label
+    Friend WithEvents Label73 As Label
+    Friend WithEvents lblEnergiaI As Label
+    Friend WithEvents Label71 As Label
+    Friend WithEvents lblAbundancia As Label
+    Friend WithEvents Label70 As Label
+    Friend WithEvents lblDescubrimiento As Label
+    Friend WithEvents Label72 As Label
+    Friend WithEvents Label69 As Label
+    Friend WithEvents Label74 As Label
 End Class
