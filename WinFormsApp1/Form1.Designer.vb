@@ -2200,7 +2200,7 @@ Partial Class Form1
         lblDescubrimiento.Font = New Font("Microsoft Sans Serif", 15F)
         lblDescubrimiento.Location = New Point(194, 689)
         lblDescubrimiento.Name = "lblDescubrimiento"
-        lblDescubrimiento.Size = New Size(200, 35)
+        lblDescubrimiento.Size = New Size(200, 117)
         lblDescubrimiento.TabIndex = 184
         lblDescubrimiento.TextAlign = ContentAlignment.TopRight
         ' 
@@ -2763,7 +2763,7 @@ Partial Class Form1
         Label74.Name = "Label74"
         Label74.Size = New Size(218, 266)
         Label74.TabIndex = 192
-        Label74.Text = "MINISTERIO DE EDUCACIÓN" & vbCrLf & "INSTITUTO DAVID" & vbCrLf & "BACHILLER TECNOLÓGICO" & vbCrLf & "Profesoras asesoras:" & vbCrLf & "Zulma Gómez" & vbCrLf & "Gisela Bouche" & vbCrLf & "Estudiantes:" & vbCrLf & "Juan Soto" & vbCrLf & "Elanys González" & vbCrLf & "Grado: 10°M Y 10°L (Colaboración)"
+        Label74.Text = "MINISTERIO DE EDUCACIÓN" & vbCrLf & "INSTITUTO DAVID" & vbCrLf & "BACHILLER TECNOLÓGICO" & vbCrLf & "Profesoras asesoras:" & vbCrLf & "Zulma Gómez" & vbCrLf & "Gisela Bouche" & vbCrLf & "Estudiantes:" & vbCrLf & "Juan Soto Y  Elanys Gónzales" & vbCrLf & "Grado: 10°M y 10°L" & vbCrLf & "Año: 2025"
         Label74.TextAlign = ContentAlignment.MiddleCenter
         ' 
         ' Form1
@@ -2943,7 +2943,7 @@ Partial Class Form1
         MdiChildrenMinimizedAnchorBottom = False
         MinimizeBox = False
         Name = "Form1"
-        Text = "x"
+        Text = "s"
         TopMost = True
         propiedades.ResumeLayout(False)
         GroupBox1.ResumeLayout(False)

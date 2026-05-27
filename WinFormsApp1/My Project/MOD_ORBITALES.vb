@@ -1,1 +1,1 @@
-﻿
+﻿'No se ha podido terminar. ' 

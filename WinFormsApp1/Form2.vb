@@ -69,11 +69,11 @@
             Threading.Thread.Sleep(10)
         Next
 
-        ' Mostrar el otro form
+
         Form1.Show()
         Me.Hide()
 
-        ' Restaurar opacidad para cuando se vuelva a mostrar
+
         Me.Opacity = 1
     End Sub
     Private Sub Form1_FormClosing(sender As Object, e As FormClosingEventArgs) Handles MyBase.FormClosing
@@ -85,14 +85,14 @@
             If TypeOf ctrl Is Button Then
                 Dim btn As Button = CType(ctrl, Button)
 
-                ' --- Al presionar el botón ---
+
                 AddHandler btn.MouseDown, Sub()
                                               btn.Top -= 3 ' se levanta 3 píxeles
                                               btn.FlatAppearance.BorderSize = 2
                                               btn.FlatAppearance.BorderColor = Color.DodgerBlue
                                           End Sub
 
-                ' --- Al soltar el botón ---
+
                 AddHandler btn.MouseUp, Sub()
                                             btn.Top += 3 ' vuelve a su posición
                                             btn.FlatAppearance.BorderSize = 1
@@ -100,7 +100,7 @@
                                         End Sub
             End If
 
-            ' Si hay controles dentro, aplicar también
+
             If ctrl.HasChildren Then
                 AgregarEfectoElevacion(ctrl.Controls)
             End If

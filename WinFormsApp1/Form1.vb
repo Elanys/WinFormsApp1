@@ -1,4 +1,8 @@
 ﻿Public Class Form1
+    Public Sub New()
+        InitializeComponent()
+    End Sub
+
     Private Sub Form1_Load(sender As Object, e As EventArgs) Handles MyBase.Load
         InicializarElementos()
         AgregarEventosBotones(Me.Controls)
@@ -85,7 +89,7 @@
         Me.Opacity = 1
     End Sub
 
-    Private Sub Label69_Click(sender As Object, e As EventArgs) Handles Label69.Click
+    Private Sub Label74_Click(sender As Object, e As EventArgs) Handles Label74.Click
 
     End Sub
 End Class

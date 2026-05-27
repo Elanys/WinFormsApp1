@@ -44,7 +44,7 @@
         Dim m As Integer = 0
         Dim spin As String = "+1/2"
 
-        ' --- Excepciones para lantánidos y actínidos parcialmente llenos ---
+
         Dim excepcionF As Boolean = False
         Select Case z
             ' Ho, Er, Tm, Yb
@@ -61,7 +61,7 @@
             Case 102 : m = 1 : spin = "+1/2" : excepcionF = True
         End Select
 
-        ' Si no es excepción, aplica cálculo general
+        ' Si no es excepción, tonces calcular general
         If Not excepcionF Then
             Select Case letra
                 Case "s"c
